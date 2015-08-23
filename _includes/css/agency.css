@@ -233,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         background-color: #333;
         background-color: rgba(51, 51, 51, .5);
@@ -262,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
@@ -270,7 +270,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/bl/illumination-darker.jpg);
+    background-image: url(../img/bl/illumination-darker-lo.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
