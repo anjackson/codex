@@ -719,7 +719,7 @@ section#signup:-ms-input-placeholder {
     color: #bbb;
 }
 
-section#signup .mce-responses {
+#mce-responses {
     color: white;
     margin-bottom: 1.5em;
 }
