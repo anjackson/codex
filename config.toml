@@ -19,8 +19,8 @@ pygmentsUseClasses = true
     weight = 2
 
 [[menu.main]]
-    name = "Docs"
-    url = "/docs/"
+    name = "Links"
+    url = "/links/"
     weight = 3
 
 [params]
@@ -29,7 +29,7 @@ pygmentsUseClasses = true
   homepage_button_text = 'Get Started'
   homepage_intro = 'digipres.net is a set of open source resources for doing digital preservation.'
   homepage_image = '/images/terminal.gif'
-  mainSections = ['docs', 'guides']
+  mainSections = ['links', 'guides']
 
   [params.homepage_meta_tags]
     meta_description = "digipres.net is set of open source resources for doing digital preservation."
