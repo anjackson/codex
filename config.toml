@@ -1,0 +1,48 @@
+baseURL = "http://www.digipres.net/"
+languageCode = "en-gb"
+title = "digipres.net"
+
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Guides"
+    url = "/guides/"
+    weight = 2
+
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 3
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/guides'
+  homepage_button_text = 'Get Started'
+  homepage_intro = 'digipres.net is a set of open source resources for doing digital preservation.'
+  homepage_image = '/images/terminal.gif'
+  mainSections = ['docs', 'guides']
+
+  [params.homepage_meta_tags]
+    meta_description = "digipres.net is set of open source resources for doing digital preservation."
+    meta_og_title = "digipres.net"
+    meta_og_type = "website"
+    meta_og_url = "https://www.digipres.net"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "digipres.net is set of open source resources for doing digital preservation."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@digipresnet"
+    meta_twitter_creator = "@digipresnet"
+
+  [params.logo]
+      mobile = "/images/logo-mobile.svg"
+      standard = "/images/logo.svg"
+
