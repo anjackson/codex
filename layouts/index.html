@@ -1,6 +1,9 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 {{ define "header_classes" }}{{ end }}
+{{ define "header_css" }}
+<link rel="stylesheet" href="/css/style-add.css">
+{{ end }}
 
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
@@ -27,8 +30,11 @@
           <p>{{ .Site.Params.homepage_intro }}</p>
           {{ end }}
         </div>
-        <a class="button button-primary mb-2" href="{{ .Site.Params.homepage_button_link | relURL }}">
+        <a class="btn btn-primary mb-2" href="{{ .Site.Params.homepage_button_link | relURL }}">
           {{ .Site.Params.homepage_button_text }}
+        </a>
+        <a class="btn btn-secondary mb-2 text-uppercase" href="{{ .Site.Params.homepage_button_link | relURL }}">
+          More info
         </a>
       </div>
     </div>
