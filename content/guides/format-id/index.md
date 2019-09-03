@@ -1,5 +1,5 @@
 ---
-title: Format Identfication
+title: Format Identification
 weight: 1
 ---
 
