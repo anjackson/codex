@@ -33,8 +33,9 @@
         <a class="btn btn-primary mb-2" href="{{ .Site.Params.homepage_button_link | relURL }}">
           {{ .Site.Params.homepage_button_text }}
         </a>
-        <a class="btn btn-secondary mb-2 text-uppercase" href="{{ .Site.Params.homepage_button_link | relURL }}">
-          More info
+        {{ $about := .Site.GetPage "/about"}}
+        <a class="btn btn-secondary mb-2 text-uppercase" href="{{ $about.Permalink }}">
+          About this site
         </a>
       </div>
     </div>

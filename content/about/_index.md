@@ -10,7 +10,7 @@ weight: 1
 
 ## Who?
 
-My name's [Andrew Jackson](http://anjackson.net/) and I'm a physicist who now works in digital preservation and web archiving.
+My name is [Andrew Jackson](http://anjackson.net/) and I'm a physicist who now works in digital preservation and web archiving.
 
 ## What?
 

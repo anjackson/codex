@@ -26,17 +26,17 @@ pygmentsUseClasses = true
 [params]
   mainSections = ['about', 'guides', 'stories']
   google_analytics_id=""
-  homepage_button_link = '/guides'
+  homepage_button_link = '/guides/'
   homepage_button_text = 'Get Started'
   homepage_intro = 'digipres.net is a set of open resources for digital preservation.'
-  homepage_image = '/images/terminal.gif'
+#  homepage_image = '/images/terminal.gif'
 
   [params.homepage_meta_tags]
     meta_description = "digipres.net is set of open resources for digital preservation."
     meta_og_title = "digipres.net"
     meta_og_type = "website"
     meta_og_url = "https://www.digipres.net"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_image = "/images/logo.svg"
     meta_og_description = "digipres.net is set of open resources for digital preservation."
     meta_twitter_card = "summary"
     meta_twitter_site = "@digipresnet"
