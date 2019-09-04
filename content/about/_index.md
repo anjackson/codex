@@ -14,10 +14,8 @@ My name is [Andrew Jackson](http://anjackson.net/) and I'm a physicist who now w
 
 ## What?
 
-This my attempt to create a set of practical resources for experimenting with tools and understanding issues related to digital preservation and web archiving.
+This is my attempt to create a set of practical resources for experimenting with tools and understanding issues related to digital preservation and web archiving.
 
 ## Links
 
-There's a lots of other great Digital Preservation resources out there, and I'm also part of a collaborative project to try and link them all together.
-
-Go visit [digipres.org](https://www.digipres.org/) to see what we've done!
+There's a lots of other great Digital Preservation resources out there, and I'm also part of a collaborative project to try and link them all together.  Go visit [digipres.org](https://www.digipres.org/) to see what we've done!
