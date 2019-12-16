@@ -1,6 +1,6 @@
 ---
 title: Format Identification
-weight: 1
+weight: 2
 ---
 
 Understanding your digital collections.
