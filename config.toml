@@ -29,12 +29,12 @@ pygmentsUseClasses = true
     weight = 4
 
 #[[menu.main]]
-#    name = "Stories"
-#    url = "/stories/"
+#    name = "Asides"
+#    url = "/asides/"
 #    weight = 5
 
 [params]
-  mainSections = ['about', 'patterns', 'practice', 'stories']
+  mainSections = ['about', 'patterns', 'practice', 'asides']
   google_analytics_id=""
   homepage_button_link = '/patterns/'
   homepage_button_text = 'Get Started'

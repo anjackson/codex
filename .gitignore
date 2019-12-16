@@ -1,4 +1,6 @@
 _site
+public
+resources
 
 # Windows image file caches
 Thumbs.db
