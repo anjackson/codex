@@ -1,6 +1,7 @@
 ---
 title: The Analogue Repository
 subtitle: A parable from the wrong universe.
+weight: 10
 ---
 
 <br/>
