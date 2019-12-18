@@ -1,6 +1,6 @@
 ---
-title: "Dissecting Digital Objects"
-subtitle: "Experiments in digital destruction."
+title: "Unsafe Device Removal"
+subtitle: "An experiment in digital destruction."
 tags: ["Digital Preservation", "Keeping Codes", "Lessons Learned"]
 weight: 1
 draft: true

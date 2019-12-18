@@ -1,7 +1,7 @@
 ---
 title: Working with Web Archives
 subtitle: How to browse archived web pages?
-weight: 2
+weight: 10
 draft: true
 ---
 
