@@ -1,10 +1,7 @@
 ---
 title: "Story of a Bad Deed"
-subtitle: A tiny digital mystery
-category: digipres-lessons-learned
+subtitle: A tiny digital format mystery
 tags: ["Digital Preservation", "Keeping Codes", "Lessons Learned"]
-layout: post
-author: anj
 shown: true
 ---
 
@@ -81,7 +78,7 @@ Sadly, there is no trivial 'fix' for this. You can't just go through the whole f
 
 But why `0x0baddeed`? Well, I started to speculate that this was a statement from a disgruntled developer. PowerPoint 2.0 was the first version of PowerPoint that ran on both Macs and PCs, and a joke that only reveals itself on one platform would be just the kind of thing I'd expect from a community that relishes Rick-rolls. But then after I thought I had this idea, I realised it feels more like a memory. Can any one else remember a story like this? Please let me know!
 
-----
+
 
 [^1]: I remain frustrated that I still find endianness confusing. In the past, I managed to cobble together a port of a [little-endian platform emulation](https://www.marutan.net/rpcemu/) that ran on my big-endian Mac, and despite the fact I got it working I never felt like I really understood it properly!
 [^2]: Thanks to [Nick Krabbenhöft](https://twitter.com/NKrabben) for [pointing out](https://twitter.com/NKrabben/status/974386913464537099) that I'd mis-remembered where I'd got these samples from. This updated blog post should now be accurate!
