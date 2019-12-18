@@ -1,7 +1,8 @@
 ---
 title: Procurement
 subtitle: Different ways to build or buy
-weight: 1
+weight: 3
+draft: true
 ---
 
 

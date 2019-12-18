@@ -8,35 +8,41 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+#[[menu.main]]
+#    name = "Home"
+#    url = "/"
+#    weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
+    name = "Guides"
+    url = "/guides/"
+    weight = 3
 
 [[menu.main]]
     name = "Patterns"
     url = "/patterns/"
-    weight = 3
-
-[[menu.main]]
-    name = "Practice"
-    url = "/practice/"
     weight = 4
 
-#[[menu.main]]
-#    name = "Asides"
-#    url = "/asides/"
-#    weight = 5
+[[menu.main]]
+    name = "Experiments"
+    url = "/experiments/"
+    weight = 5
+
+[[menu.main]]
+    name = "Foundations"
+    url = "/foundations/"
+    weight = 6
+
+[[menu.main]]
+    name = "Asides"
+    url = "/asides/"
+    weight = 10
+
 
 [params]
-  mainSections = ['about', 'patterns', 'practice', 'asides']
+  mainSections = ['about', 'patterns', 'guides', 'foundations', 'experiments', 'asides']
   google_analytics_id=""
-  homepage_button_link = '/patterns/'
+  homepage_button_link = '/guides/'
   homepage_button_text = 'Get Started'
   homepage_intro = 'Patterns and practices for digital preservation.'
 #  homepage_image = '/images/terminal.gif'

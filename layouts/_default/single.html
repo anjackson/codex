@@ -6,6 +6,9 @@
 {{ end }}
 
 {{ define "main" }}
+{{ if .Params.draft }}
+<div class="draft-banner">DRAFT</div>
+{{ end }}
 <h1 class="title">{{.Title}}&nbsp;{{ if .Params.subtitle }}<div class="subtitle"><br/>{{.Params.subtitle}}</div>{{ end }}</h1>
 <div class="content">
   {{.Content}}

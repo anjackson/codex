@@ -8,3 +8,18 @@
   padding: 8px 15px 6px 15px;
   text-transform: uppercase;
 }
+
+figcaption {
+	padding-top: 0.1em;
+}
+figcaption p {
+	font-size: smaller;
+	font-style: italic;	
+}
+
+div.draft-banner {
+	padding: 1em;
+	margin: 1em 0;
+	background-color: lightyellow;
+	text-align: center;
+}

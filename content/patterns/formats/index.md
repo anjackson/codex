@@ -2,6 +2,7 @@
 title: Formats
 subtitle: The different ways digital formats work.
 weight: 8
+draft: true
 ---
 
 

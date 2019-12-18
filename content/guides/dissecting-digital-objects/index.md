@@ -1,28 +1,26 @@
 ---
 title: "Dissecting Digital Objects"
-subtitle: "Experiments in digital destruction"
-category: digipres-lessons-learned
+subtitle: "Experiments in digital destruction."
 tags: ["Digital Preservation", "Keeping Codes", "Lessons Learned"]
-layout: post
-author: anj
-shown: true
 weight: 1
+draft: true
 ---
 
 <!-- MarkdownTOC autolink="true" -->
 
-- [Unsafe Device Removal](#unsafe-device-removal)
-	- [Materials](#materials)
-	- [Method](#method)
-	- [Results](#results)
-	- [Over to you](#over-to-you)
-	- [Results](#results-1)
+- [Introduction](#introduction)
+- [Materials](#materials)
+- [Method](#method)
+- [My Results](#my-results)
+- [Over to you](#over-to-you)
+- [Your Results](#your-results)
+- [Conclusion](#conclusion)
 
 <!-- /MarkdownTOC -->
 
-# Unsafe Device Removal #
+## Introduction ##
 
-Let's start with an experiment...
+Let's start with an little experiment called "Unsafe Device Removal"[^10]...
 
 <!--break-->
 
@@ -36,11 +34,11 @@ For this experiment, you will need:
 
 I'm going to use this drive:
 
-![Test Drive]({{site.url}}/digipres-lessons-learned/images/save-as/save-as-test-drive.jpg)
+![Test Drive](./images/save-as-test-drive.jpg)
 
 ...and this JPEG:
 
-![My father and my son, alike.]({{site.baseurl}}/digipres-lessons-learned/images/save-as/best-test-image.jpg)
+![My father and my son, alike.](./images/best-test-image.jpg)
 
 ## Method ##
 
@@ -51,15 +49,15 @@ I'm going to use this drive:
 4. Observe what happens.
 
 
-## Results ##
+## My Results ##
 
 In my experiment, the first thing that happened was...
 
-![Disk Not Ejected Properly]({{site.url}}/digipres-lessons-learned/images/save-as/save-as-oops.jpg)
+![Disk Not Ejected Properly](./images/save-as-oops.jpg)
 
 ...but beside this admonishment, the image was still there...
 
-![But Still There]({{site.url}}/digipres-lessons-learned/images/save-as/save-as-still-there.jpg)
+![But Still There](./images/save-as-still-there.jpg)
 
 The bitstream was gone (optionally blended into oblivion -- the Digital Object destroyed). But the image was still on the screen. I bet yours is still there too.
 
@@ -69,19 +67,18 @@ Can you press 'Save as...', and get a new bitstream back? It depends on the soft
 
 When I [tried this with Apple Preview](https://www.flickr.com/photos/anjacks0n/sets/72157655724233440), I couldn't save the image, even though I could see it. 
 
-![Apple Preview Says No]({{site.url}}/digipres-lessons-learned/images/save-as/save-as-preview-says-no.png)
+![Apple Preview Says No](./images/save-as-preview-says-no.png)
 
 The only way to save it seemed to be as a desktop screenshot, which I would then need to crop to get back an acceptable image.
 
 But re-running the same experiment with image editing software (specifically the [GIMP](http://www.gimp.org/)), I could press 'Save as...' and a new bitstream was written. Not *exactly* the same as the original, but good enough.[^3]
-
 
 ## Over to you ##
 
 I'd be fascinated to know what happens on other platforms and with other software, so please get in touch if you've tried this. I'd also be curious to know how the choice of format affects the outcome. If anyone has any results to share, I'll collect them together in a follow-up post.
 
 
-## Results
+## Your Results ##
 
 Following my [proposed experiment in data destruction](/2017/04/10/unsafe-device-removal/), a few kind readers tried it out and let me know what happened[^4]. I've summarised the results below, to try and see if there's any common pattern.
 
@@ -101,7 +98,37 @@ As far as I can tell from this data, there isn't much of a pattern here. Broadly
 
 To find out what's going on, we'll need to look more closely at what happens when we open a file...
 
-----
+## Conclusion ##
+
+So what was going on in [our little experiment in data destruction?](/2017/04/14/unsafe-removal-results/) Well, to understand what happens when we open up digital files, I want to take you back to my childhood, back when 'Loading...' really *meant* something...
+<!--break-->
+
+I'd like you to watch the following video. Please enjoy the sweet 'music' of the bytes of the bitstream as they stream off the tape and into the memory of the machine. 
+
+And no skipping to the end! Sit through the whole *damn* thing, just like I had to, all those years ago!
+
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V0EfycbDhiw?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+I particularly like the bit from [about 0:24s in](https://youtu.be/V0EfycbDhiw?t=24s), as the loading screen loads...
+
+![JETPAC: loading the loading screen](./images/jetpac-screen-loading-montage.png)
+
+First, we can see a monochrome image being loaded, section-by-section, with individual pixels flowing in row-after-row. The ones and zeros you can see are the same one as the ones you can hear, but they are being copied from the tape, unpacked by the [CPU](https://en.wikipedia.org/wiki/Central_processing_unit), and being stored in a special part of the [machine's](https://en.wikipedia.org/wiki/ZX_Spectrum) memory, called the [screen memory](http://whatnotandgobbleaduke.blogspot.co.uk/2011/07/zx-spectrum-screen-memory-layout.html).
+
+This screen memory is special because another bit of hardware (called the [ULA](http://www.worldofspectrum.org/faq/reference/48kreference.htm#Contention)) can see what's there, and uses it to compose the signal that gets sent to the television screen. As well as forming the binary pixels, it also uses the last chunk of memory to define what colours should be used, and combines these two sets of information to make the final image. You can see this as the final part of the screen-loading process happens, and the monochrome image suddenly fills with colour. You can even *hear* the difference between the pixel data and the colour information.
+
+After that, the tape moves on and we have to wait even longer while the actual game loads.[^31]
+
+The point I want to emphasize is that this is just a slow-motion version of what still happens today. The notion of 'screen memory' has become more complex and layered, and it all happens *much* faster, but you're still interacting with the computer's memory, not the persistent bitstream.
+
+Because working with memory is faster and simpler than working directly with storage devices, the kind of software that creates and edits files is much easier to write if you can load the whole file into memory to work on it there. The GIMP works like this, and that's why I was able to re-save my test image out of it.
+
+However, Apple Preview works differently. Based on my results, it seems likely that Preview retains a reference to the original file, which it uses to generate an intermediate in-memory image for display purposes (e.g. a scale-down version). The cached intermediate image can still be shown, even if future operations may fail because the software can no longer find the original file.
+
+These results only make sense because the thing you are interacting with via the computer screen is *not* the original bitstream, but a version of that data that has been loaded into the computer's memory. The relationship between these two representations depends on the software involved, can be quite complicated, and the two forms can be quite different.[^32] My suspicion is that we need a better understanding of this relationship in order to better understand what it is we are actually trying to preserve.
+
 
 [^1]: Go on, admit it, you've always wanted to try this and see what happens. Well, now you get to do it. For Science.
 [^2]: And entropy will win. And we don't want *that*.
@@ -112,7 +139,13 @@ To find out what's going on, we'll need to look more closely at what happens whe
 [^7]: Result from [@archivalistic](https://twitter.com/archivalistic/status/851907815673286656)
 [^8]: From [@andrewjbtw](https://twitter.com/andrewjbtw/status/851530416590790656)
 [^9]: Also from [@andrewjbtw](https://twitter.com/andrewjbtw/status/851531680632365056)
+[^10]: Note that this entry was originally published as a series of blog posts: [1](https://anjackson.net/2017/04/10/unsafe-device-removal/), [2](https://anjackson.net/2017/04/14/unsafe-removal-results/), [3](https://anjackson.net/2017/04/19/access-starts-with-loading/)
 
 [1i]: https://photo.stackexchange.com/a/83892/62442
 [2i]: https://twitter.com/nkrabben
 [3i]: /2017/04/10/unsafe-device-removal/#comment-3249002689
+
+[^31]: What's that? You skipped to the end!? Shame on you.
+[^32]: As we've seen, this is true even for a very common and well standardised bitstream format like JPEG.
+
+
