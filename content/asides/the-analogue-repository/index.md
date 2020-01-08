@@ -7,10 +7,15 @@ draft: true
 
 <br/>
 <div style="text-align: center;">
-<b>This is a work of fiction. Any resemblance to actual archival systems, active or decommissioned, is <del>entirely</del> mostly coincidental.</b>
+  <b>
+	<br/>
+	This is a work of fiction.
+	<br/><br/>
+	Any resemblance to actual archival systems, active or decommissioned, is <del>entirely</del> mostly coincidental.
+	<br/><br/>
+  </b>
 </div>
 
-<br/>
 
 ----
 

@@ -1,7 +1,7 @@
 ---
 title: Format Identification
 subtitle: What's in the box?
-weight: 2
+weight: 30
 ---
 
 Understanding your digital collections.

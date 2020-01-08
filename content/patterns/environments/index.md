@@ -26,6 +26,8 @@ See [space-time plot]({{< ref "/asides/spacetime-plots" >}}) for examples.
 
 ## The Wider Environment
 
+Audiences, internal archive, enchanced care of the same to the same audence. e.g. BBC Archive.
+
 ### Backup (via the publisher)
 
 {{< figure src="./images/spacetime-plots-context-backup.png" caption="Space-time plot visualising events in the 'backup' environment pattern." class="text-center" >}}
