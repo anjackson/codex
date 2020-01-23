@@ -17,6 +17,7 @@ weight: 1
 
 This [open source](https://github.com/digipresnet/digipresnet-site/) and open access site provides a set of practical resources for experimenting with tools and understanding issues related to digital preservation and web archiving.
 
+The logo represents a self-perpetuating pattern known as a [glider](https://en.wikipedia.org/wiki/Glider_(Conway%27s_Life)).
 
 ## Who?
 
