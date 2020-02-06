@@ -5,6 +5,11 @@ weight: 3
 draft: true
 ---
 
+What's expensive?
+
+Uniqueness costs money
+
+How it hits you: ignorance (of the landscape). uncertainty (of requirements)
 
 https://www.projectsmart.co.uk/requirements-gathering.php
 
