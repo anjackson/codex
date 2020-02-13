@@ -15,4 +15,4 @@ As you can see, if an object is not moving, then it traces our a simple line par
 
 While the events in the history of a digital archive behave very differently, a space-time diagram still provide a useful way of visualising what's going on.
 
-See [the Environmental Patterns page]({{< ref "/patterns/environments" >}}) for examples.
+See [the Archival Context Patterns page]({{< ref "/patterns/contexts" >}}) for examples.
