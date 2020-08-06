@@ -21,6 +21,7 @@ What kinds of environments do archives operate in? How does this affect the way 
 
 # Environments
  
+ 
 ## The OAIS Environment
 
 The [Open Archival Information System (OAIS)][1] presents a simple model for the environment an archive operates in:

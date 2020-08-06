@@ -6,7 +6,7 @@ weight: 10
 draft: true
 ---
 
-Digital preservation happens where a number of already-established communities meet. As we join forces, we bring our preconceptions with us. 
+Digital preservation happens where a number of already-established communities meet. But as we join forces, we bring our preconceptions with us. 
 
 Different people from different backgrounds will have different assumptions about what digital preservation means and different conceptions of the goals. Even the same words may be used in significantly different ways, and these different points of view can make it difficult to be clear about the roles and resposibilities involved when delivering a digital preservation service.
 
