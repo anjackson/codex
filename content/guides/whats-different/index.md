@@ -1,9 +1,6 @@
 ---
 title: "What's Different About Digital Preservation?"
 subtitle: 'Different answers for different people.'
-date: 2012-01-08
-weight: 10
-draft: true
 ---
 
 Digital preservation happens where a number of already-established communities meet. But as we join forces, we bring our preconceptions with us. 

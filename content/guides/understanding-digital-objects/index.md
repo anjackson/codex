@@ -1,9 +1,6 @@
 ---
 title: 'Understanding Digital Media'
 subtitle: 'What are we trying to preserve?'
-date: 2019-06-14T22:21:00+01:00
-weight: 20
-draft: true
 ---
 
 <!-- MarkdownTOC autolink="true" -->
@@ -89,7 +86,7 @@ Digital preservation publications often included phrases like "software makes di
 
 ## Unsafe Device Removal
 
-See the experiment in [Unsafe Device Removal]({{< ref "/experiments/unsafe-device-removal" >}}).
+See the experiment in [Unsafe Device Removal](/experiments/unsafe-device-removal").
 
 So what was going on in [our little experiment in data destruction?](/2017/04/14/unsafe-removal-results/) Well, to understand what happens when we open up digital files, I want to take you back to my childhood, back when 'Loading...' really *meant* something...
 <!--break-->
@@ -214,5 +211,3 @@ i.e. end point is _we are preserving software_
 
 [^1]: What's that? You skipped to the end!? Shame on you.
 [^2]: As we've seen, this is true even for a very common and well standardised bitstream format like JPEG.
-
-

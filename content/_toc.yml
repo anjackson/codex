@@ -1,0 +1,30 @@
+file: _index
+title: Welcome
+sections:
+- file: patterns/_index
+  title: Pattterns
+  sections:
+  - file: patterns/formats/index
+  - file: patterns/contexts/index
+  - file: patterns/communities/index
+  - file: patterns/concepts/index
+  - file: patterns/procurements/index
+  - file: patterns/systems/index
+- file: experiments/_index
+  sections:
+  - file: experiments/unsafe-device-removal/index
+  - file: about/_index
+- file: foundations/_index
+- file: guides/_index
+  sections:
+  - file: guides/understanding-digital-objects/index
+  - file: guides/whats-different/index
+  - file: guides/web-archiving/index
+  - file: guides/format-id/index
+- file: asides/_index
+  sections:
+  - file: asides/systems-of-care/index
+  - file: asides/story-of-a-bad-deed/index
+  - file: asides/spacetime-plots/index
+  - file: asides/why-warc/index
+  - file: asides/the-analogue-repository/index

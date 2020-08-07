@@ -1,21 +1,4 @@
----
-title: Contexts
-subtitle: Looking at different types of enviroments that archives operate in.
-weight: 1
-draft: true
----
-- [Introduction](#introduction)
-- [Environments](#environments)
-  - [The OAIS Environment](#the-oais-environment)
-  - [Kinds of Environment](#kinds-of-environment)
-    - [Direct](#direct)
-    - [Backup (via the publisher)](#backup-via-the-publisher)
-    - [Failover (via the published record)](#failover-via-the-published-record)
-- [Communities](#communities)
-  - [Kinds of Communities](#kinds-of-communities)
-- [Kinds of Access?](#kinds-of-access)
-
-# Introduction
+# Contexts
 
 What kinds of environments do archives operate in? How does this affect the way things work, and the communities the archive works with?
 
@@ -26,8 +9,7 @@ What kinds of environments do archives operate in? How does this affect the way 
 
 The [Open Archival Information System (OAIS)][1] presents a simple model for the environment an archive operates in:
 
-{{< figure src="./images/oais-environment.png" caption="The OAIS environment model." class="text-center" >}}
-
+![The OAIS environment model.](./images/oais-environment.png)
 
 
 ## Kinds of Environment
@@ -35,7 +17,7 @@ The [Open Archival Information System (OAIS)][1] presents a simple model for the
 Audiences, internal archive, enchanced care of the same to the same audence. e.g. BBC Archive.
 
 
-See [space-time plot]({{< ref "/asides/spacetime-plots" >}}) for examples.
+See {doc}`/asides/spacetime-plots/index` for examples.
 
 ...
 
@@ -45,7 +27,7 @@ See [space-time plot]({{< ref "/asides/spacetime-plots" >}}) for examples.
 
 ### Direct 
 
-{{< figure src="./images/spacetime-context-direct.png" caption="Space-time plot visualising events in the OAIS environment pattern." class="text-center" >}}
+![Space-time plot visualising events in the OAIS environment pattern.](./images/spacetime-context-direct.png)
 
 Crucially, this means the DIP is generated from the AIP...
 
@@ -59,11 +41,11 @@ Use digitised images as example. Look at risks of the sidecar approach.
 
 ### Backup (via the publisher)
 
-{{< figure src="./images/spacetime-plots-context-backup.png" caption="Space-time plot visualising events in the 'backup' environment pattern." class="text-center" >}}
+![Space-time plot visualising events in the 'backup' environment pattern.](./images/spacetime-plots-context-backup.png)
 
 ### Failover (via the published record)
 
-{{< figure src="./images/spacetime-plots-context-failover.png" caption="Space-time plot visualising events in the 'failover' environment pattern." class="text-center" >}}
+![Space-time plot visualising events in the 'failover' environment pattern.](./images/spacetime-plots-context-failover.png)
 
 # Communities
 
