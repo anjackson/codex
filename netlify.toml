@@ -1,8 +1,6 @@
 [build]
 
-  base = "content/"
+  publish = "content/_build/html/"
 
-  publish = "_build/html/"
-
-  command = "pip install -r ../requirements.txt && jupyter-book build ."
+  command = "pip install -r requirements.txt && jupyter-book build content/"
 
