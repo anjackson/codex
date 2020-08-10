@@ -1,4 +1,2 @@
----
-title: 'Guides'
----
+# Guides
 

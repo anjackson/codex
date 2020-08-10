@@ -1,9 +1,6 @@
----
-title: Procurement
-subtitle: Different ways to build or buy
-weight: 3
-draft: true
----
+# Procurement
+
+Different ways to build or buy
 
 What's expensive?
 

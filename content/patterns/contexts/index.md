@@ -1,10 +1,7 @@
-# Contexts
+# Contexts & Environments
 
 What kinds of environments do archives operate in? How does this affect the way things work, and the communities the archive works with?
 
-# Environments
- 
- 
 ## The OAIS Environment
 
 The [Open Archival Information System (OAIS)][1] presents a simple model for the environment an archive operates in:
@@ -47,18 +44,7 @@ Use digitised images as example. Look at risks of the sidecar approach.
 
 ![Space-time plot visualising events in the 'failover' environment pattern.](./images/spacetime-plots-context-failover.png)
 
-# Communities
 
-## Kinds of Communities
-
-Separate page?
-
-"Monitoring Designated Community"
-
-
-# Kinds of Access?
-
-http://anjackson.github.io/keeping-codes/practice/ukwa-sustainable-access
 
 [1]: (https://public.ccsds.org/pubs/650x0m2.pdf) 
 

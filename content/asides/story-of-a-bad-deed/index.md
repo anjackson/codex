@@ -1,9 +1,6 @@
----
-title: "Story of a Bad Deed"
+# Story of a Bad Deed
+
 subtitle: A tiny digital format mystery
-tags: ["Digital Preservation", "Keeping Codes", "Lessons Learned"]
-shown: true
----
 
 I love a digital preservation mystery, and this one started with question from [@joe](https://digipres.club/@joe/) on [digipres.club](https://digipres.club/):
 

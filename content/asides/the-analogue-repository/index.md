@@ -1,21 +1,14 @@
----
-title: The Analogue Repository
-subtitle: A parable from the wrong universe.
----
+# The Analogue Repository
+
+```{admonition} Warning: This is a work of fiction!
+:class: warning
+Any resemblance to actual archival systems, active or decommissioned, is <del>entirely</del> mostly coincidental.
+```
 
 <br/>
-<div style="text-align: center;">
-  <b>
-	<br/>
-	This is a work of fiction.
-	<br/><br/>
-	Any resemblance to actual archival systems, active or decommissioned, is <del>entirely</del> mostly coincidental.
-	<br/><br/>
-  </b>
-</div>
 
-
-----
+```{centered} ~~~
+```
 
 <br/>
 
@@ -197,3 +190,10 @@ Finally we reach another staircase, head upwards and find ourselves back at the 
 &nbsp;&nbsp;&nbsp;&nbsp;_"Did the they get the same tour as today?"_
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"Yes. Well, pretty much. Different exit routes, shall we say. I took them the long way round. No sense confusing the issue."_
+
+<br/>
+
+```{centered} ~~~
+```
+
+<br/>

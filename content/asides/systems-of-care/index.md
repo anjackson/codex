@@ -1,9 +1,6 @@
----
-title: Systems of Care
+# Systems of Care
+
 subtitle: Comparison with analogue preservation.
-weight: 6
-draft: true
----
 
 One tiny but valuable example are the request slips used to manage access to printed items at the British Library, as shown in this video called "Journey of a collection item"...
 

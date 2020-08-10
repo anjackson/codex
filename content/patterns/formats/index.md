@@ -1,10 +1,6 @@
----
-title: Formats
-subtitle: The different ways digital formats work.
-weight: 8
-draft: true
----
+# Formats
 
+The different ways digital formats work.
 
 - format patterns http://www.redwoodsoft.com/dru/museum/gfx/gff/textonly/summary/tiff.htm versus explicit versions, need for in-band signalling versus source code context.
 

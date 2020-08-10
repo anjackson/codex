@@ -1,19 +1,19 @@
----
-title: 'Understanding Digital Media'
+# Understanding Digital Media
+
 subtitle: 'What are we trying to preserve?'
----
 
 <!-- MarkdownTOC autolink="true" -->
 
-- [Introduction](#introduction)
-- [Digital Objects](#digital-objects)
-- [Unsafe Device Removal](#unsafe-device-removal)
-- [Loading...](#loading)
-- [Understanding the experiment](#understanding-the-experiment)
-- [Glitches & Polyglots](#glitches--polyglots)
-- [It starts with Save As...](#it-starts-with-save-as)
-- [Formats](#formats)
-- [The Parse & The Play](#the-parse--the-play)
+- [Understanding Digital Media](#understanding-digital-media)
+  - [Introduction](#introduction)
+  - [Digital Objects](#digital-objects)
+  - [Unsafe Device Removal](#unsafe-device-removal)
+  - [Loading...](#loading)
+  - [Understanding the experiment](#understanding-the-experiment)
+  - [Glitches & Polyglots](#glitches--polyglots)
+  - [It starts with Save As...](#it-starts-with-save-as)
+  - [Formats](#formats)
+  - [The Parse & The Play](#the-parse--the-play)
 
 <!-- /MarkdownTOC -->
 

@@ -1,9 +1,6 @@
----
-title: Concepts
-subtitle: Models of digital information and preservation.
-weight: 6
-draft: true
----
+# Concepts
+
+Models of digital information and preservation.
 
 The Information Model
 

@@ -1,7 +1,6 @@
----
-title: "What's Different About Digital Preservation?"
-subtitle: 'Different answers for different people.'
----
+# What's Different About Digital Preservation?
+
+'Different answers for different people.'
 
 Digital preservation happens where a number of already-established communities meet. But as we join forces, we bring our preconceptions with us. 
 
@@ -13,8 +12,9 @@ Each written with a different audience in mind, but you are encourage to read th
 
 So, what's different about digital preservation....
 
-- [Compared to traditional conservation?](#compared-to-traditional-conservation)
-- [Compared to standard IT services?](#compared-to-standard-it-services)
+- [What's Different About Digital Preservation?](#whats-different-about-digital-preservation)
+  - [Compared to traditional conservation?](#compared-to-traditional-conservation)
+  - [Compared to standard IT services?](#compared-to-standard-it-services)
 
 ## Compared to traditional conservation?
 

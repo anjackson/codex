@@ -6,15 +6,18 @@ weight: 1
 draft: true
 ---
 
+# Unsafe Device Removal
+
 <!-- MarkdownTOC autolink="true" -->
 
-- [Introduction](#introduction)
-- [Materials](#materials)
-- [Method](#method)
-- [My Results](#my-results)
-- [Over to you](#over-to-you)
-- [Your Results](#your-results)
-- [Conclusion](#conclusion)
+- [Unsafe Device Removal](#unsafe-device-removal)
+  - [Introduction](#introduction)
+  - [Materials](#materials)
+  - [Method](#method)
+  - [My Results](#my-results)
+  - [Over to you](#over-to-you)
+  - [Your Results](#your-results)
+  - [Conclusion](#conclusion)
 
 <!-- /MarkdownTOC -->
 

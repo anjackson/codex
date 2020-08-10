@@ -1,13 +1,6 @@
----
-title: Systems
-subtitle: System design patterns from building digital preservation systems.
-weight: 2
-draft: true
----
+# Systems 
 
 System design patterns for building digital preservation systems.
-
-
 
 Systems of care
 
@@ -36,14 +29,14 @@ Disks
 
 DB
 
-# Risks / Implementation
+## Risks / Implementation
 
 Start with known, experienced risks, outline possible solutions that can be baked into the architectural design 
 
 Policy versus structure 
 
 
-# Actions
+## Actions
 
 Note user-driven processing is common and better handles transient failure, extension to edge cases etc. Note pipeline approach is the same parts as this, in a different shape.
 

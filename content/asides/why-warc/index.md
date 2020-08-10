@@ -1,6 +1,4 @@
----
-title: 'Why WARC?'
----
+# Why WARC?
 
 https://github.com/aaronpk/spiderpig
 
