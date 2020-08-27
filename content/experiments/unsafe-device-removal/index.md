@@ -8,24 +8,9 @@ draft: true
 
 # Unsafe Device Removal
 
-<!-- MarkdownTOC autolink="true" -->
-
-- [Unsafe Device Removal](#unsafe-device-removal)
-  - [Introduction](#introduction)
-  - [Materials](#materials)
-  - [Method](#method)
-  - [My Results](#my-results)
-  - [Over to you](#over-to-you)
-  - [Your Results](#your-results)
-  - [Conclusion](#conclusion)
-
-<!-- /MarkdownTOC -->
-
 ## Introduction ##
 
 Let's start with an little experiment called "Unsafe Device Removal"[^10]...
-
-<!--break-->
 
 ## Materials ##
 
@@ -37,11 +22,19 @@ For this experiment, you will need:
 
 I'm going to use this drive:
 
-![Test Drive](./images/save-as-test-drive.jpg)
+```{image} ./images/save-as-test-drive.jpg
+:alt: Test Drive
+:height: 200px
+:align: center
+```
 
 ...and this JPEG:
 
-![My father and my son, alike.](./images/best-test-image.jpg)
+```{image} ./images/best-test-image.jpg
+:alt: My father and my son, alike.
+:height: 200px
+:align: center
+```
 
 ## Method ##
 
