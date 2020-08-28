@@ -12,4 +12,11 @@ As you can see, if an object is not moving, then it traces our a simple line par
 
 While the events in the history of a digital archive behave very differently, a space-time diagram still provide a useful way of visualising what's going on.
 
-See {doc}`/patterns/contexts/index` for examples.
+```{glue:figure} spacetime_oais_fig
+:figwidth: 100%
+:name: "spacetime_oais_fig"
+
+Visualisation of the basic OAIS workflow as a space-time trajectory.
+```
+
+See {doc}`/patterns/contexts/index` for more examples.
