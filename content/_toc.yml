@@ -1,6 +1,7 @@
 - file: _index
 - file: patterns/_index
   sections:
+  - file: patterns/gol
   - file: patterns/formats/index
   - file: patterns/contexts/index
   - file: patterns/communities/index
