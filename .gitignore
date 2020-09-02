@@ -1,3 +1,6 @@
+venv
+_build
+.ipynb_checkpoints
 _site
 public
 resources
