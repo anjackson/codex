@@ -14,7 +14,7 @@ The [Open Archival Information System (OAIS)][1] presents a simple model for the
 Audiences, internal archive, enchanced care of the same to the same audence. e.g. BBC Archive.
 
 
-See {doc}`/asides/spacetime-plots/index` for examples.
+See {doc}`/context/space-and-time` for examples.
 
 ...
 

@@ -1,4 +1,7 @@
-- file: _index
+- file: index
+- file: context/contexts
+  sections:
+  - file: context/space-and-time
 - file: patterns/_index
   sections:
   - file: patterns/gol
@@ -11,6 +14,7 @@
 - file: experiments/_index
   sections:
   - file: experiments/unsafe-device-removal/index
+  - file: experiments/replication-and-repair
 - file: foundations/_index
 - file: guides/_index
   sections:
@@ -25,4 +29,5 @@
   - file: asides/spacetime-plots/index
   - file: asides/why-warc/index
   - file: asides/the-analogue-repository/index
+- file: about
 
