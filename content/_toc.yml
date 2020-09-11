@@ -1,13 +1,16 @@
-- file: index
+- file: welcome
+- file: 01-introduction/introduction
+  sections:
+  - file: 01-introduction/game-of-life
+  - file: 01-introduction/patterns
 - file: context/contexts
   sections:
   - file: context/space-and-time
+  - file: context/engagement
 - file: patterns/_index
   sections:
-  - file: patterns/gol
   - file: patterns/formats/index
   - file: patterns/contexts/index
-  - file: patterns/communities/index
   - file: patterns/concepts/index
   - file: patterns/procurements/index
   - file: patterns/systems/index
