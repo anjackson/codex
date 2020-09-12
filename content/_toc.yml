@@ -1,36 +1,36 @@
 - file: welcome
-- file: 01-introduction/introduction
-  sections:
-  - file: 01-introduction/about
-  - file: 01-introduction/game-of-life
-  - file: 01-introduction/patterns
-- file: context/contexts
-  sections:
-  - file: context/space-and-time
-  - file: context/engagement
-- file: patterns/_index
-  sections:
+- part: Foundations
+  chapters:
+  - file: guides/understanding-digital-objects/index
+    sections:
+    - file: experiments/unsafe-device-removal/index
+    - file: guides/whats-different/index
+    - file: foundations/digidiff/game-of-life
+- part: Patterns
+  chapters:
+  - file: patterns/contexts/contexts
+    sections:
+    - file: patterns/contexts/space-and-time
+    - file: patterns/contexts/engagement
   - file: patterns/formats/index
-  - file: patterns/contexts/index
   - file: patterns/concepts/index
   - file: patterns/procurements/index
   - file: patterns/systems/index
-- file: experiments/_index
-  sections:
-  - file: experiments/unsafe-device-removal/index
-  - file: experiments/replication-and-repair
-- file: foundations/_index
-- file: guides/_index
-  sections:
-  - file: guides/understanding-digital-objects/index
-  - file: guides/whats-different/index
+    sections:
+    - file: asides/systems-of-care/index
+- part: Practices
+  chapters:
+  - file: experiments/_index
+    sections:
+    - file: experiments/replication-and-repair
+  - file: guides/_index
+    sections:
+    - file: guides/format-id/index
   - file: guides/web-archiving/index
-  - file: guides/format-id/index
-- file: asides/_index
-  sections:
-  - file: asides/systems-of-care/index
+    sections:
+    - file: asides/why-warc/index
+- part: Stories
+  chapters:
   - file: asides/story-of-a-bad-deed/index
-  - file: asides/spacetime-plots/index
-  - file: asides/why-warc/index
   - file: asides/the-analogue-repository/index
 

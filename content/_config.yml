@@ -6,5 +6,13 @@ logo: 'images/logo.png'
 # Link to GitHub:
 repository:
   url: https://github.com/digipresnet/digipresnet-site
+  path_to_book: content  # An optional path to your book, defaults to repo root
+  branch: jbook  # An optional branch, defaults to `master`
 html:
   use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
+  home_page_in_navbar: false
+  comments:
+    utterances:
+      repo: "digipresnet/digipresnet-site"
