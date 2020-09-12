@@ -13,9 +13,6 @@ I blogged a bit more about my background [here](https://anjackson.net/2017/04/04
 - on Twitter [@anjacks0n](https://twitter.com/anjacks0n)
 - or via [email](mailto:anj@anjackson.net)
 
-## What's with the weird logo?
-
-The logo represents a self-perpetuating pattern known as a [glider](https://en.wikipedia.org/wiki/Glider_(Conway%27s_Life)).
 
 ## What else is out there?
 

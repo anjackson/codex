@@ -1,6 +1,7 @@
 - file: welcome
 - file: 01-introduction/introduction
   sections:
+  - file: 01-introduction/about
   - file: 01-introduction/game-of-life
   - file: 01-introduction/patterns
 - file: context/contexts
@@ -32,5 +33,4 @@
   - file: asides/spacetime-plots/index
   - file: asides/why-warc/index
   - file: asides/the-analogue-repository/index
-- file: about
 

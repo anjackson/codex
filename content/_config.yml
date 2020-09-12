@@ -1,5 +1,10 @@
-# Book settings
+# General Settings:
 title: digipres.net
 author: Andrew N. Jackson
 logo: 'images/logo.png'
 
+# Link to GitHub:
+repository:
+  url: https://github.com/digipresnet/digipresnet-site
+html:
+  use_repository_button: true
