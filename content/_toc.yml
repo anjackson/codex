@@ -1,10 +1,11 @@
 - file: welcome
 - part: Foundations
   chapters:
-  - file: guides/understanding-digital-objects/index
+  - file: foundations/the-village
+  - file: foundations/digidiff/digidiff
     sections:
+    - file: guides/understanding-digital-objects/index
     - file: experiments/unsafe-device-removal/index
-    - file: guides/whats-different/index
     - file: foundations/digidiff/game-of-life
 - part: Patterns
   chapters:
@@ -13,22 +14,20 @@
     - file: patterns/contexts/space-and-time
     - file: patterns/contexts/engagement
   - file: patterns/formats/index
-  - file: patterns/concepts/index
-  - file: patterns/procurements/index
+  - file: patterns/access/access
   - file: patterns/systems/index
     sections:
+    - file: patterns/systems/procurement
     - file: asides/systems-of-care/index
 - part: Practices
   chapters:
-  - file: experiments/_index
+  - file: practices/storage/storage
     sections:
-    - file: experiments/replication-and-repair
-  - file: guides/_index
+    - file: practices/storage/replication-and-repair
+  - file: practices/format-id/index
+  - file: practices/web-archiving/index
     sections:
-    - file: guides/format-id/index
-  - file: guides/web-archiving/index
-    sections:
-    - file: asides/why-warc/index
+    - file: practices/web-archiving/why-warc/index
 - part: Stories
   chapters:
   - file: asides/story-of-a-bad-deed/index

@@ -1,4 +1,6 @@
-# What's Different About Digital Preservation?
+# The Digital Difference
+
+What's Different About Digital Preservation?
 
 'Different answers for different people.'
 
@@ -35,4 +37,26 @@ We're not keeping objects, we're storing signals, and we need to learn what this
 
 
 ## Compared to standard IT services?
+
+
+
+## Models
+
+Models of digital information and preservation.
+
+The Information Model
+
+Give our users the PDF Spec!
+
+The Performance Model
+
+info object, performance, significant properties, digital object 
+
+- sig prop basis sets https://red3blog.tumblr.com/post/135098280942/formeldeharv-i-put-all-i-want-for-christmas-is
+- http://anjackson.github.io/keeping-codes/fundamentals/significant-properties-and-authentic-transformations
+- http://anjackson.github.io/keeping-codes/fundamentals/cantor-countability-and-sig-props.html
+- http://anjackson.github.io/keeping-codes/practice/what-do-we-need---characterisation
+- http://anjackson.github.io/keeping-codes/practice/what-do-we-need
+
+
 

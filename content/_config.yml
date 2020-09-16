@@ -13,6 +13,15 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   home_page_in_navbar: false
+  # Support comments (this is not a released jupyterbook feature yet):
   comments:
     utterances:
       repo: "digipresnet/digipresnet-site"
+  # Add links and license to footer.
+  extra_footer: |
+    <p>
+    This site is <a href="https://github.com/digipresnet/digipresnet-site/">open source</a> and open access (<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>).
+    </p>
+sphinx:
+  config:
+    html_show_copyright: true
