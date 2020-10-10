@@ -28,8 +28,8 @@
   - file: practices/web-archiving/index
     sections:
     - file: practices/web-archiving/why-warc/index
-- part: Stories
-  chapters:
-  - file: asides/story-of-a-bad-deed/index
-  - file: asides/the-analogue-repository/index
+  - file: practices/stories/stories
+    sections:
+    - file: practices/stories/story-of-a-bad-deed/index
+    - file: practices/stories/the-analogue-repository/index
 

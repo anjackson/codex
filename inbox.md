@@ -35,6 +35,7 @@ Inbox
       - Space-time diagrams
       - Implies access _via_ but this is not the norm!
       - Producer: partners or publishers?
+      - Also native communities v wider communities, https://twitter.com/footage/status/1306488087657152517?s=21
       - Goals: 
         - Common Carrier or Information Source
           - Seems to link to Shannon.
