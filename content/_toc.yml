@@ -11,11 +11,12 @@
   chapters:
   - file: patterns/contexts/contexts
     sections:
-    - file: patterns/contexts/space-and-time
+    - file: patterns/contexts/environments
     - file: patterns/contexts/engagement
-  - file: patterns/formats/index
-  - file: patterns/access/access
+    - file: patterns/contexts/role
   - file: patterns/systems/index
+  - file: patterns/access/access
+  - file: patterns/formats/index
     sections:
     - file: patterns/systems/procurement
     - file: asides/systems-of-care/index
@@ -28,6 +29,8 @@
   - file: practices/web-archiving/index
     sections:
     - file: practices/web-archiving/why-warc/index
+- part: Exhibits
+  chapters:
   - file: practices/stories/stories
     sections:
     - file: practices/stories/story-of-a-bad-deed/index

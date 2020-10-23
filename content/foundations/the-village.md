@@ -4,13 +4,13 @@ You are not alone. This is fundamental.
 
 Digital preservation is built on borderlands. On one side, the rapidly evolving _new world_ of modern information technology. On the other, the _ancient land_ of cultural heritage, of libraries and archives.
 
-To work on digital preservation is to build a bridge between these worlds; to help each understand the other; to find common purpose and help both sides learn to build together. As the go-between, you must be the one to learn both languages. You will be the messenger, and we all know the dangers of being the messenger when the news is bad.
+To work on digital preservation is to build a bridge between these worlds; to help each understand the other; to find common purpose; to help both sides learn to build together. As the go-between, you will learn both languages. You will be the messenger. And we all know the dangers of being the messenger when the news is bad.
 
-Living across two worlds can feel very lonely.
+Living across two worlds can be lonely. So above all else, you must find support, and be supported. Your managers will likely come from one of the two worlds, rather than growing up on the border, so may not perceive the risks.  If they don't, and they don't help you fight and fight the loneliness, they do not deserve your labour. 
 
-So, above all else, you must find support, and be supported by your manager. They will likely come from one of the two worlds, rather than growing up on the border, so may not perceive the risks.  If they don't, and they don't help you fight the loneliness, they do not deserve your labour. 
+**n.b. add something on Vocational Awe** [Vocational Awe and Librarianship: The Lies We Tell Ourselves](http://www.inthelibrarywiththeleadpipe.org/2018/vocational-awe/)
 
-If management has your back, there's some more good news: there are a _lot_ of people like you.
+If your managers will help you reach out, you'll find you are not alone.
 
 ## Kin
 
@@ -18,9 +18,9 @@ Many different organisations now recognise the importance of digital preservatio
 
 They are your kin.
 
-They may operate in different contexts, with different goals and contraints, but like you, they are go-betweens.  They are bilingual. They are learning as they go. They are finding common ground. Just like you.  If you can meet these like minds, you can help each other.
+They may operate in different contexts, with different goals and constraints, but like you, they are go-betweens.  They are bilingual. They are learning as they go. They are finding common ground. Just like you.  If you can meet these like minds, you can help each other.
 
-## #digipres
+### #digipres
 
 The wider community of digital preservation practicioners is generally kind and helpful - the trick is finding them!
 
@@ -30,7 +30,7 @@ The wider community of digital preservation practicioners is generally kind and 
 
 There's a lots of other great Digital Preservation resources out there, and I'm also part of a collaborative project to try and link them all together -- go visit [digipres.org](https://www.digipres.org/) to see what we've done!
 
-## National & International Organisations
+### National & International Organisations
 
 One of the best ways to meet your #digipres peers is through the projects and events run by the various national and international organisations that have been set up to facilitate wider collaboration.
 
@@ -42,7 +42,7 @@ There are also a number of smaller organsations supporting specific areas of int
 - The [International Internet Preservation Consortium](https://netpreserve.org/), focussed on web archiving.
 - The [BitCurator Consortium](https://bitcurator.net/bitcurator-consortium/), supporting the use of open source digital forensics tools for preservation purposes.
 
-## Guides
+### Guides
 
 There are already a number of good guides to digital preservation in general. In particular, for those with a background in cultural heritage, I would recommend:
 
@@ -56,23 +56,30 @@ Having said that, Ashley Blewer's [slides on Digital Preservation](https://train
 
 To complement these broader works, the goal here is to focus on specific issues that deserve more detailed exploration, and to look for common patterns and practices across a broad range of situations and contexts. 
 
-## Questions & Answers
+### Questions & Answers
 
 digipres Q&A
 
 ## The Bad News
 
-Underfunded. Embattled.
+Underfunded. Embattled. lack of nuance-clarity.
 
-## The Trap
+- Web archiving
+- Digital curation
+- Digital scholarship
+- Digitization
+- Digital Heritage
+- 
 
-## Opportunities
+### The Trap
+
+### Opportunities
 
 ## Allies
 
-One of my favorite digital preservation stories is: [It Takes a Village to Save a Hard Drive](https://web.archive.org/web/20130916000537/http://notepad.benfinoradin.info/2013/09/12/it-takes-a-village-to-save-a-hard-drive) -- it's a perfect illustration of what 
+One of my favourite digital preservation stories is: [It Takes a Village to Save a Hard Drive](https://web.archive.org/web/20130916000537/http://notepad.benfinoradin.info/2013/09/12/it-takes-a-village-to-save-a-hard-drive) -- it's a perfect illustration of what 
 
-["XFR STN"](https://www.newmuseum.org/exhibitions/view/xfr-stn) (Transfer Station), an open-door artist-centered media archiving project.
+["XFR STN"](https://www.newmuseum.org/exhibitions/view/xfr-stn) (Transfer Station), an open-door artist-centred media archiving project.
 
 
 
