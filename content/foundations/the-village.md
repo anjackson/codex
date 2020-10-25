@@ -6,11 +6,17 @@ Digital preservation is built on borderlands. On one side, the rapidly evolving 
 
 To work on digital preservation is to build a bridge between these worlds; to help each understand the other; to find common purpose; to help both sides learn to build together. As the go-between, you will learn both languages. You will be the messenger. And we all know the dangers of being the messenger when the news is bad.
 
+```{glue:figure} digipres_network_bridge
+:figwidth: 100%
+:name: "digipres_network_bridge"
+```
+
 Living across two worlds can be lonely. So above all else, you must find support, and be supported. Your managers will likely come from one of the two worlds, rather than growing up on the border, so may not perceive the risks.  If they don't, and they don't help you fight and fight the loneliness, they do not deserve your labour. 
 
 **n.b. add something on Vocational Awe** [Vocational Awe and Librarianship: The Lies We Tell Ourselves](http://www.inthelibrarywiththeleadpipe.org/2018/vocational-awe/)
 
 If your managers will help you reach out, you'll find you are not alone.
+
 
 ## Kin
 
@@ -22,7 +28,7 @@ They may operate in different contexts, with different goals and constraints, bu
 
 ### #digipres
 
-The wider community of digital preservation practicioners is generally kind and helpful - the trick is finding them!
+The wider community of digital preservation practitioners is generally kind and helpful - the trick is finding them!
 
 ... Twitter ... Mailing lists...
 
@@ -32,15 +38,19 @@ There's a lots of other great Digital Preservation resources out there, and I'm 
 
 ### National & International Organisations
 
-One of the best ways to meet your #digipres peers is through the projects and events run by the various national and international organisations that have been set up to facilitate wider collaboration.
+One of the best ways to meet your #digipres peers is through the projects and events run by the various national and international organisations that have been set up to facilitate wider collaboration. 
 
-Both the [Digital Preservation Coalition](https://www.dpconline.org/) and the U.S. [National Digital Stewardship Alliance](http://www.digitalpreservation.gov/ndsa/) but a lot of work into supporting the digital preservation community.  They are both membership-based organisations, but make a lot of their work openly available.
+Both the [Digital Preservation Coalition (DPC)](https://www.dpconline.org/) and the U.S. [National Digital Stewardship Alliance (NDSA)](http://www.digitalpreservation.gov/ndsa/) but a lot of work into supporting the digital preservation community.  They are both membership-based organisations, but make a lot of their work openly available.
 
-There are also a number of smaller organsations supporting specific areas of interest:
+There are also a number of organisations supporting specific areas of interest, including:
 
 - The [Open Preservation Foundation](https://openpreservation.org/) with is a strong focus on supporting open source tools used in digital preservation.
 - The [International Internet Preservation Consortium](https://netpreserve.org/), focussed on web archiving.
 - The [BitCurator Consortium](https://bitcurator.net/bitcurator-consortium/), supporting the use of open source digital forensics tools for preservation purposes.
+- The [Software Heritage](https://www.softwareheritage.org/) initiative in collaboration with [UNESCO](https://en.unesco.org/themes/information-preservation).
+- The [No Time To Wait](https://mediaarea.net/NoTimeToWait) conference series, focusing on audiovisual preservation.
+
+As shown by the [Wikipedia list of digital preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives), there are a lot more too see.
 
 ### Guides
 
@@ -49,6 +59,7 @@ There are already a number of good guides to digital preservation in general. In
 - [DPCs Digital Preservation Handbook](https://www.dpconline.org/handbook)
 - [The Theory and Craft of Digital Preservation](https://jhupbooks.press.jhu.edu/title/theory-and-craft-digital-preservation) by [Trevor Owens](http://www.trevorowens.org/), to position digital preservation in the wider cultural heritage context and to provide a concrete framework for making progress ([see here for the open access version](https://osf.io/preprints/lissa/5cpjt/)).
 - [Ashley Blewer's](https://ashleyblewer.com/) [training slide decks](https://training.ashleyblewer.com/), for an introduction to the main concepts and pointers.
+- The [Wikipedia page on digital preservation](https://en.wikipedia.org/wiki/Digital_preservation).
 
 Curiously, there does not seem to be many equivalent publications for those coming to digital preservation from the information technology side -- even if you know a lot about IT, digital preservation requirements can be seem strange at first!
 

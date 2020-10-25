@@ -16,4 +16,4 @@ This site is an experiment, and right now there's only a handful of articles. If
 
 ## Where to begin?
 
-Before getting into technicalities, lets take a walk around {doc}`/foundations/the-village`.
+Before getting into technicalities, lets take a look around {doc}`/foundations/the-village`.

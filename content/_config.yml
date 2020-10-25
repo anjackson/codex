@@ -1,13 +1,16 @@
-# General Settings:
+# General settings:
 title: digipres.net
 author: Andrew N. Jackson
-logo: 'images/logo.png'
+logo: "images/logo.png"
+exclude_patterns: ["**.ipynb_checkpoints"]
 
 # Link to GitHub:
 repository:
   url: https://github.com/digipresnet/digipresnet-site
   path_to_book: content  # An optional path to your book, defaults to repo root
   branch: jbook  # An optional branch, defaults to `master`
+
+# HTML settings:
 html:
   use_repository_button: true
   use_issues_button: true
@@ -20,8 +23,11 @@ html:
   # Add links and license to footer.
   extra_footer: |
     <p>
-    This site is <a href="https://github.com/digipresnet/digipresnet-site/">open source</a> and open access (<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>).
+    This site is <a href="https://github.com/digipresnet/digipresnet-site/">open source</a> and open access:<br/>
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
     </p>
+
+# Additional Sphinx config:
 sphinx:
   config:
     html_show_copyright: true
