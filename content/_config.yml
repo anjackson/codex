@@ -4,6 +4,10 @@ author: Andrew N. Jackson
 logo: "images/logo.png"
 exclude_patterns: ["**.ipynb_checkpoints"]
 
+# Execution options:
+execute:
+  timeout: 90
+
 # Link to GitHub:
 repository:
   url: https://github.com/digipresnet/digipresnet-site
