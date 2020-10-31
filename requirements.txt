@@ -93,7 +93,7 @@ sphinx-comments==0.0.3
 sphinx-copybutton==0.3.0
 sphinx-panels==0.5.1
 sphinx-thebe==0.0.7
-sphinx-togglebutton==0.2.0
+sphinx-togglebutton==0.2.3
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-bibtex==1.0.0
 sphinxcontrib-devhelp==1.0.2
