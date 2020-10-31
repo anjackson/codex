@@ -7,6 +7,7 @@ exclude_patterns: ["**.ipynb_checkpoints"]
 # Execution options:
 execute:
   timeout: 90
+  execute_notebooks: cache
 
 # Link to GitHub:
 repository:
