@@ -23,6 +23,7 @@ GitPython==3.1.7
 idna==2.10
 imagesize==1.2.0
 importlib-metadata==1.7.0
+ipycytoscape==1.0.4
 ipykernel==5.3.4
 ipympl==0.5.8
 ipython==7.17.0
@@ -85,6 +86,7 @@ six==1.15.0
 smmap==3.0.4
 snowballstemmer==2.0.0
 soupsieve==2.0.1
+spectate==0.5.0
 Sphinx==2.4.4
 sphinx-book-theme==0.0.38
 sphinx-comments==0.0.3
