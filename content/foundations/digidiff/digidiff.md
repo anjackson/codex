@@ -14,9 +14,10 @@ Each written with a different audience in mind, but you are encourage to read th
 
 So, what's different about digital preservation....
 
-- [What's Different About Digital Preservation?](#whats-different-about-digital-preservation)
+- [The Digital Difference](#the-digital-difference)
   - [Compared to traditional conservation?](#compared-to-traditional-conservation)
   - [Compared to standard IT services?](#compared-to-standard-it-services)
+  - [Models](#models)
 
 ## Compared to traditional conservation?
 
@@ -57,6 +58,5 @@ info object, performance, significant properties, digital object
 - http://anjackson.github.io/keeping-codes/fundamentals/cantor-countability-and-sig-props.html
 - http://anjackson.github.io/keeping-codes/practice/what-do-we-need---characterisation
 - http://anjackson.github.io/keeping-codes/practice/what-do-we-need
-
 
 

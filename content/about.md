@@ -7,6 +7,17 @@ My name is [Andrew Jackson](http://anjackson.net/) and I'm a physicist who now w
 - on Twitter [@anjacks0n](https://twitter.com/anjacks0n)
 - or via [email](mailto:anj@anjackson.net)
 
+
+## Maturity
+
+```{glue:figure} wardley_map_example
+:figwidth: 100%
+:name: "wardley_map_example"
+
+An example Wardley Map.
+```
+
+
 ## Merchandise
 
 <script type="text/javascript" src="https://www.redbubble.com/assets/external_portfolio.js"></script>
