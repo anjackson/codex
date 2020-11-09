@@ -1,0 +1,538 @@
+{
+  "inputs_outputs": [
+    {
+      "name": "arg",
+      "path": "/home/andy/pdf/lorem-ipsum.pdf",
+      "read_by_runs": [
+        0
+      ],
+      "written_by_runs": []
+    },
+    {
+      "name": "lorem-ipsum-001.png",
+      "path": "/home/andy/pdf/lorem-ipsum-001.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "lorem-ipsum-002.png",
+      "path": "/home/andy/pdf/lorem-ipsum-002.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    }
+  ],
+  "other_files": [
+    "/etc/ld.so.cache",
+    "/etc/papersize",
+    "/home/andy/pdf/lorem-ipsum-001.png",
+    "/home/andy/pdf/lorem-ipsum-002.png",
+    "/home/andy/pdf/lorem-ipsum.pdf",
+    "/usr/share/ghostscript/9.26/iccprofiles/default_cmyk.icc",
+    "/usr/share/ghostscript/9.26/iccprofiles/default_gray.icc",
+    "/usr/share/ghostscript/9.26/iccprofiles/default_rgb.icc",
+    "/usr/share/ghostscript/9.26/iccprofiles/lab.icc",
+    "/var/lib/ghostscript/fonts/Fontmap",
+    "/var/lib/ghostscript/fonts/cidfmap"
+  ],
+  "packages": [
+    {
+      "files": [
+        "/usr/bin/gs"
+      ],
+      "name": "ghostscript",
+      "version": "9.26~dfsg+0-0ubuntu0.18.04.13"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libavahi-client.so.3"
+      ],
+      "name": "libavahi-client3",
+      "version": "0.7-3.1ubuntu1.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libavahi-common.so.3"
+      ],
+      "name": "libavahi-common3",
+      "version": "0.7-3.1ubuntu1.2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/ld-2.27.so",
+        "/lib/x86_64-linux-gnu/libc.so.6",
+        "/lib/x86_64-linux-gnu/libdl.so.2",
+        "/lib/x86_64-linux-gnu/libm.so.6",
+        "/lib/x86_64-linux-gnu/libpthread.so.0",
+        "/lib/x86_64-linux-gnu/libresolv.so.2",
+        "/lib/x86_64-linux-gnu/librt.so.1"
+      ],
+      "name": "libc6",
+      "version": "2.27-3ubuntu1.2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libcom_err.so.2"
+      ],
+      "name": "libcom-err2",
+      "version": "1.44.1-1ubuntu1.3"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libcups.so.2"
+      ],
+      "name": "libcups2",
+      "version": "2.2.7-1ubuntu2.8"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libcupsimage.so.2"
+      ],
+      "name": "libcupsimage2",
+      "version": "2.2.7-1ubuntu2.8"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libdbus-1.so.3"
+      ],
+      "name": "libdbus-1-3",
+      "version": "1.12.2-1ubuntu1.2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libexpat.so.1"
+      ],
+      "name": "libexpat1",
+      "version": "2.2.5-3ubuntu0.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libffi.so.6"
+      ],
+      "name": "libffi6",
+      "version": "3.2.1-8"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1"
+      ],
+      "name": "libfontconfig1",
+      "version": "2.12.6-0ubuntu2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libfreetype.so.6"
+      ],
+      "name": "libfreetype6",
+      "version": "2.8.1-2ubuntu2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libgcrypt.so.20"
+      ],
+      "name": "libgcrypt20",
+      "version": "1.8.1-4ubuntu1.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libgmp.so.10"
+      ],
+      "name": "libgmp10",
+      "version": "2:6.1.2+dfsg-2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libgnutls.so.30"
+      ],
+      "name": "libgnutls30",
+      "version": "3.5.18-1ubuntu1.4"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libgpg-error.so.0"
+      ],
+      "name": "libgpg-error0",
+      "version": "1.27-6"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libgs.so.9"
+      ],
+      "name": "libgs9",
+      "version": "9.26~dfsg+0-0ubuntu0.18.04.13"
+    },
+    {
+      "files": [
+        "/usr/share/ghostscript/9.26/Resource/IdiomSet/Pscript5Idiom",
+        "/usr/share/ghostscript/9.26/Resource/Init/FAPIcidfmap",
+        "/usr/share/ghostscript/9.26/Resource/Init/FAPIfontmap",
+        "/usr/share/ghostscript/9.26/Resource/Init/Fontmap",
+        "/usr/share/ghostscript/9.26/Resource/Init/Fontmap.GS",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_agl.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_btokn.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cff.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cidcm.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_ciddc.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cidfm.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cidfn.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cidtt.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cmap.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cspace.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dbt_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dpnxt.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dps.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dps1.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dps2.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_epsf.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_fapi.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_fntem.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_fonts.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_frsd.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_icc.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_il1_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_img.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_init.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_l2img.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_lev2.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_ll3.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_mex_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_mgl_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_mro_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_pdf_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_pdfwr.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_res.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_resmp.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_setpd.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_statd.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_std_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_sym_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_ttf.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_typ32.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_typ42.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_type1.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_wan_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_base.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_draw.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_font.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_main.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_ops.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_rbld.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_sec.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/xlatmap"
+      ],
+      "name": "libgs9-common",
+      "version": "9.26~dfsg+0-0ubuntu0.18.04.13"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2"
+      ],
+      "name": "libgssapi-krb5-2",
+      "version": "1.16-2ubuntu0.1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libhogweed.so.4"
+      ],
+      "name": "libhogweed4",
+      "version": "3.4-1"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libidn.so.11"
+      ],
+      "name": "libidn11",
+      "version": "1.33-2.1ubuntu1.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libidn2.so.0"
+      ],
+      "name": "libidn2-0",
+      "version": "2.0.4-1.1ubuntu0.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libijs-0.35.so"
+      ],
+      "name": "libijs-0.35",
+      "version": "0.35-13"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libjbig.so.0"
+      ],
+      "name": "libjbig0",
+      "version": "2.1-3.1build1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libjbig2dec.so.0"
+      ],
+      "name": "libjbig2dec0",
+      "version": "0.13-6"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libjpeg.so.8"
+      ],
+      "name": "libjpeg-turbo8",
+      "version": "1.5.2-0ubuntu5.18.04.4"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3"
+      ],
+      "name": "libk5crypto3",
+      "version": "1.16-2ubuntu0.1"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libkeyutils.so.1"
+      ],
+      "name": "libkeyutils1",
+      "version": "1.5.9-9.2ubuntu2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libkrb5.so.3"
+      ],
+      "name": "libkrb5-3",
+      "version": "1.16-2ubuntu0.1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0"
+      ],
+      "name": "libkrb5support0",
+      "version": "1.16-2ubuntu0.1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/liblcms2.so.2"
+      ],
+      "name": "liblcms2-2",
+      "version": "2.9-1ubuntu0.1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/liblz4.so.1"
+      ],
+      "name": "liblz4-1",
+      "version": "0.0~r131-2ubuntu3"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/liblzma.so.5"
+      ],
+      "name": "liblzma5",
+      "version": "5.2.2-1.3"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libnettle.so.6"
+      ],
+      "name": "libnettle6",
+      "version": "3.4-1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0"
+      ],
+      "name": "libp11-kit0",
+      "version": "0.23.9-2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libpaper.so.1"
+      ],
+      "name": "libpaper1",
+      "version": "1.1.24+nmu5ubuntu1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libpng16.so.16"
+      ],
+      "name": "libpng16-16",
+      "version": "1.6.34-1ubuntu0.18.04.2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libsystemd.so.0"
+      ],
+      "name": "libsystemd0",
+      "version": "237-3ubuntu10.42"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libtasn1.so.6"
+      ],
+      "name": "libtasn1-6",
+      "version": "4.13-2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libtiff.so.5"
+      ],
+      "name": "libtiff5",
+      "version": "4.0.9-5ubuntu0.3"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libunistring.so.2"
+      ],
+      "name": "libunistring2",
+      "version": "0.9.9-0ubuntu2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libz.so.1"
+      ],
+      "name": "zlib1g",
+      "version": "1:1.2.11.dfsg-0ubuntu2"
+    }
+  ],
+  "runs": [
+    {
+      "name": "run0",
+      "processes": [
+        {
+          "argv": [
+            "gs",
+            "-sDEVICE=pngalpha",
+            "-o",
+            "lorem-ipsum-%03d.png",
+            "lorem-ipsum.pdf"
+          ],
+          "description": "/usr/bin/gs\n1",
+          "is_thread": false,
+          "long_name": "gs (1)",
+          "name": "1",
+          "parent": null,
+          "reads": [
+            "/usr/bin/gs",
+            "/lib/x86_64-linux-gnu/ld-2.27.so",
+            "/etc/ld.so.cache",
+            "/usr/lib/x86_64-linux-gnu/libgs.so.9",
+            "/lib/x86_64-linux-gnu/libc.so.6",
+            "/usr/lib/x86_64-linux-gnu/libtiff.so.5",
+            "/usr/lib/x86_64-linux-gnu/libcupsimage.so.2",
+            "/usr/lib/x86_64-linux-gnu/libcups.so.2",
+            "/usr/lib/x86_64-linux-gnu/libijs-0.35.so",
+            "/usr/lib/x86_64-linux-gnu/libpng16.so.16",
+            "/usr/lib/x86_64-linux-gnu/libjbig2dec.so.0",
+            "/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+            "/lib/x86_64-linux-gnu/libz.so.1",
+            "/usr/lib/x86_64-linux-gnu/liblcms2.so.2",
+            "/lib/x86_64-linux-gnu/libm.so.6",
+            "/lib/x86_64-linux-gnu/libdl.so.2",
+            "/lib/x86_64-linux-gnu/libidn.so.11",
+            "/usr/lib/x86_64-linux-gnu/libpaper.so.1",
+            "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1",
+            "/usr/lib/x86_64-linux-gnu/libfreetype.so.6",
+            "/lib/x86_64-linux-gnu/libpthread.so.0",
+            "/lib/x86_64-linux-gnu/liblzma.so.5",
+            "/usr/lib/x86_64-linux-gnu/libjbig.so.0",
+            "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+            "/usr/lib/x86_64-linux-gnu/libgnutls.so.30",
+            "/usr/lib/x86_64-linux-gnu/libavahi-common.so.3",
+            "/usr/lib/x86_64-linux-gnu/libavahi-client.so.3",
+            "/lib/x86_64-linux-gnu/libexpat.so.1",
+            "/usr/lib/x86_64-linux-gnu/libkrb5.so.3",
+            "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3",
+            "/lib/x86_64-linux-gnu/libcom_err.so.2",
+            "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0",
+            "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0",
+            "/usr/lib/x86_64-linux-gnu/libidn2.so.0",
+            "/usr/lib/x86_64-linux-gnu/libunistring.so.2",
+            "/usr/lib/x86_64-linux-gnu/libtasn1.so.6",
+            "/usr/lib/x86_64-linux-gnu/libnettle.so.6",
+            "/usr/lib/x86_64-linux-gnu/libhogweed.so.4",
+            "/usr/lib/x86_64-linux-gnu/libgmp.so.10",
+            "/lib/x86_64-linux-gnu/libdbus-1.so.3",
+            "/lib/x86_64-linux-gnu/libkeyutils.so.1",
+            "/lib/x86_64-linux-gnu/libresolv.so.2",
+            "/usr/lib/x86_64-linux-gnu/libffi.so.6",
+            "/lib/x86_64-linux-gnu/libsystemd.so.0",
+            "/lib/x86_64-linux-gnu/librt.so.1",
+            "/usr/lib/x86_64-linux-gnu/liblz4.so.1",
+            "/lib/x86_64-linux-gnu/libgcrypt.so.20",
+            "/lib/x86_64-linux-gnu/libgpg-error.so.0",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_init.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_std_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_il1_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_statd.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_fonts.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cspace.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_img.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_btokn.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dps1.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dps2.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_agl.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_type1.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_lev2.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_res.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_resmp.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_typ42.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cidfn.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_ciddc.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cidcm.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_fntem.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/xlatmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_sym_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dbt_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cidtt.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cidfm.ps",
+            "/var/lib/ghostscript/fonts/cidfmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cmap.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_setpd.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_fapi.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/FAPIfontmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/FAPIcidfmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_typ32.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_frsd.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_ll3.ps",
+            "/usr/share/ghostscript/9.26/Resource/IdiomSet/Pscript5Idiom",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_icc.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_mex_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_mro_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_pdf_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_wan_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_ops.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_l2img.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_rbld.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_base.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_draw.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_font.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_main.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_sec.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cff.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_mgl_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_ttf.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dps.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dpnxt.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_epsf.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_pdfwr.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/Fontmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/Fontmap.GS",
+            "/var/lib/ghostscript/fonts/Fontmap",
+            "/etc/papersize",
+            "/usr/share/ghostscript/9.26/iccprofiles/default_gray.icc",
+            "/usr/share/ghostscript/9.26/iccprofiles/default_rgb.icc",
+            "/usr/share/ghostscript/9.26/iccprofiles/default_cmyk.icc",
+            "/usr/share/ghostscript/9.26/iccprofiles/lab.icc",
+            "/home/andy/pdf/lorem-ipsum.pdf"
+          ],
+          "start_time": 62794985452930,
+          "writes": [
+            "/home/andy/pdf/lorem-ipsum-001.png",
+            "/home/andy/pdf/lorem-ipsum-002.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

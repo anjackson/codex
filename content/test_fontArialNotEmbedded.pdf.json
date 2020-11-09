@@ -1,0 +1,1224 @@
+{
+  "inputs_outputs": [
+    {
+      "name": "arg",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded.pdf",
+      "read_by_runs": [
+        0
+      ],
+      "written_by_runs": []
+    },
+    {
+      "name": "test_fontArialNotEmbedded-001.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-001.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-002.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-002.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-003.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-003.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-004.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-004.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-005.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-005.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-006.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-006.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-007.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-007.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-008.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-008.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-009.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-009.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-010.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-010.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-011.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-011.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-012.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-012.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-013.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-013.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-014.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-014.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-015.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-015.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-016.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-016.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-017.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-017.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-018.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-018.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-019.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-019.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-020.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-020.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-021.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-021.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-022.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-022.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-023.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-023.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-024.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-024.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-025.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-025.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-026.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-026.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-027.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-027.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-028.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-028.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-029.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-029.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-030.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-030.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-031.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-031.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-032.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-032.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-033.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-033.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-034.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-034.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-035.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-035.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-036.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-036.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-037.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-037.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-038.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-038.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-039.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-039.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-040.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-040.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-041.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-041.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-042.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-042.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-043.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-043.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-044.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-044.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-045.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-045.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-046.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-046.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-047.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-047.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-048.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-048.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-049.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-049.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-050.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-050.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-051.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-051.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-052.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-052.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-053.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-053.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-054.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-054.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-055.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-055.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    },
+    {
+      "name": "test_fontArialNotEmbedded-056.png",
+      "path": "/home/andy/pdf/test_fontArialNotEmbedded-056.png",
+      "read_by_runs": [],
+      "written_by_runs": [
+        0
+      ]
+    }
+  ],
+  "other_files": [
+    "/etc/ld.so.cache",
+    "/etc/papersize",
+    "/home/andy/pdf/test_fontArialNotEmbedded-001.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-002.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-003.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-004.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-005.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-006.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-007.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-008.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-009.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-010.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-011.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-012.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-013.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-014.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-015.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-016.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-017.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-018.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-019.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-020.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-021.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-022.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-023.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-024.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-025.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-026.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-027.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-028.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-029.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-030.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-031.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-032.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-033.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-034.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-035.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-036.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-037.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-038.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-039.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-040.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-041.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-042.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-043.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-044.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-045.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-046.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-047.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-048.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-049.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-050.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-051.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-052.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-053.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-054.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-055.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded-056.png",
+    "/home/andy/pdf/test_fontArialNotEmbedded.pdf",
+    "/usr/share/ghostscript/9.26/Resource/CMap/Identity-H",
+    "/usr/share/ghostscript/9.26/iccprofiles/default_cmyk.icc",
+    "/usr/share/ghostscript/9.26/iccprofiles/default_gray.icc",
+    "/usr/share/ghostscript/9.26/iccprofiles/default_rgb.icc",
+    "/usr/share/ghostscript/9.26/iccprofiles/lab.icc",
+    "/var/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-7",
+    "/var/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-7",
+    "/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-7",
+    "/var/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-7",
+    "/var/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-7",
+    "/var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-7",
+    "/var/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-7",
+    "/var/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-7",
+    "/var/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-7",
+    "/var/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-7",
+    "/var/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-7",
+    "/var/lib/ghostscript/fonts/Fontmap",
+    "/var/lib/ghostscript/fonts/cidfmap"
+  ],
+  "packages": [
+    {
+      "files": [
+        "/etc/fonts/conf.d/10-antialias.conf",
+        "/etc/fonts/conf.d/10-hinting-slight.conf",
+        "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf",
+        "/etc/fonts/conf.d/11-lcdfilter-default.conf",
+        "/etc/fonts/conf.d/20-unhint-small-vera.conf",
+        "/etc/fonts/conf.d/30-metric-aliases.conf",
+        "/etc/fonts/conf.d/40-nonlatin.conf",
+        "/etc/fonts/conf.d/45-generic.conf",
+        "/etc/fonts/conf.d/45-latin.conf",
+        "/etc/fonts/conf.d/49-sansserif.conf",
+        "/etc/fonts/conf.d/50-user.conf",
+        "/etc/fonts/conf.d/51-local.conf",
+        "/etc/fonts/conf.d/60-generic.conf",
+        "/etc/fonts/conf.d/60-latin.conf",
+        "/etc/fonts/conf.d/65-fonts-persian.conf",
+        "/etc/fonts/conf.d/65-nonlatin.conf",
+        "/etc/fonts/conf.d/69-unifont.conf",
+        "/etc/fonts/conf.d/70-no-bitmaps.conf",
+        "/etc/fonts/conf.d/80-delicious.conf",
+        "/etc/fonts/conf.d/90-synthetic.conf",
+        "/etc/fonts/fonts.conf"
+      ],
+      "name": "fontconfig-config",
+      "version": "2.12.6-0ubuntu2"
+    },
+    {
+      "files": [
+        "/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf",
+        "/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf",
+        "/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf",
+        "/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf",
+        "/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf",
+        "/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf",
+        "/etc/fonts/conf.d/57-dejavu-sans-mono.conf",
+        "/etc/fonts/conf.d/57-dejavu-sans.conf",
+        "/etc/fonts/conf.d/57-dejavu-serif.conf",
+        "/etc/fonts/conf.d/58-dejavu-lgc-sans-mono.conf",
+        "/etc/fonts/conf.d/58-dejavu-lgc-sans.conf",
+        "/etc/fonts/conf.d/58-dejavu-lgc-serif.conf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+      ],
+      "name": "fonts-dejavu-core",
+      "version": "2.37-1"
+    },
+    {
+      "files": [
+        "/usr/bin/gs"
+      ],
+      "name": "ghostscript",
+      "version": "9.26~dfsg+0-0ubuntu0.18.04.13"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libavahi-client.so.3"
+      ],
+      "name": "libavahi-client3",
+      "version": "0.7-3.1ubuntu1.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libavahi-common.so.3"
+      ],
+      "name": "libavahi-common3",
+      "version": "0.7-3.1ubuntu1.2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/ld-2.27.so",
+        "/lib/x86_64-linux-gnu/libc.so.6",
+        "/lib/x86_64-linux-gnu/libdl.so.2",
+        "/lib/x86_64-linux-gnu/libm.so.6",
+        "/lib/x86_64-linux-gnu/libpthread.so.0",
+        "/lib/x86_64-linux-gnu/libresolv.so.2",
+        "/lib/x86_64-linux-gnu/librt.so.1"
+      ],
+      "name": "libc6",
+      "version": "2.27-3ubuntu1.2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libcom_err.so.2"
+      ],
+      "name": "libcom-err2",
+      "version": "1.44.1-1ubuntu1.3"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libcups.so.2"
+      ],
+      "name": "libcups2",
+      "version": "2.2.7-1ubuntu2.8"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libcupsimage.so.2"
+      ],
+      "name": "libcupsimage2",
+      "version": "2.2.7-1ubuntu2.8"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libdbus-1.so.3"
+      ],
+      "name": "libdbus-1-3",
+      "version": "1.12.2-1ubuntu1.2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libexpat.so.1"
+      ],
+      "name": "libexpat1",
+      "version": "2.2.5-3ubuntu0.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libffi.so.6"
+      ],
+      "name": "libffi6",
+      "version": "3.2.1-8"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1"
+      ],
+      "name": "libfontconfig1",
+      "version": "2.12.6-0ubuntu2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libfreetype.so.6"
+      ],
+      "name": "libfreetype6",
+      "version": "2.8.1-2ubuntu2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libgcrypt.so.20"
+      ],
+      "name": "libgcrypt20",
+      "version": "1.8.1-4ubuntu1.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libgmp.so.10"
+      ],
+      "name": "libgmp10",
+      "version": "2:6.1.2+dfsg-2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libgnutls.so.30"
+      ],
+      "name": "libgnutls30",
+      "version": "3.5.18-1ubuntu1.4"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libgpg-error.so.0"
+      ],
+      "name": "libgpg-error0",
+      "version": "1.27-6"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libgs.so.9"
+      ],
+      "name": "libgs9",
+      "version": "9.26~dfsg+0-0ubuntu0.18.04.13"
+    },
+    {
+      "files": [
+        "/usr/share/ghostscript/9.26/Resource/Decoding/StandardEncoding",
+        "/usr/share/ghostscript/9.26/Resource/Font/NimbusRoman-Bold",
+        "/usr/share/ghostscript/9.26/Resource/Font/NimbusRoman-BoldItalic",
+        "/usr/share/ghostscript/9.26/Resource/Font/NimbusRoman-Regular",
+        "/usr/share/ghostscript/9.26/Resource/Font/NimbusSans-Bold",
+        "/usr/share/ghostscript/9.26/Resource/Font/NimbusSans-BoldItalic",
+        "/usr/share/ghostscript/9.26/Resource/Font/NimbusSans-Italic",
+        "/usr/share/ghostscript/9.26/Resource/Font/NimbusSans-Regular",
+        "/usr/share/ghostscript/9.26/Resource/IdiomSet/Pscript5Idiom",
+        "/usr/share/ghostscript/9.26/Resource/Init/FAPIcidfmap",
+        "/usr/share/ghostscript/9.26/Resource/Init/FAPIfontmap",
+        "/usr/share/ghostscript/9.26/Resource/Init/Fontmap",
+        "/usr/share/ghostscript/9.26/Resource/Init/Fontmap.GS",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_agl.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_btokn.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cff.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cidcm.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_ciddc.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cidfm.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cidfn.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cidtt.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cmap.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_cspace.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dbt_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dpnxt.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dps.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dps1.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_dps2.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_epsf.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_fapi.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_fntem.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_fonts.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_frsd.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_icc.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_il1_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_img.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_init.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_l2img.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_lev2.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_ll3.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_mex_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_mgl_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_mro_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_pdf_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_pdfwr.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_res.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_resmp.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_setpd.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_statd.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_std_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_sym_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_ttf.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_typ32.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_typ42.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_type1.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/gs_wan_e.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_base.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_draw.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_font.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_main.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_ops.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_rbld.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/pdf_sec.ps",
+        "/usr/share/ghostscript/9.26/Resource/Init/xlatmap"
+      ],
+      "name": "libgs9-common",
+      "version": "9.26~dfsg+0-0ubuntu0.18.04.13"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2"
+      ],
+      "name": "libgssapi-krb5-2",
+      "version": "1.16-2ubuntu0.1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libhogweed.so.4"
+      ],
+      "name": "libhogweed4",
+      "version": "3.4-1"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libidn.so.11"
+      ],
+      "name": "libidn11",
+      "version": "1.33-2.1ubuntu1.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libidn2.so.0"
+      ],
+      "name": "libidn2-0",
+      "version": "2.0.4-1.1ubuntu0.2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libijs-0.35.so"
+      ],
+      "name": "libijs-0.35",
+      "version": "0.35-13"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libjbig.so.0"
+      ],
+      "name": "libjbig0",
+      "version": "2.1-3.1build1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libjbig2dec.so.0"
+      ],
+      "name": "libjbig2dec0",
+      "version": "0.13-6"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libjpeg.so.8"
+      ],
+      "name": "libjpeg-turbo8",
+      "version": "1.5.2-0ubuntu5.18.04.4"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3"
+      ],
+      "name": "libk5crypto3",
+      "version": "1.16-2ubuntu0.1"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libkeyutils.so.1"
+      ],
+      "name": "libkeyutils1",
+      "version": "1.5.9-9.2ubuntu2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libkrb5.so.3"
+      ],
+      "name": "libkrb5-3",
+      "version": "1.16-2ubuntu0.1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0"
+      ],
+      "name": "libkrb5support0",
+      "version": "1.16-2ubuntu0.1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/liblcms2.so.2"
+      ],
+      "name": "liblcms2-2",
+      "version": "2.9-1ubuntu0.1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/liblz4.so.1"
+      ],
+      "name": "liblz4-1",
+      "version": "0.0~r131-2ubuntu3"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/liblzma.so.5"
+      ],
+      "name": "liblzma5",
+      "version": "5.2.2-1.3"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libnettle.so.6"
+      ],
+      "name": "libnettle6",
+      "version": "3.4-1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0"
+      ],
+      "name": "libp11-kit0",
+      "version": "0.23.9-2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libpaper.so.1"
+      ],
+      "name": "libpaper1",
+      "version": "1.1.24+nmu5ubuntu1"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libpng16.so.16"
+      ],
+      "name": "libpng16-16",
+      "version": "1.6.34-1ubuntu0.18.04.2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libsystemd.so.0"
+      ],
+      "name": "libsystemd0",
+      "version": "237-3ubuntu10.42"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libtasn1.so.6"
+      ],
+      "name": "libtasn1-6",
+      "version": "4.13-2"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libtiff.so.5"
+      ],
+      "name": "libtiff5",
+      "version": "4.0.9-5ubuntu0.3"
+    },
+    {
+      "files": [
+        "/usr/lib/x86_64-linux-gnu/libunistring.so.2"
+      ],
+      "name": "libunistring2",
+      "version": "0.9.9-0ubuntu2"
+    },
+    {
+      "files": [
+        "/usr/share/fonts/cmap/adobe-cns1",
+        "/usr/share/fonts/cmap/adobe-gb1",
+        "/usr/share/fonts/cmap/adobe-japan1",
+        "/usr/share/fonts/cmap/adobe-japan2",
+        "/usr/share/fonts/cmap/adobe-korea1"
+      ],
+      "name": "poppler-data",
+      "version": "0.4.8-2"
+    },
+    {
+      "files": [
+        "/lib/x86_64-linux-gnu/libz.so.1"
+      ],
+      "name": "zlib1g",
+      "version": "1:1.2.11.dfsg-0ubuntu2"
+    }
+  ],
+  "runs": [
+    {
+      "name": "run0",
+      "processes": [
+        {
+          "argv": [
+            "gs",
+            "-sDEVICE=pngalpha",
+            "-o",
+            "test_fontArialNotEmbedded-%03d.png",
+            "test_fontArialNotEmbedded.pdf"
+          ],
+          "description": "/usr/bin/gs\n1",
+          "is_thread": false,
+          "long_name": "gs (1)",
+          "name": "1",
+          "parent": null,
+          "reads": [
+            "/usr/bin/gs",
+            "/lib/x86_64-linux-gnu/ld-2.27.so",
+            "/etc/ld.so.cache",
+            "/usr/lib/x86_64-linux-gnu/libgs.so.9",
+            "/lib/x86_64-linux-gnu/libc.so.6",
+            "/usr/lib/x86_64-linux-gnu/libtiff.so.5",
+            "/usr/lib/x86_64-linux-gnu/libcupsimage.so.2",
+            "/usr/lib/x86_64-linux-gnu/libcups.so.2",
+            "/usr/lib/x86_64-linux-gnu/libijs-0.35.so",
+            "/usr/lib/x86_64-linux-gnu/libpng16.so.16",
+            "/usr/lib/x86_64-linux-gnu/libjbig2dec.so.0",
+            "/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+            "/lib/x86_64-linux-gnu/libz.so.1",
+            "/usr/lib/x86_64-linux-gnu/liblcms2.so.2",
+            "/lib/x86_64-linux-gnu/libm.so.6",
+            "/lib/x86_64-linux-gnu/libdl.so.2",
+            "/lib/x86_64-linux-gnu/libidn.so.11",
+            "/usr/lib/x86_64-linux-gnu/libpaper.so.1",
+            "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1",
+            "/usr/lib/x86_64-linux-gnu/libfreetype.so.6",
+            "/lib/x86_64-linux-gnu/libpthread.so.0",
+            "/lib/x86_64-linux-gnu/liblzma.so.5",
+            "/usr/lib/x86_64-linux-gnu/libjbig.so.0",
+            "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+            "/usr/lib/x86_64-linux-gnu/libgnutls.so.30",
+            "/usr/lib/x86_64-linux-gnu/libavahi-common.so.3",
+            "/usr/lib/x86_64-linux-gnu/libavahi-client.so.3",
+            "/lib/x86_64-linux-gnu/libexpat.so.1",
+            "/usr/lib/x86_64-linux-gnu/libkrb5.so.3",
+            "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3",
+            "/lib/x86_64-linux-gnu/libcom_err.so.2",
+            "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0",
+            "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0",
+            "/usr/lib/x86_64-linux-gnu/libidn2.so.0",
+            "/usr/lib/x86_64-linux-gnu/libunistring.so.2",
+            "/usr/lib/x86_64-linux-gnu/libtasn1.so.6",
+            "/usr/lib/x86_64-linux-gnu/libnettle.so.6",
+            "/usr/lib/x86_64-linux-gnu/libhogweed.so.4",
+            "/usr/lib/x86_64-linux-gnu/libgmp.so.10",
+            "/lib/x86_64-linux-gnu/libdbus-1.so.3",
+            "/lib/x86_64-linux-gnu/libkeyutils.so.1",
+            "/lib/x86_64-linux-gnu/libresolv.so.2",
+            "/usr/lib/x86_64-linux-gnu/libffi.so.6",
+            "/lib/x86_64-linux-gnu/libsystemd.so.0",
+            "/lib/x86_64-linux-gnu/librt.so.1",
+            "/usr/lib/x86_64-linux-gnu/liblz4.so.1",
+            "/lib/x86_64-linux-gnu/libgcrypt.so.20",
+            "/lib/x86_64-linux-gnu/libgpg-error.so.0",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_init.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_std_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_il1_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_statd.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_fonts.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cspace.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_img.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_btokn.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dps1.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dps2.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_agl.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_type1.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_lev2.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_res.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_resmp.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_typ42.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cidfn.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_ciddc.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cidcm.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_fntem.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/xlatmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_sym_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dbt_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cidtt.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cidfm.ps",
+            "/var/lib/ghostscript/fonts/cidfmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cmap.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_setpd.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_fapi.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/FAPIfontmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/FAPIcidfmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_typ32.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_frsd.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_ll3.ps",
+            "/usr/share/ghostscript/9.26/Resource/IdiomSet/Pscript5Idiom",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_icc.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_mex_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_mro_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_pdf_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_wan_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_ops.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_l2img.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_rbld.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_base.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_draw.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_font.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_main.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/pdf_sec.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_cff.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_mgl_e.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_ttf.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dps.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_dpnxt.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_epsf.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/gs_pdfwr.ps",
+            "/usr/share/ghostscript/9.26/Resource/Init/Fontmap",
+            "/usr/share/ghostscript/9.26/Resource/Init/Fontmap.GS",
+            "/var/lib/ghostscript/fonts/Fontmap",
+            "/etc/papersize",
+            "/usr/share/ghostscript/9.26/iccprofiles/default_gray.icc",
+            "/usr/share/ghostscript/9.26/iccprofiles/default_rgb.icc",
+            "/usr/share/ghostscript/9.26/iccprofiles/default_cmyk.icc",
+            "/usr/share/ghostscript/9.26/iccprofiles/lab.icc",
+            "/home/andy/pdf/test_fontArialNotEmbedded.pdf",
+            "/etc/fonts/fonts.conf",
+            "/etc/fonts/conf.d/10-antialias.conf",
+            "/etc/fonts/conf.d/10-hinting-slight.conf",
+            "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf",
+            "/etc/fonts/conf.d/11-lcdfilter-default.conf",
+            "/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf",
+            "/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf",
+            "/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf",
+            "/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf",
+            "/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf",
+            "/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf",
+            "/etc/fonts/conf.d/20-unhint-small-vera.conf",
+            "/etc/fonts/conf.d/30-metric-aliases.conf",
+            "/etc/fonts/conf.d/40-nonlatin.conf",
+            "/etc/fonts/conf.d/45-generic.conf",
+            "/etc/fonts/conf.d/45-latin.conf",
+            "/etc/fonts/conf.d/49-sansserif.conf",
+            "/etc/fonts/conf.d/50-user.conf",
+            "/etc/fonts/conf.d/51-local.conf",
+            "/etc/fonts/conf.d/57-dejavu-sans-mono.conf",
+            "/etc/fonts/conf.d/57-dejavu-sans.conf",
+            "/etc/fonts/conf.d/57-dejavu-serif.conf",
+            "/etc/fonts/conf.d/58-dejavu-lgc-sans-mono.conf",
+            "/etc/fonts/conf.d/58-dejavu-lgc-sans.conf",
+            "/etc/fonts/conf.d/58-dejavu-lgc-serif.conf",
+            "/etc/fonts/conf.d/60-generic.conf",
+            "/etc/fonts/conf.d/60-latin.conf",
+            "/etc/fonts/conf.d/65-fonts-persian.conf",
+            "/etc/fonts/conf.d/65-nonlatin.conf",
+            "/etc/fonts/conf.d/69-unifont.conf",
+            "/etc/fonts/conf.d/70-no-bitmaps.conf",
+            "/etc/fonts/conf.d/80-delicious.conf",
+            "/etc/fonts/conf.d/90-synthetic.conf",
+            "/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-7",
+            "/var/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-7",
+            "/var/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-7",
+            "/var/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-7",
+            "/var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-7",
+            "/usr/share/fonts/cmap/adobe-cns1",
+            "/var/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-7",
+            "/usr/share/fonts/cmap/adobe-gb1",
+            "/var/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-7",
+            "/usr/share/fonts/cmap/adobe-japan1",
+            "/var/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-7",
+            "/usr/share/fonts/cmap/adobe-japan2",
+            "/var/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-7",
+            "/usr/share/fonts/cmap/adobe-korea1",
+            "/var/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-7",
+            "/var/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-7",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+            "/usr/share/ghostscript/9.26/Resource/Font/NimbusRoman-Regular",
+            "/usr/share/ghostscript/9.26/Resource/Decoding/StandardEncoding",
+            "/usr/share/ghostscript/9.26/Resource/Font/NimbusSans-Bold",
+            "/usr/share/ghostscript/9.26/Resource/Font/NimbusSans-Regular",
+            "/usr/share/ghostscript/9.26/Resource/Font/NimbusRoman-Bold",
+            "/usr/share/ghostscript/9.26/Resource/Font/NimbusSans-Italic",
+            "/usr/share/ghostscript/9.26/Resource/Font/NimbusRoman-BoldItalic",
+            "/usr/share/ghostscript/9.26/Resource/Font/NimbusSans-BoldItalic",
+            "/usr/share/ghostscript/9.26/Resource/CMap/Identity-H"
+          ],
+          "start_time": 200017953352450,
+          "writes": [
+            "/home/andy/pdf/test_fontArialNotEmbedded-001.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-002.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-003.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-004.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-005.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-006.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-007.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-008.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-009.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-010.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-011.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-012.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-013.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-014.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-015.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-016.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-017.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-018.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-019.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-020.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-021.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-022.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-023.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-024.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-025.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-026.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-027.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-028.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-029.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-030.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-031.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-032.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-033.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-034.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-035.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-036.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-037.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-038.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-039.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-040.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-041.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-042.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-043.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-044.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-045.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-046.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-047.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-048.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-049.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-050.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-051.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-052.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-053.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-054.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-055.png",
+            "/home/andy/pdf/test_fontArialNotEmbedded-056.png"
+          ]
+        }
+      ]
+    }
+  ]
+}
