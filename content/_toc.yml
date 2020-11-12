@@ -1,6 +1,7 @@
 - file: welcome
 - part: Foundations
   chapters:
+  - file: foundations/01-the-plan
   - file: foundations/the-village
   - file: foundations/digidiff/digidiff
     sections:
