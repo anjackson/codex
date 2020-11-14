@@ -30,8 +30,6 @@
   - file: practices/web-archiving/index
     sections:
     - file: practices/web-archiving/why-warc/index
-- part: Exhibits
-  chapters:
   - file: practices/stories/stories
     sections:
     - file: practices/stories/story-of-a-bad-deed/index

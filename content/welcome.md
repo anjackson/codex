@@ -14,6 +14,6 @@ We adopt an expansive definition of digital preservation.  Collections large or 
 This site is an experiment, and right now there's only a handful of articles. If you'd like to see more of this kind of thing, [please let me know!](about)
 ```
 
-## Where to begin?
+## Heigh ho let's go
 
-Well, if you like the idea, take a look at {doc}`/foundations/01-the-plan`.
+So, what's {doc}`/foundations/01-the-plan`.
