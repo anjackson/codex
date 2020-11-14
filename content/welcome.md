@@ -11,7 +11,7 @@ Our goal is to take a bottom-up approach to answering this question, looking for
 We adopt an expansive definition of digital preservation.  Collections large or small, preservation _planned or accidental_, whatever form those digital resources have taken and however they survived, there are lessons to be learned.
 
 ```{warning}
-This site is an experiment, and right now there's only a handful of articles. If you'd like to see more of this kind of thing, [please let me know!](about)
+This site is an experiment, and right now there's only a handful of articles. If you'd like to see more of this kind of thing, [please let me know!](foundations/01-the-plan.html#feedback)
 ```
 
 ## Heigh ho let's go
