@@ -17,13 +17,16 @@ kernelspec:
 You are not alone. This is fundamental.
 
 ```{code-cell} ipython3
-:tags: [remove-cell]
-
+---
+jupyter:
+  outputs_hidden: true
+tags: [remove-cell]
+---
 !pip install networkx ipycytoscape
 ```
 
 ```{code-cell} ipython3
-:tags: [hide-input]
+:tags: [remove-input]
 
 #
 # Oh Hello There! 
@@ -199,7 +202,7 @@ Living across two worlds can be hard. So above all else, you must find support, 
 But if you are given the support you need to be able to reach out, you'll find you are not alone.
 
 ```{code-cell} ipython3
-:tags: [hide-input]
+:tags: [remove-input]
 
 plot_groups(groups=6)
 ```
@@ -252,7 +255,7 @@ Although Twitter and mailing lists are good places to ask questions, it's not al
 As well as these forums, some members of the #digipres community has tried to build a shared information hub in the form of [digipres.org](https://www.digipres.org/).  There are a lot of digital preservation tools and information out there, and [digipres.org](https://www.digipres.org/) attempt to make sure you can find what you need!
 
 ```{code-cell} ipython3
-:tags: [hide-input]
+:tags: [remove-input]
 
 plot_groups(groups=6, link_links=True)
 ```
@@ -281,7 +284,7 @@ We do our best to help each other out, but it's important to recognise that this
 There is _so much_ to be done, all while fighting institutional inertia in order to get _anything_ done. This can leave us feeling undermined and embattled. The _"like minds"_ you find will be able to offer a sympathetic ear, and share their own experiences.  But there's a trap here. Venting shared frustrations brings you closer to those _outside_ your organisation, but can isolate you from those _inside_ it. _Misery loves company_, and it may linger too long.
 
 ```{code-cell} ipython3
-:tags: [hide-input]
+:tags: [remove-input]
 
 plot_groups(groups=6, link_links=True, faded=True)
 ```
@@ -320,7 +323,7 @@ Tension between getting started and building on other's work.
 the idea of cross-linking individuals in similar roles across organisation, building a more resiliant mesh...  Internal joining up, storage, IT, security, etc.
 
 ```{code-cell} ipython3
-:tags: [hide-input]
+:tags: [remove-input]
 
 plot_groups(groups=6, link_links=True, link_groups=True)
 ```
@@ -329,6 +332,4 @@ What gets saved will be what we choose to save, together.
 
 We are not alone. This is fundemental.
 
-```{code-cell} ipython3
-
-```
++++
