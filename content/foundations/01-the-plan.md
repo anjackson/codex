@@ -56,5 +56,5 @@ If you have any feedback about this site, you can contact me:
 
 ## Where to begin?
 
-Well, before getting into technicalities, lets take a look around {doc}`/foundations/01-the-village`.
+Well, before getting into technicalities, lets take a look around {doc}`/foundations/02-the-village`.
 
