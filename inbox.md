@@ -4,14 +4,20 @@ Inbox
 - Foundations
   - The Plan
   - The Village
-  - The Laws (things that are cut across all contexts)
-    - Complexity & Predictability
-      - The Preservation Game: Use Game of Life as a touchstone.
-        - https://bl.ocks.org/lsbardel/c0edf5f88ca5af118599844b7d2dcdf8
-      - Predictability, Focus on Digital Difference. Load/Save.
-    - Evolution (Wardley etc.)
-    - 
+  - Ways Of Knowing
+    - That tacit v explicit thing.
+    - How we learn 'blue' versus how we learn 'two'.
+    - Nothing I can write here could mean you could learn to drive a car, just by reading. Or ride a bike. Or write a poem. Or debug a computer program. I could write things to try, things that might help, but I can't write words that finish the job. It's not 'the battle of Hastings was in 1066', it's not '', it's not quiz fodder.
+    - Not about repetition of something complex. Such recitations can build skills that help you learn, but the precise execution alone is not it.
+  - Complexity & Predictability
+    - The Preservation Game: Use Game of Life as a touchstone.
+      - https://bl.ocks.org/lsbardel/c0edf5f88ca5af118599844b7d2dcdf8
+    - Predictability, Focus on Digital Difference. Load/Save.
+  - Evolution (Wardley etc.)
   - The Digital Difference:
+    - Uncountable and countable sets
+      - Describing reality versus language, packing infinities. 
+      - That all digital limits this to finite sets.
     - Digital Media:
       - Understanding Digital Objects
       - Resist conceptualisation

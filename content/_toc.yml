@@ -2,7 +2,7 @@
 - part: Foundations
   chapters:
   - file: foundations/01-the-plan
-  - file: foundations/the-village
+  - file: foundations/02-the-village
   - file: foundations/digidiff/digidiff
     sections:
     - file: guides/understanding-digital-objects/index
