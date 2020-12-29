@@ -99,7 +99,8 @@ def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width=
 
 
     # Initial layout:
-    pos = nx.spring_layout(G, iterations=1000)
+    plt.figure(figsize=(8,6))
+    pos = nx.spring_layout(G, k=1.5, iterations=1500)
     
     # Static output using that layout:
     if not dynamic:
@@ -109,7 +110,8 @@ def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width=
         else:
             nx.draw_networkx_nodes(G,pos, node_color=nc, node_size=50)
         plt.axis('off')
-        return plt
+        plt.plot()
+        return
     else:
         # Layout and plot the graph:
         network_widget = ipycytoscape.CytoscapeWidget(layout=Layout(width=width, height=height, margin='0px auto 0px auto'))
