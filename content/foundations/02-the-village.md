@@ -1,27 +1,30 @@
 ---
-jupyter:
-  jupytext:
-    formats: ipynb,md
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.2'
-      jupytext_version: 1.8.0
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
+jupytext:
+  formats: ipynb,md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.12
+    jupytext_version: 1.8.0
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
 ---
 
 # The Village
 
 You are not alone. This is fundamental.
 
-```python tags=["remove-cell"]
+```{code-cell} ipython3
+:tags: [remove-cell]
+
 !pip install networkx ipycytoscape
 ```
 
-```python tags=["hide-input"]
+```{code-cell} ipython3
+:tags: [hide-input]
+
 #
 # Oh Hello There! 
 # 
@@ -140,8 +143,9 @@ Living across two worlds can be hard. So above all else, you must find support, 
 
 But if you are given the support you need to be able to reach out, you'll find you are not alone.
 
+```{code-cell} ipython3
+:tags: [hide-input]
 
-```python tags=["hide-input"]
 plot_groups(groups=6)
 ```
 
@@ -155,8 +159,8 @@ They likely operate in different contexts, with different goals and constraints.
 
 If you can meet these like minds, you can help each other. But you'll have to put in the work.
 
++++
 
-<!-- #region -->
 ### Meeting Places
 
 As the [Wikipedia list of digital preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives) shows, there are a _lot_ of potential meeting places.   Here, I'm briefly introduce a handful of those that have helped me on my journey, but this cannot and should not be considered an exaustive list as it is heavily biased by my experiences. One of the things you'll need to work on is researching these organisations, to find out which ones might work for you.
@@ -191,13 +195,13 @@ Alternatively, off social media, there are a number of mailing lists that may he
 Although Twitter and mailing lists are good places to ask questions, it's not always easy to find out if you question has already been answered before, or to improve the answers over time.  This realisation lead to the creation of the [Digital Preservation Questions & Answers](https://qanda.digipres.org/), which was set up by some members of the #digipres community as a place to pool these useful tidbits over time.
 
 As well as these forums, some members of the #digipres community has tried to build a shared information hub in the form of [digipres.org](https://www.digipres.org/).  There are a lot of digital preservation tools and information out there, and [digipres.org](https://www.digipres.org/) attempt to make sure you can find what you need!
-<!-- #endregion -->
 
-```python tags=["hide-input"]
+```{code-cell} ipython3
+:tags: [hide-input]
+
 plot_groups(groups=6, link_links=True)
 ```
 
-<!-- #region -->
 ## The Bad News
 
 One of the things library Twitter folks like to ridicule is the endless stream of editorials about ["the future of libraries"](https://www.google.co.uk/search?q=%22the+future+of+libraries%22&tbs=sbd:1,ar:1&tbm=nws&source=lnt&sa=X&biw=2003&bih=1027&dpr=2), usually written by someone who has seen an eBook once but never talked to a librarian.  There's usually little of value in these articles, but I think the fact that they _keep coming back_ does indicate that many still see libraries and archives through the prism of print.
@@ -221,9 +225,9 @@ We do our best to help each other out, but it's important to recognise that this
 
 There is _so much_ to be done, all while fighting institutional inertia in order to get _anything_ done. This can leave us feeling undermined and embattled. The _"like minds"_ you find will be able to offer a sympathetic ear, and share their own experiences.  But there's a trap here. Venting shared frustrations brings you closer to those _outside_ your organisation, but can isolate you from those _inside_ it. _Misery loves company_, and it may linger too long.
 
-<!-- #endregion -->
+```{code-cell} ipython3
+:tags: [hide-input]
 
-```python tags=["hide-input"]
 network_widget = plot_groups(groups=6, link_links=True)
 network_widget.set_style([
                             {
@@ -265,7 +269,6 @@ network_widget.set_style([
 network_widget
 ```
 
-<!-- #region -->
 Sometimes people end up feeling that only us digital preservation people _get it_. If it's easier and more fun to imagine how things _could_ be than it is to get your institions to take _one more damn step forward_, it's tempting to avoid the conflict. At it's worst, this can lead to immensly ambitious digital preservation ideals that only seem ideal because they will never be blunted by the realities of implementation.[^rirant]
 
 [^rirant]: In the future, this will probably link to something about Representation Information Registries.
@@ -304,9 +307,9 @@ the idea of cross-linking individuals in similar roles across organisation, buil
 
 
 
-<!-- #endregion -->
+```{code-cell} ipython3
+:tags: [hide-input]
 
-```python tags=["hide-input"]
 plot_groups(groups=6, link_links=True, link_groups=True)
 ```
 
@@ -314,7 +317,6 @@ What gets saved will be what we choose to save, together.
 
 We are not alone. This is fundemental.
 
-
-```python
+```{code-cell} ipython3
 
 ```
