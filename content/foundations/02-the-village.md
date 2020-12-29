@@ -34,13 +34,15 @@ You are not alone. This is fundamental.
 from ipywidgets import Layout
 from networkx import nx
 import ipycytoscape
+import matplotlib.pyplot as plt
 
 # Generate some random graphs:
-def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width='100%', height='400px'):
+def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width='100%', height='400px', dynamic=False, faded=False):
 
     # Accumulate the graph here:
     G = None
     nc = []
+    ncf = [] # The 'faded' colour scheme
 
     # Number of links:
     nlinks = int(node_i/3.0)
@@ -74,6 +76,7 @@ def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width=
 
         # Colour the nodes accordingly:
         nc = nc + ['green']*node_i + ['red'] + ['blue']*node_i
+        ncf = ncf + ['gray']*node_i + ['red'] + ['gray']*node_i
 
     # Nodes in each group:
     group_nodes = 2*node_i + 1
@@ -96,41 +99,91 @@ def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width=
 
 
     # Initial layout:
-    pos = nx.spring_layout(G)
-
-    # Layout and plot the graph:
-    network_widget = ipycytoscape.CytoscapeWidget(layout=Layout(width=width, height=height, margin='0px auto 0px auto'))
-    network_widget.user_zooming_enabled = False
-    network_widget.user_panning_enabled = False
-    network_widget.graph.add_graph_from_networkx(G)
-    network_widget.set_layout(name='cola',
-                      nodeSpacing = 5,
-                      edgeLengthVal = 50,
-                      animate = True,
-                      randomize = True, 
-                      maxSimulationTime = 1000000)
-    network_widget.set_style([
+    pos = nx.spring_layout(G, iterations=1000)
+    
+    # Static output using that layout:
+    if not dynamic:
+        nx.draw_networkx_edges(G, pos, width=1.0, alpha=0.75)
+        if faded:
+            nx.draw_networkx_nodes(G,pos, node_color=ncf, node_size=50)
+        else:
+            nx.draw_networkx_nodes(G,pos, node_color=nc, node_size=50)
+        plt.axis('off')
+        return plt
+    else:
+        # Layout and plot the graph:
+        network_widget = ipycytoscape.CytoscapeWidget(layout=Layout(width=width, height=height, margin='0px auto 0px auto'))
+        network_widget.user_zooming_enabled = False
+        network_widget.user_panning_enabled = False
+        network_widget.graph.add_graph_from_networkx(G)
+        network_widget.set_layout(name='cola',
+                          nodeSpacing = 5,
+                          edgeLengthVal = 50,
+                          animate = True,
+                          randomize = True, 
+                          maxSimulationTime = 1000000)
+        network_widget.set_style([
+                                {
+                                    'selector': 'node.you',
+                                    'css': {
+                                        'background-color': 'red'
+                                    }
+                                },
+                                {
+                                    'selector': 'node.them1',
+                                    'css': {
+                                        'background-color': 'green'
+                                    }
+                                },
+                                {
+                                    'selector': 'node.them2',
+                                    'css': {
+                                        'background-color': 'blue'
+                                    }
+                                }
+        ])
+        if faded:
+            network_widget.set_style([
                             {
                                 'selector': 'node.you',
                                 'css': {
-                                    'background-color': 'red'
+                                    'background-color': 'red',
+                                    'height': 60,
+                                    'width': 60
                                 }
                             },
                             {
                                 'selector': 'node.them1',
                                 'css': {
-                                    'background-color': 'green'
+                                    'background-color': 'green',
+                                    'opacity': 0.25
                                 }
                             },
                             {
                                 'selector': 'node.them2',
                                 'css': {
-                                    'background-color': 'blue'
+                                    'background-color': 'blue',
+                                    'opacity': 0.25
                                 }
-                            }
-    ])
-    
-    return network_widget
+                            },
+                            {
+                                'selector': 'edge',
+                                'css': {
+                                    'opacity': 0.25
+                                }
+                            },
+                            {
+                                'selector': 'edge.digipres',
+                                'css': {
+                                    'opacity': 1.0,
+                                    'width': 15,
+                                    'line-color': '#555'
+                                }
+                            }])
+
+        return network_widget
+
+%config InlineBackend.figure_format = 'svg'
 
 plot_groups(height='300px')
 ```
@@ -228,45 +281,7 @@ There is _so much_ to be done, all while fighting institutional inertia in order
 ```{code-cell} ipython3
 :tags: [hide-input]
 
-network_widget = plot_groups(groups=6, link_links=True)
-network_widget.set_style([
-                            {
-                                'selector': 'node.you',
-                                'css': {
-                                    'background-color': 'red',
-                                    'height': 60,
-                                    'width': 60
-                                }
-                            },
-                            {
-                                'selector': 'node.them1',
-                                'css': {
-                                    'background-color': 'green',
-                                    'opacity': 0.25
-                                }
-                            },
-                            {
-                                'selector': 'node.them2',
-                                'css': {
-                                    'background-color': 'blue',
-                                    'opacity': 0.25
-                                }
-                            },
-                            {
-                                'selector': 'edge',
-                                'css': {
-                                    'opacity': 0.25
-                                }
-                            },
-                            {
-                                'selector': 'edge.digipres',
-                                'css': {
-                                    'opacity': 1.0,
-                                    'width': 15,
-                                    'line-color': '#555'
-                                }
-                            }])
-network_widget
+plot_groups(groups=6, link_links=True, faded=True)
 ```
 
 Sometimes people end up feeling that only us digital preservation people _get it_. If it's easier and more fun to imagine how things _could_ be than it is to get your institions to take _one more damn step forward_, it's tempting to avoid the conflict. At it's worst, this can lead to immensly ambitious digital preservation ideals that only seem ideal because they will never be blunted by the realities of implementation.[^rirant]
@@ -301,11 +316,6 @@ Tension between getting started and building on other's work.
 ## Making Connections
 
 the idea of cross-linking individuals in similar roles across organisation, building a more resiliant mesh...  Internal joining up, storage, IT, security, etc.
-
-
-
-
-
 
 ```{code-cell} ipython3
 :tags: [hide-input]
