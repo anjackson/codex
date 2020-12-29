@@ -16,6 +16,12 @@ kernelspec:
 
 You are not alone. This is fundamental.
 
+Almost everything's gone digital, but if you think of yourself as _doing Digital Preservation_ you likely work in or around the cultural heritage sector. Most likely in archives and libraries, or somewhere equally [GLAMourous](https://en.wikipedia.org/wiki/GLAM_(industry)).
+
+And unless you're lucky, you're probably working in a Digital Preservation Team composed of one person. Or less.
+
+Which is fine. Except you're also working on the boundary between two worlds.
+
 ```{code-cell} ipython3
 ---
 jupyter:
@@ -193,19 +199,24 @@ def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width=
 plot_groups(height='300px')
 ```
 
-Digital preservation is built on borderlands. On one side, the rapidly evolving _new world_ of modern information technology. On the other, the _ancient land_ of cultural heritage, of libraries and archives.
+Digital preservation is built on borderlands. On one side, the _new world_ of information technology. On the other, the _ancient land_ of cultural heritage, of libraries and archives. There is a deal of common ground between these two worlds, but each uses different words to talk about concepts that don't quite align. 
 
-Your work is to build a bridge between these cultures; to help each understand the other; to find common purpose; to help both sides learn to _build together_. As the go-between, you will learn both languages. You will be the messenger, and we all know the dangers of being the messenger when the news is bad.
+Implementing digital preservation means both sides have to change.  Often, the cultural heritage side is resistant to change, but just because IT is a lot younger than libraries, that doesn't mean it's still evolving rapidly, or even that good at handling change. Many IT departments are more staid than any cardigan: at their happiest when they get to choose between multiple vendors offering slightly different flavours some very well understood and highly standardised service, and at their most miserable when _the requirements keep \*\*\*\*\*\* changing_.
+
+And here you are, trying to come up with requirements to solve problems neither side quite understands, yet.
+
+
+
+
+Your work is to bridge the gap; to help each understand the other; to find common purpose; to help both sides learn to _build together_. 
+
+### A note on self-preservation
 
 Living across two worlds can be hard. So above all else, you must find support, and be supported. Your managers will likely come from one of the two worlds, so may not understand the issues or perceive the risks.  If they can't help you defuse the dangers and fight the loneliness, leave. 
 
 But if you are given the support you need to be able to reach out, you'll find you are not alone.
 
-```{code-cell} ipython3
-:tags: [remove-input]
-
-plot_groups(groups=6)
-```
++++
 
 ## Kin
 
@@ -217,7 +228,11 @@ They likely operate in different contexts, with different goals and constraints.
 
 If you can meet these like minds, you can help each other. But you'll have to put in the work.
 
-+++
+```{code-cell} ipython3
+:tags: [remove-input]
+
+plot_groups(groups=6)
+```
 
 ### Meeting Places
 
