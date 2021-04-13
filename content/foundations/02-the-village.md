@@ -14,26 +14,26 @@ kernelspec:
 
 # The Village
 
-You are not alone. This is fundamental.
-
 Almost everything's gone digital, but if you think of yourself as _doing Digital Preservation_ you likely work in or around the cultural heritage sector. Most likely in archives and libraries, or somewhere equally [GLAMourous](https://en.wikipedia.org/wiki/GLAM_(industry)).
 
 And unless you're lucky, you're probably working in a Digital Preservation Team composed of one person. Or less.
-
-Which is fine. Except you're also working on the boundary between two worlds.
 
 ```{code-cell} ipython3
 ---
 jupyter:
   outputs_hidden: true
+  source_hidden: true
 tags: [remove-cell]
 ---
 !pip install networkx ipycytoscape
 ```
 
 ```{code-cell} ipython3
-:tags: [remove-input]
-
+---
+jupyter:
+  source_hidden: true
+tags: [remove-input]
+---
 #
 # Oh Hello There! 
 # 
@@ -199,6 +199,8 @@ def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width=
 plot_groups(height='300px')
 ```
 
+On top of this, you're working on the boundary between two worlds.
+
 Digital preservation is built on borderlands. On one side, the _new world_ of information technology. On the other, the _ancient land_ of cultural heritage, of libraries and archives. There is a deal of common ground between these two worlds, but each uses different words to talk about concepts that don't quite align. 
 
 Implementing digital preservation means both sides have to change.  Often, the cultural heritage side is resistant to change, but just because IT is a lot younger than libraries, that doesn't mean it's still evolving rapidly, or even that good at handling change. Many IT departments are more staid than any cardigan: at their happiest when they get to choose between multiple vendors offering slightly different flavours some very well understood and highly standardised service, and at their most miserable when _the requirements keep \*\*\*\*\*\* changing_.
@@ -229,8 +231,11 @@ They likely operate in different contexts, with different goals and constraints.
 If you can meet these like minds, you can help each other. But you'll have to put in the work.
 
 ```{code-cell} ipython3
-:tags: [remove-input]
-
+---
+jupyter:
+  source_hidden: true
+tags: [remove-input]
+---
 plot_groups(groups=6)
 ```
 
@@ -270,8 +275,11 @@ Although Twitter and mailing lists are good places to ask questions, it's not al
 As well as these forums, some members of the #digipres community has tried to build a shared information hub in the form of [digipres.org](https://www.digipres.org/).  There are a lot of digital preservation tools and information out there, and [digipres.org](https://www.digipres.org/) attempt to make sure you can find what you need!
 
 ```{code-cell} ipython3
-:tags: [remove-input]
-
+---
+jupyter:
+  source_hidden: true
+tags: [remove-input]
+---
 plot_groups(groups=6, link_links=True)
 ```
 
@@ -299,8 +307,11 @@ We do our best to help each other out, but it's important to recognise that this
 There is _so much_ to be done, all while fighting institutional inertia in order to get _anything_ done. This can leave us feeling undermined and embattled. The _"like minds"_ you find will be able to offer a sympathetic ear, and share their own experiences.  But there's a trap here. Venting shared frustrations brings you closer to those _outside_ your organisation, but can isolate you from those _inside_ it. _Misery loves company_, and it may linger too long.
 
 ```{code-cell} ipython3
-:tags: [remove-input]
-
+---
+jupyter:
+  source_hidden: true
+tags: [remove-input]
+---
 plot_groups(groups=6, link_links=True, faded=True)
 ```
 
@@ -338,13 +349,16 @@ Tension between getting started and building on other's work.
 the idea of cross-linking individuals in similar roles across organisation, building a more resiliant mesh...  Internal joining up, storage, IT, security, etc.
 
 ```{code-cell} ipython3
-:tags: [remove-input]
-
+---
+jupyter:
+  source_hidden: true
+tags: [remove-input]
+---
 plot_groups(groups=6, link_links=True, link_groups=True)
 ```
 
 What gets saved will be what we choose to save, together.
 
-We are not alone. This is fundemental.
+We are not alone. This is fundamental.
 
 +++
