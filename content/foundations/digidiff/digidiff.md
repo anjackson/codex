@@ -10,7 +10,7 @@ Different people from different backgrounds will have different assumptions abou
 
 In an attempt to break down these barriers, this page presents multiple introductions to digital preservation, and provide links on to more detailed explorations for those who want to know more.
 
-Each written with a different audience in mind, but you are encourage to read them all, to we can understand eachothers points of view.
+Each written with a different audience in mind, but you are encourage to read them all, to we can understand each others points of view.
 
 So, what's different about digital preservation....
 
@@ -33,7 +33,7 @@ The modern, networked computer is a medium all of it's own, and computer softwar
 
 Whereas, despite being digital, a CD player can never become a general-purpose computer, any more than a Gramaphone can become a lathe. That freedom is the digital difference. But his freedom brings new challeges.
 
-We're not keeping objects, we're storing signals, and we need to learn what this means for storage and collection management. And these signals need interpretation, which means we're also in the business of preserve software. On top of that, just as the modern users of an ancient book may require expert guidance, we will need to prepare ourselve to support our users as they explore our digital collections.
+We're not keeping objects, we're storing signals, and we need to learn what this means for storage and collection management. And these signals need interpretation, which means we're also in the business of preserve software. On top of that, just as the modern users of an ancient book may require expert guidance, we will need to prepare ourselves to support our users as they explore our digital collections.
 
 
 

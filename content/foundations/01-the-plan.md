@@ -22,6 +22,7 @@ I'll then build on these concepts to describe the different digital preservation
 Each pattern has been sythesized from a set of practical experiences, examples of which are evidenced in the _Practices_ section.
 
 
+
 ## Interactive notebooks
 
 This site uses the [Jupyter Book](https://jupyterbook.org/) system, which means I can use [Jupyter Notebooks](https://jupyter.org/) to mingle prose and programming together. This is used to generate illustrations as well as provide concrete examples. You won't need to be able to understand the code to make sense of things, but they are easy to run and play about with if you're curious.

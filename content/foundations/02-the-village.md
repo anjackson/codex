@@ -199,6 +199,8 @@ def plot_groups(groups=1, node_i=10, link_links=False, link_groups=False, width=
 plot_groups(height='300px')
 ```
 
++++ {"jupyter": {"source_hidden": true}, "tags": []}
+
 On top of this, you're working on the boundary between two worlds.
 
 Digital preservation is built on borderlands. On one side, the _new world_ of information technology. On the other, the _ancient land_ of cultural heritage, of libraries and archives. There is a deal of common ground between these two worlds, but each uses different words to talk about concepts that don't quite align. 
@@ -360,5 +362,3 @@ plot_groups(groups=6, link_links=True, link_groups=True)
 What gets saved will be what we choose to save, together.
 
 We are not alone. This is fundamental.
-
-+++
