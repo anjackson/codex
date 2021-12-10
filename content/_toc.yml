@@ -12,9 +12,9 @@ parts:
     - file: foundations/digidiff/game-of-life
 - caption: Patterns
   chapters:
+  - file: patterns/environments
   - file: patterns/contexts/contexts
     sections:
-    - file: patterns/contexts/environments
     - file: patterns/contexts/engagement
     - file: patterns/contexts/role
   - file: patterns/systems/index
