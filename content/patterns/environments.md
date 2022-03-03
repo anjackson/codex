@@ -1,7 +1,7 @@
 ---
 ---
 
-# Environment
+# Environments & Communities
 
 One of the biggest reasons different organisations need different tactics is that they are actually trying to accomplish very different things. They operate in very different environements, work with very different communities, and consequently have very different goals.
 
@@ -13,6 +13,11 @@ The [Open Archival Information System (OAIS)][^oais] presents a simple model for
 
 ```{glue:figure} oais_environment_dot
 ```
+
+# Role
+
+Postel's Wedge. Pipe or Producer. 
+
 
 ## Kinds of Environment
 
@@ -77,4 +82,31 @@ Idea of generating space-time plots rather than making them by hand:
 - Highlight events [like the dots on these plots](https://matplotlib.org/3.3.0/gallery/text_labels_and_annotations/annotation_demo.html#using-multiple-coordinate-systems-and-axis-types)
 - Highlight time periods [like this](https://datavizpyr.com/highlight-a-time-range-in-time-series-plot-in-python-with-matplotlib/)
 
+
+# Engagement
+
+Approaches to community and patterns of engagement.
+
+Twist of tooling towards distancing users. 
+
+Have you ever been frustrated at not being able to talk to a person?
+
+Look at item pages from lots of instiutions, where's the Reference Desk?
+
+## Surveillance Capitalism
+
+Separate page?
+
+"Monitoring Designated Community"
+
+...
+To successfully maintain access to digital resources, all the stakeholders involved need to be in a position to make informed decisions.
+
+
+i.e. Patterns are
+
+- Surveillance. Watching.
+- Broadcast. Speaking, not listening.
+- Engagement. one-to-one, still not listening.
+- Discourse? Listening.
 

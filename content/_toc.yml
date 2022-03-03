@@ -1,37 +1,21 @@
 format: jb-book
 root: welcome
 parts:
-- caption: Foundations
-  chapters:
-  - file: foundations/01-the-plan
-  - file: foundations/02-the-village
-  - file: foundations/digidiff/digidiff
-    sections:
-    - file: guides/understanding-digital-objects/index
-    - file: experiments/unsafe-device-removal/index
-    - file: foundations/digidiff/game-of-life
 - caption: Patterns
   chapters:
-  - file: patterns/info_flow
+  - file: patterns/introduction
   - file: patterns/environments
-  - file: patterns/role
-  - file: patterns/engagement
+  - file: patterns/info_flow
   - file: patterns/systems/index
   - file: patterns/access/access
   - file: patterns/formats/index
-    sections:
-    - file: patterns/systems/procurement
-    - file: asides/systems-of-care/index
-- caption: Practices
+  - file: patterns/systems/procurement
+  - file: asides/systems-of-care/index
+  - file: patterns/gaps
+- caption: Experiments
   chapters:
   - file: practices/storage/storage
-    sections:
-    - file: practices/storage/replication-and-repair
+  - file: practices/storage/replication-and-repair
   - file: practices/format-id/index
   - file: practices/web-archiving/index
-    sections:
-    - file: practices/web-archiving/why-warc/index
-  - file: practices/stories/stories
-    sections:
-    - file: practices/stories/story-of-a-bad-deed/index
-    - file: practices/stories/the-analogue-repository/index
+  - file: practices/web-archiving/why-warc/index
