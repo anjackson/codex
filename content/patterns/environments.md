@@ -51,6 +51,20 @@ Use digitised images as example. Look at risks of the sidecar approach.
 [^oais]: https://public.ccsds.org/pubs/650x0m2.pdf
 
 
+### NOT Flow 4: The Split [???]
+
+```{glue:figure} flow_sidecar_dot
+:figwidth: 100%
+:name: "flow_sidecar_dot"
+
+```
+
+This is an audience/community/role pattern not a flow pattern.
+
+#### The Preservation System
+
+... Also a wider pattern the flow...
+
 
 
 ## Space-Time Diagrams
