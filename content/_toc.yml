@@ -4,14 +4,14 @@ parts:
 - caption: Patterns
   chapters:
   - file: patterns/introduction
-  - file: patterns/environments
+#  - file: patterns/environments
   - file: patterns/info_flow
-  - file: patterns/assessing_actions
-  - file: patterns/systems/index
-  - file: patterns/access/access
-  - file: patterns/formats/index
-  - file: patterns/systems/procurement
-  - file: asides/systems-of-care/index
+#  - file: patterns/assessing_actions
+#  - file: patterns/systems/index
+#  - file: patterns/access/access
+#  - file: patterns/formats/index
+#  - file: patterns/systems/procurement
+#  - file: asides/systems-of-care/index
   - file: patterns/gaps
 - caption: Experiments
   chapters:

@@ -1,11 +1,7 @@
 # Looking for Patterns
 
-Whenever someone has a question about preserving digital content, the answer is always the same: 
+To a newcomer to digital preservation, it must seem like every question they have has one of two answers: _"OAIS"_, or _"it depends..."_. High-level models like the Open Archival Information Systems reference model can provide useful frameworks, but cannot provide concrete guidance when it comes to how to actually implement a digital preservation program. At the other extreme, over the years the digital preservation community has done a good job of sharing information on local implementations and workflows (through conferences like [iPres](https://ipres-conference.org/), and via things the [Community Owned Workflows](https://coptr.digipres.org/index.php/Workflow:Community_Owned_Workflows) wiki). These individual reports are a rich source of information, but synthesising this information is a very difficult challenge for a newcomer to take on, as they are least well equipped to know how relevant or current any particular piece of work might be.
 
-_It depends..._
+The [NDSA Levels of Digital Preservation](https://ndsa.org/publications/levels-of-digital-preservation/) have helped bridged this gap from the top down, by providing a concrete roadmap of goals. But any such universal path necessarily must remain abstracted away from the details that depend on context. So, the question is, is there some other format or framework that would allow us to navigate this gap, providing some kind of map that helps us find our place, and understand how our work should adapt to our context.  In short, if the answer is _"it depends..."_, then the next question is _"what does it depend on?"_.
 
-But what does it depend on?
-
-My goal is to take a bottom-up approach to answering this question, looking for patterns across a wide range of different practical approaches to digital preservation, taking into account the various contexts and constraints involved.  These practical patterns can then be used to identify which tactics might work best in a given situation. 
-
-This demands an expansive definition of digital preservation:  collections large or small, preservation _planned or accidental_, whatever form those digital resources have taken and however they survived, there are lessons to be learned.
+Here, I propose that a bottom-up approach is needed in order to answer this question. Specifically, one where concrete experiences of implementing digital preservation processes are drawn together based on common patterns, thereby allowing the common contextual factors to be revealed. What follows is an attempt to analyse one or two distinct aspects of digital preservation within this _"grassroots"_ framework. By publishing this here, I hope to get constructive feedback on whether this approach is useful, especially from newcomers to digital preservation.
