@@ -12,7 +12,7 @@ However, one thing it is very clear about is the overall flow of information thr
 
 
 
-## Flow Pattern 1: The Line
+## Flow 1: The Line
 
 
 > OAIS §1.4 - CONFORMANCE:
@@ -60,7 +60,7 @@ For the subset of sites archived by the [UK Web Archive](https://www.webarchive.
 Note that while the overall information flow of most web archives does match OAIS quite well, there are significant areas of divergence. One example is that the composition of the information packages does not quote line up with the OAIS definition, hence the _SIP(ish)_ and _AIP(ish)_ labels in the above diagram. See _FIXME FUTURE SECTION(S) TO BE WRITTEN_.
 
 
-## Flow Pattern 2: The Fork
+## Flow 2: The Fork
 
 The linear workflow described above may seem obvious, perhaps even inevitable, but it's not. While there is always a line from ingest to access[^1], there is sometimes a fork in the road.
 
@@ -106,7 +106,7 @@ Many digital preservation systems offer NEED EXAMPLE
 
 
 
-## Flow Pattern 3: The Stop
+## Flow 3: The Stop
 
 This final flow pattern addresses the dangers of "dark archives" - ones that cannot be accessed except by the people who manage the archive.
 
@@ -142,7 +142,7 @@ When access copies are generated at ingest time...
 ...
 
 
-## Flow Pattern 3: The Split [???]
+## Flow 4: The Split [???]
 
 ```{glue:figure} flow_sidecar_dot
 :figwidth: 100%
@@ -156,7 +156,7 @@ When access copies are generated at ingest time...
 
 Like the backups you never tried to restore
 
-Many preservation systems generate DIP components prior to ingest, and are therefore necessarily under _Flow Pattern 2: The Fork_. As such, the organizations that build their archives around these systems cannot be considered strictly conformant with the OAIS reference model.
+Many preservation systems generate DIP components prior to ingest, and are therefore necessarily under _Flow 2: The Fork_. As such, the organizations that build their archives around these systems cannot be considered strictly conformant with the OAIS reference model.
 
 AIP noun/verb, AIP is what it is, versus AIP the role it plays.
 

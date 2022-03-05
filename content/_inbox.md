@@ -25,7 +25,8 @@ Structure
 - [Information Flow](/JAck46DsQrCHUbxV4IENAg)
     - Missing "it's not about _when_"???
     - _TO BE CHECKED_
-- Assessing Preservation Actions _TO BE TRANSFERRED_
+- Assessing Preservation Actions 
+    - _TO BE TRANSFERRED_
 - Archival Information Package Design:
     - AIP == SIP+, AIP == SIP- or AIP-is-wrapped-SIP, AIP-is-cleaned-up-SIP, 
     - Pointing out or pointing in
