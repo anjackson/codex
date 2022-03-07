@@ -19,9 +19,7 @@ described in 2.2"
 > OAIS §2.2.3 - INFORMATION PACKAGE VARIANTS:
 > "Within the OAIS one or more SIPs are transformed into one or more Archival Information Packages  (AIPs)  for  preservation. [...] In response to a request, the OAIS provides all or a part of an AIP to a Consumer in the form of a Dissemination Information Package (DIP). "
 
-In other words, Submission Information Packages (SIPs) come in from Producers, are managed as Archival Information Packages (AIPs), and these AIPs are then used to generate the Dissemination Information Packages (DIPs) that serve the needs of the archive's user community a.k.a. Consumers.
-
-This fundemental design pattern for digital archives -- this way of describing the overall flow of archival information -- can be visualised via this simple diagram:
+Under OAIS, Submission Information Packages (SIPs) come in from Producers, are managed as Archival Information Packages (AIPs), and these AIPs are then used to generate the Dissemination Information Packages (DIPs) that serve the needs of the archive's user community a.k.a. Consumers. This fundemental design pattern for digital archives -- this way of describing the overall flow of archival information -- can be visualised via this simple diagram:
 
 
 ```{glue:figure} flow_line_dot
@@ -130,7 +128,9 @@ While some of this is specific to Archivematica, the fact is the documentation f
 
 ## Summary
 
-These three distict information flow patterns show how easy it is to accidentally stray from the linear OAIS flow. This is not necessarily a problem, but it's important to be aware of the balance of risks in each case. A backup that's never been tested is no backup at all, and while this usually applies to storage and replication, it also applies to our AIPs and DIPs.
+These three distict information flow patterns show that there are fully functional and widespread archival information flows that are not strictly OAIS conformant. This is not a problem with the arhives, but with the assumptions withing OAIS.  Each workflow has it's place, but it's important to be aware of the balance of benefits and risks of each approach. 
+
+A backup that's never been tested is no backup at all, and while this usually applies to storage and replication, it also applies to our AIPs and DIPs.
 
 
 [^1]: Unless you have a time machine. But in that case, you don't need to worry about digital preservation.
