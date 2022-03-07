@@ -13,6 +13,9 @@ I'll then build on these concepts to describe the different digital preservation
 
 Each pattern has been sythesized from a set of practical experiences, examples of which are evidenced in the _Practices_ section.
 
+This belongs in systems breakdown: AIP noun/verb, AIP is what it is, versus AIP the role it plays.
+
+
 
 Structure
 ---------
