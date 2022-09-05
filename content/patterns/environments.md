@@ -14,9 +14,10 @@ The [Open Archival Information System (OAIS)][^oais] presents a simple model for
 ```{glue:figure} oais_environment_dot
 ```
 
-# Role
+# Role/Authority?
 
 Postel's Wedge. Pipe or Producer. 
+
 
 
 ## Kinds of Environment

@@ -18,6 +18,10 @@ Something something actually this makes sense because the SIP is what crosses th
 you want the Thing (AIP and DIP) to survive longer than any particular repostory system.
 
 
+In practice, access is rarely stimulated or simulated. Instead, to avoid losing data, the whole SIP is kept and embedded within the AIP as-is.  This still assumes there has been no problem in the creation and transfer of the SIP itself, relying on ingest-time validation to pick up any problems at an early stage.
+
+
+
 Structure
 ---------
 

@@ -4,7 +4,7 @@ parts:
 - caption: Patterns
   chapters:
   - file: patterns/introduction
-#  - file: patterns/environments
+  - file: patterns/environments
   - file: patterns/info_flow
   - file: patterns/assessing_actions
 #  - file: patterns/systems/index
