@@ -55,7 +55,7 @@ While their web archive generates derivatives on demand (as above), the [Interne
 
 ```
 
-It's interesting to note that the Internet Archive documentation does not talk in terms of SIPs AIPs and DIPs.  The information packages are referred to as _Items_ throughout, and an _Item_ is just a collection of files and (optional) sub-folders.  More emphasis is placed on explaining the _Upload_ and _Derive_ processes, e.g. how different file formats and configurations are interpreted during the generation of derivatives.
+Note that the Internet Archive documentation does not talk in terms of SIPs AIPs and DIPs.  The information packages are simply referred to as _Items_ throughout, where an _Item_ is essentially a collection of files and (optional) sub-folders.  More emphasis is placed on explaining the _Upload_ and _Derive_ processes, e.g. how different file formats and configurations are interpreted during the generation of derivatives.
 
 ## Flow 2: The Stop
 
