@@ -69,6 +69,12 @@ The linear workflow described above may seem obvious, perhaps even inevitable, b
 
 In these cases, the focus tends to be on ingesting the content, and not on how that content might be used in the future. There may be DIPs, but they are not well tested because no-one really uses them much. Or there may be no DIPs at all, or just some theoretical DIP based on an imagined future. The danger here is that it's possible to miss some information you need from the SIP, or from the wider context, because you'd only realise you needed it when your user community started trying to access the material. Ideally, to mitigate against this risk, it is necessary to either encourage real usage, or at least simulate it, so that access problems can be identified while there is still some hope of resolving them. Otherwise, your AIPs are like a backup that's never been tested.
 
+```{glue:figure} flow_sidecar_dot
+:figwidth: 100%
+:name: "flow_sidecar_dot"
+
+```
+
 
 ### The UK Web Archive
 
@@ -115,6 +121,12 @@ The problem was the article segmentation process had not been properly documente
 When looking at tools and services that implemented digital preservation processes, it can be very difficult to tell exactly what's going on _under the hood_ and therefore difficult to determine what kind of information flow is being implemented. However, both [Archivematica](https://www.archivematica.org/en/) and [Rosetta](https://exlibrisgroup.com/products/rosetta-digital-asset-management-and-preservation/) have a significant amount of documentation that is openly accessible online, so this allows is to gain some insight into how things are done.
 
 Reading [the Archivematica documentation](https://www.archivematica.org/en/docs/archivematica-1.13/user-manual/ingest/ingest/#normalize) it is clear that Archivematica _usually_ performs all processing up front, prior to ingest: the DIP is clearly generated directly from the SIP, but the system takes steps to ensure nothing is lost by making the original SIP form the basis of the AIP. Archivematica does make it possible to derive access copies in a post-ingest process as part of the 're-ingest' workflow, but this is not the normal mode of operation. Rosetta also supports post-ingest generation of access copies via a [_Create Derivative Copy Representation_](https://knowledge.exlibrisgroup.com/Rosetta/Knowledge_Articles/How_does_Rosetta_manage_Derivative_Copy_representations%3F) workflow, but like Archivematica, this appears to be seen as a secondary mode of operation, with ingest-time processing being the primary focus.
+
+```{glue:figure} flow_fork_encapsulated_dot
+:figwidth: 100%
+:name: "flow_fork_encapsulated_dot"
+
+```
 
 Note that this is not a criticism of these tools, which are merely implementing the workflow that their users have requested. Note also that it is not possible to draw comparisons with other preservation systems because this analysis is necessarily skewed towards those tools that provide detailed documentation online.
 
