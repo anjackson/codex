@@ -19,7 +19,15 @@ described in 2.2"
 > OAIS §2.2.3 - INFORMATION PACKAGE VARIANTS:
 > "Within the OAIS one or more SIPs are transformed into one or more Archival Information Packages  (AIPs)  for  preservation. [...] In response to a request, the OAIS provides all or a part of an AIP to a Consumer in the form of a Dissemination Information Package (DIP). "
 
-Under OAIS, Submission Information Packages (SIPs) come in from Producers, are managed as Archival Information Packages (AIPs), and these AIPs are then used to generate the Dissemination Information Packages (DIPs) that serve the needs of the archive's user community a.k.a. Consumers. This fundamental design pattern for digital archives -- this way of describing the overall flow of archival information -- can be visualised via this simple diagram:
+Under OAIS, Submission Information Packages (SIPs) come in from Producers, are managed as Archival Information Packages (AIPs), and these AIPs are then used to generate the Dissemination Information Packages (DIPs) that serve the needs of the archive's user community a.k.a. Consumers. This fundamental design pattern for digital archives -- this way of describing the overall flow of archival information -- can be visualised as follows:
+
+```{glue:figure} flow_line_with_contexts_dot
+:figwidth: 100%
+:name: "flow_line_with_contexts_dot"
+
+```
+
+Or simply:
 
 
 ```{glue:figure} flow_line_dot
