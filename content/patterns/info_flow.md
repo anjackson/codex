@@ -77,12 +77,6 @@ The linear workflow described above may seem obvious, perhaps even inevitable, b
 
 In these cases, the focus tends to be on ingesting the content, and not on how that content might be used in the future. There may be DIPs, but they are not well tested because no-one really uses them much. Or there may be no DIPs at all, or just some theoretical DIP based on an imagined future. The danger here is that it's possible to miss some information you need from the SIP, or from the wider context, because you'd only realise you needed it when your user community started trying to access the material. Ideally, to mitigate against this risk, it is necessary to either encourage real usage, or at least simulate it, so that access problems can be identified while there is still some hope of resolving them. Otherwise, your AIPs are like a backup that's never been tested.
 
-```{glue:figure} flow_sidecar_dot
-:figwidth: 100%
-:name: "flow_sidecar_dot"
-
-```
-
 
 ### The UK Web Archive
 
@@ -120,6 +114,12 @@ In many cases, especially those where the critical payload of each package is a 
 
 ### An Outsourced Digitization
 
+```{glue:figure} flow_fork_upstream_dot
+:figwidth: 100%
+:name: "flow_fork_upstream_dot"
+
+```
+
 This example involves a digitization project where much of the work had been outsourced to a third-party. The decision had been made to get the external partner to generate "access copies" as well as the long-term "preservation copies". The preservation version consisted of high-resolution, full page TIFF files and associated metadata tying each set of TIFFs together, mapping back to the original publication. However, the access versions were not simply JPEGs of the preservation versions, because the items were broken up at the level of individual articles. This worked well for access purposes at the time.
 
 The problem was the article segmentation process had not been properly documented. The coordinates on the TIFF version that corresponded to the positions of the JPEG versions had been lost. This meant that when the access system became obsolete, it was not be possible to replace it like-for-like, i.e. while still preserving the same article-level experience. 
@@ -139,21 +139,27 @@ Reading [the Archivematica documentation](https://www.archivematica.org/en/docs/
 Note that this is not a criticism of these tools, which are merely implementing the workflow that their users have requested. Note also that it is not possible to draw comparisons with other preservation systems because this analysis is necessarily skewed towards those tools that provide detailed documentation online.
 
 
+
 ## Summary
 
 These three distinct information flow patterns show that there are fully-functional and widespread archival information flows that are not strictly OAIS conformant. This is not a problem with the archives or the software, but just alternative modes of operation that are not fully represented by OAIS as it stands. Each information flow pattern has it's place, but it's important to be aware of the balance of benefits and risks of each.
 
-## Conclusions
+It's also important to consider where the archive fits into the wider information environment, because these patterns may turn up in combination.
 
-In this paper we have used the idea of design patterns as a way of capturing different choices that can be made when implementating a digital preservation process, focussing on overall information flow. The same tactic could also be applied to other aspects of digital preservation, such as:
+### Backup versus Archive
 
-- Communities: can we identify different classes of communities and environments, helping us understand how to engage with them?
-- Ownership: is the archive part of the organisation that own the records, or do we hold records on behalf of others? How does this change what we need to do?
-- Assessing Preservation Actions: what are the different meanings of Significant Properties, and what other methods can we used to assess our interventions?
-- Archival Packaging Patterns: what are the different approaches to defining information packages.
-- System Architectures: what are the different ways we can implement the OAIS functional requirements, i.e. which system or systems covering which functions?
+For example, in some cases, the digital preservation system may be run as a 'sidecar' service, alongside a live 'Work In Progress' (WIP) system that is used for managing digital resources and making them available to end users.  There may be an existing repository, or some content/asset management system, which works well day-to-day but does not meet all the requirements of preservation requirements. For example, it may not be capable of managing the process of data replication, or handling formats preferred for preservation purposes.
 
-This paper seeks feedback on this approach, and on whether future work along these lines would be of use to the wider community.
+To address these gaps, a 'sidecar' preservation service takes copies of items from the 'Work In Progress' system, leading to an overall information flow that looks like this:
+
+```{glue:figure} flow_sidecar_dot
+:figwidth: 100%
+:name: "flow_sidecar_dot"
+
+```
+
+This final picture combines both the Fork and the Stop patterns of information flow, and so style of implementation needs to address both the risks of gaps between the AIP and the _real_ DIP that users actually use, and other, greater inconsistencies between the AIP and DIP, like whether there really is a preserved AIP for every DIP. Indeed, because the overall organisational archival function is being delivered by multiple separate systems (which may even be operated by different teams), the risk of missed dependencies and inconsistencies is greater still.  It can also mean that the preservation service receives very little information about how end users are interacting with the content, preventing the service from engaging with the user community and detecting access difficulties and issues relating to obsolescence.
+
 
 
 [^1]: Note that while this overall information flow of does match OAIS quite well, there are significant areas of divergence. For example, the composition of the different information packages does not quite line up with the OAIS definitions. The different ways of implementing information packages is another aspect of digital preservation that might benefit from the identification of different patterns of practice.
