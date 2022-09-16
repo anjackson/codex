@@ -41,21 +41,50 @@ Inbox
         - http://anjackson.github.io/keeping-codes/fundamentals/significant-properties-and-authentic-transformations
       - DPC post nicely shows the problem with abstracting representation information:
         - ? https://www.dpconline.org/blog/minding-the-gaps ?
-  
+
+
+...SOONER...  
+
+
+
+- Context
+  - Theory & Practice
+  - Purpose
+- Landscape
+- Maps
+  - Wardley Maps
+  - Mapping Space & Time
+  - ...?
 - Patterns
+  - Environments? is Authority part of this? Relationship between Producer, Creator & Archive. I think it is.
+    - Authority - are these your records? Common Carrier or Information Source
+  - Information Flows:
+    - Combinations, with/without broader environment? 
+    - Draw Your Own? 
+  - Assessing Actions
+  - Collaborations? Was _The Village_
+- Blogs:
+  - Reg workshop report.
+  - Post on Edith's project, (built like I like "when blood sees blood of it's own".)
+  - Post on the award, after getting/reading it, and when there's a web version.
+
+
+...LATER...
+
+- Patterns?
   - Contexts
     - Space-time diagrams
     - Implies access _via_ but this is not the norm!
     - Producer: partners or publishers?
     - Also native communities v wider communities, https://twitter.com/footage/status/1306488087657152517?s=21
     - Goals: 
-      - Common Carrier or Information Source
+      - Authority: Common Carrier or Information Source
         - Seems to link to Shannon.
       - Outcome or Process.
   - Systems Of Care:
     - Tactics:
+      - Information Flows: Fork v Line
       - Workflows...
-      - Fork v Line
       - Monitor v Engage
       - Format v Adaptive Response
       - Once v Forever / Product v Process / Preservation

@@ -1,4 +1,4 @@
-# Looking for Patterns
+# The Gulf
 
 To a newcomer to digital preservation, it must seem like every question they have has one of two answers: _"OAIS"_, or _"it depends..."_. Standards like the Open Archival Information Systems reference model can provide useful high-level frameworks, but cannot provide concrete guidance when it comes to how to actually implement a digital preservation program. At the other extreme, over the years the digital preservation community has done a good job of sharing information on local implementations and workflows (through conferences like [iPres](https://ipres-conference.org/), and via things the [Community Owned Workflows](https://coptr.digipres.org/index.php/Workflow:Community_Owned_Workflows) wiki). These individual reports are a rich source of information, but synthesising this information is a very difficult challenge for a newcomer to take on, as they are least well equipped to know how relevant or current any particular piece of work might be.
 
