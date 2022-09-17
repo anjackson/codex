@@ -16,12 +16,10 @@ parts:
 #    - file: asides/systems-of-care/index
 - caption: Practices
   chapters:
-  - file: practices/practices
+  - file: practices/storage/storage
     sections:
-    - file: practices/storage/storage
-      sections:
-      - file: practices/storage/replication-and-repair
-    - file: practices/format-id/index
-    - file: practices/web-archiving/index
-      sections:
-      - file: practices/web-archiving/why-warc/index
+    - file: practices/storage/replication-and-repair
+  - file: practices/format-id/index
+  - file: practices/web-archiving/index
+    sections:
+    - file: practices/web-archiving/why-warc/index
