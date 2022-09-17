@@ -14,10 +14,14 @@ parts:
 #    - file: patterns/formats/index
 #    - file: patterns/systems/procurement
 #    - file: asides/systems-of-care/index
-- caption: Experiments
+- caption: Practices
   chapters:
-  - file: practices/storage/storage
-  - file: practices/storage/replication-and-repair
-  - file: practices/format-id/index
-  - file: practices/web-archiving/index
-  - file: practices/web-archiving/why-warc/index
+  - file: practices/practices
+    sections:
+    - file: practices/storage/storage
+      sections:
+      - file: practices/storage/replication-and-repair
+    - file: practices/format-id/index
+    - file: practices/web-archiving/index
+      sections:
+      - file: practices/web-archiving/why-warc/index
