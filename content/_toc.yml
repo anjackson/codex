@@ -1,9 +1,11 @@
 format: jb-book
 root: welcome
 parts:
-- caption: Patterns & Maps
+- caption: Introduction
   chapters:
   - file: introduction
+- caption: Patterns & Maps
+  chapters:
   - file: patterns/introduction
     sections:
     - file: patterns/environments
@@ -23,3 +25,6 @@ parts:
   - file: practices/web-archiving/index
     sections:
     - file: practices/web-archiving/why-warc/index
+- caption: Coda
+  chapters:
+  - file: about

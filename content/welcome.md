@@ -1,23 +1,23 @@
 # Welcome to digipres.net
 
-````{margin}
-
-```{warning}
-This is an experiment, and right now there's only a handful of articles. The content and structure may change at any time.
+```{image} images/spruce_dp_digibox.svg
+---
+scale: 50%
+align: right
+alt: A box of digital things, from the SPRUCE DP Illustrations collection.
+---
 ```
 
-```{tip}
-If you'd like to see more of this kind of thing, or less, {doc}`please let me know!</about>`
-```
+Built on published research and practical examples, this online book aims to help you hone your craft as a digital preservation practitioner. The goal is to help you preserve and maintain access to digital resources, whether you are handling digitised versions of print materials, or born-digital content, or something in between. 
 
-````
-
-This online book aims to help you learn how to do digital preservation. Build upon the best theoretical and practical research and publications, this online toolbox will help you hone your craft as a digital preservation practictioner.
-
-_A nice image_
 
 _Briefly introduce patterns & maps, and the practice part._
 
 
+```{note}
+This is an experiment, and right now there's only a handful of articles. The content and structure may change at any time too.
+
+If you'd like to see more of this kind of thing, or less, {doc}`please let me know!</about>`
+```
 
 

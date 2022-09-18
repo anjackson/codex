@@ -1,8 +1,4 @@
-# Introduction
-
-## What is digital preservation?
-
-The purpose of this book is to help you preserve and maintain access to digital resources. These resources may be digitised versions of print materials, or born-digital content, or even somewhere inbetween. Wherever the bytes came from, we want to ensure you can manage and maintain them over time.
+# What is digital preservation?
 
 The intended audience for this book is people who already know a bit about digital preservation and want to start doing it. But if you do need help getting started, here are some recommendations.
 
