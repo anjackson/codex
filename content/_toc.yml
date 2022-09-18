@@ -3,9 +3,11 @@ root: welcome
 parts:
 - caption: Introduction
   chapters:
-  - file: introduction
+  - file: foundations/what_is_digipres
+#  - file: foundations/doing_digipres
 - caption: Patterns & Maps
   chapters:
+  - file: patterns/gaps
   - file: patterns/introduction
     sections:
     - file: patterns/environments
