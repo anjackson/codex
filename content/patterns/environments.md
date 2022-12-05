@@ -1,6 +1,3 @@
----
----
-
 # Environments & Communities
 
 One of the biggest reasons different organisations need different tactics is that they are actually trying to accomplish very different things. They operate in very different environements, work with very different communities, and consequently have very different goals.

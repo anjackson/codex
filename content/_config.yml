@@ -2,7 +2,7 @@
 title: digipres.net
 author: Andrew N. Jackson
 logo: "images/logo.png"
-exclude_patterns: ["**.ipynb_checkpoints"]
+exclude_patterns: ['_build', '**.ipynb_checkpoints']
 
 # Execution options:
 execute:
@@ -36,3 +36,4 @@ html:
 sphinx:
   config:
     html_show_copyright: true
+

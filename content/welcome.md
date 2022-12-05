@@ -2,7 +2,7 @@
 
 ```{image} images/spruce_dp_digibox.svg
 ---
-scale: 50%
+scale: 100%
 align: right
 alt: A box of digital things, from the SPRUCE DP Illustrations collection.
 ---
