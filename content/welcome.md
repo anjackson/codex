@@ -8,7 +8,7 @@ alt: A box of digital things, from the SPRUCE DP Illustrations collection.
 ---
 ```
 
-Built on published research and practical examples, this online book aims to help you hone your craft as a digital preservation practitioner. The goal is to help you preserve and maintain access to digital resources, whether you are handling digitised versions of print materials, or born-digital content, or something in between. 
+Built on published research and practical examples, this online book aims to help you hone your craft as a digital preservation practitioner. The goal is to help you preserve and maintain access to digital resources, whether you are handling digitised versions of print materials or born-digital content.
 
 
 _Briefly introduce patterns & maps, and the practice part._

@@ -1,4 +1,4 @@
-# Information Flow
+# Information Flows
 
 The [Open Archival Information System (OAIS)](https://en.wikipedia.org/wiki/Open_Archival_Information_System) reference model is generally very high-level. There are a _lot_ of different ways of running an archive that would still fit. 
 
