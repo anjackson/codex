@@ -1,6 +1,13 @@
-# Understanding Digital Media
+# Digital Objects
 
 subtitle: 'What are we trying to preserve?'
+
+* Physical/Signal Object
+* Persistent Object
+* Process Object
+* Performance Object
+* Perceived Object / Abstract Object ???
+
 
 ## Introduction
 
@@ -27,6 +34,14 @@ Well, the *official* answer is clear enough:
 > <br/><small class="d-block text-right">[Reference Model for an Open Archival Information System (OAIS)][1]</small>
 
 ![Ce ne sont pas un objet numérique.](./notado.png)
+
+>
+> If the recipient does not already include English in its Knowledge Base, then the English text (the data) needs to be accompanied by English dictionary and grammar information (i.e., Representation Information) in a form that is understandable using the recipient’s Knowledge Base.
+> 2.2.1 INFORMATION DEFINITION
+>
+> ???
+> The Representation Information accompanying a physical object like a moon rock may give additional meaning, as a result of some analysis, to the physically observable attributes of the rock. This information may have been developed over time and the results, if provided, would be part of the Information Object. 
+> ???
 
 Other treatments have attempted to draw more attention to the layers of interpretation around bitstreams -- to the software. For example, [Kenneth Thibodeau's tripartite model][3] teases the digital object into physical, logical and conceptual layers.  The team behind [BitCurator][7] tease the notion of a digital object into even more layers:
 

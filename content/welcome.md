@@ -8,11 +8,12 @@ alt: A box of digital things, from the SPRUCE DP Illustrations collection.
 ---
 ```
 
-Built on published research and practical examples, this online book aims to help you hone your craft as a digital preservation practitioner. The goal is to help you preserve and maintain access to digital resources, whether you are handling digitised versions of print materials or born-digital content.
 
+To a newcomer to digital preservation, it must seem like every question has the same answer: _"it depends..."_. 
 
-_Briefly introduce patterns & maps, and the practice part._
+But what does the answer depend on? What are the contextual factors that affect our decisions?
 
+Here, I propose that a practice-driven approach is needed in order to answer this question. Specifically, one where concrete experiences of implementing digital preservation processes are drawn together based on common patterns, thereby allowing the common contextual factors to be revealed.
 
 ```{note}
 This is an experiment, and right now there's only a handful of articles. The content and structure may change at any time too.
