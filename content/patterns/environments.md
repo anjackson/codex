@@ -11,7 +11,7 @@ The [Open Archival Information System (OAIS)][^oais] presents a simple model for
 ```{glue:figure} oais_environment_dot
 ```
 
-# Role/Authority?
+## Role/Authority?
 
 Postel's Wedge. Pipe or Producer. 
 
@@ -95,7 +95,7 @@ Idea of generating space-time plots rather than making them by hand:
 - Highlight time periods [like this](https://datavizpyr.com/highlight-a-time-range-in-time-series-plot-in-python-with-matplotlib/)
 
 
-# Engagement
+## Engagement
 
 Approaches to community and patterns of engagement.
 

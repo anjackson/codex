@@ -1,4 +1,4 @@
-# Welcome to digipres.net
+# Design Patterns for Digital Preservation
 
 ```{image} images/spruce_dp_digibox.svg
 ---
@@ -8,17 +8,19 @@ alt: A box of digital things, from the SPRUCE DP Illustrations collection.
 ---
 ```
 
+In digital preservation, it seems like every question has the same answer: 
 
-To a newcomer to digital preservation, it must seem like every question has the same answer: _"it depends..."_. 
+_...it depends..._
 
-But what does the answer depend on? What are the contextual factors that affect our decisions?
+But what does it depend on? What are the contextual factors that affect our decisions?
 
-Here, I propose that a practice-driven approach is needed in order to answer this question. Specifically, one where concrete experiences of implementing digital preservation processes are drawn together based on common patterns, thereby allowing the common contextual factors to be revealed.
+This site aims to draw out distinct design patterns, based on real-world examples of digital preservation in practice. These patterns, and the contextual factors they depend on, can then be used to map of the landscapes we work in, and help us find our path.
+
 
 ```{note}
-This is an experiment, and right now there's only a handful of articles. The content and structure may change at any time too.
+This is an experiment, and right now there's only a handful of articles, mostly drawing on examples from my own experience.
 
-If you'd like to see more of this kind of thing, or less, {doc}`please let me know!</about>`
+If you'd like to see more of this kind of thing, or less, or if you can share practical examples that either align or break these patterns, [please let me know!](about:contact)
 ```
 
 

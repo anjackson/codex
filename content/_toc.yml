@@ -3,6 +3,7 @@ root: welcome
 parts:
 - caption: PATTERNS & MAPS
   chapters:
+  - file: introduction
   - file: patterns/introduction
     sections:
     - file: patterns/environments
@@ -17,6 +18,7 @@ parts:
   - file: maps/introduction
     sections:
     - file: maps/wardley-maps
+  - file: future-work.md
 # - caption: Practices
 #   chapters:
 #   - file: practices/storage/storage

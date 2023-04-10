@@ -139,7 +139,7 @@ The task of turning an original file into it's XCDL representation was performed
 ```{figure} ./images/sp_xcl.jpg
 ---
 width: 70%
-name: sp-features
+name: sp-xcl
 ---
 The vision for XCL
 ```
@@ -182,6 +182,6 @@ e.g. generate plain text version of
 That said, as we will discuss below, this kind of validation is often better handled via other means, like validating checksum manifests.
 
 
-#### Automated Evaluation of Web Archive Access
+### Automated Evaluation of Web Archive Access
 
 Screenshots plan.

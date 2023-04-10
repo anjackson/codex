@@ -25,11 +25,8 @@ Intro...
 ```
 
 ```{code-cell} ipython3
----
-jupyter:
-  source_hidden: true
-tags: [remove-input]
----
+:tags: [remove-input]
+
 %%wardley
 title Tea Shop
 anchor Business [0.95, 0.63]
