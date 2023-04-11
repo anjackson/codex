@@ -17,6 +17,12 @@ repository:
   path_to_book: content  # An optional path to your book, defaults to repo root
   branch: jbook  # An optional branch, defaults to `master`
 
+# Launch button settings:
+launch_buttons:
+  notebook_interface: "classic"  # or "jupyterlab"
+  binderhub_url: "https://mybinder.org"
+  colab_url: "https://colab.research.google.com"
+
 # HTML settings:
 html:
   use_repository_button: true
@@ -38,4 +44,5 @@ html:
 sphinx:
   config:
     html_show_copyright: true
-
+  extra_extensions:
+    - sphinxcontrib.mermaid

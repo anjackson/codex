@@ -6,7 +6,8 @@ subtitle: 'What are we trying to preserve?'
 * Persistent Object
 * Process Object
 * Performance Object
-* Perceived Object / Abstract Object ???
+* Perceived Object
+* Abstract/Information/Conceptual Object
 
 
 ## Introduction
