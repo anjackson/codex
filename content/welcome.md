@@ -15,10 +15,10 @@ _...it depends..._
 
 But what does it depend on? What are the contextual factors that affect our decisions?
 
-This site aims to draw out distinct design patterns, based on real-world examples of digital preservation in practice. These patterns, and the contextual factors they depend on, can then be used to map of the landscapes we work in, and help us find our path.
+This site aims to draw out distinct design patterns, based on real-world examples of digital preservation in practice. These patterns, and the contextual factors they depend on, build a map of the landscapes we work in, and help us find our path.
 
 ```{note}
-This is an experiment, and right now there's only a handful of articles, mostly drawing on examples from my own experience.
+This is an experiment, and right now there's only a handful of articles, mostly drawing on my own experiences.
 
 If you'd like to see more of this kind of thing, or less, or if you can share practical examples that either align or break these patterns, [please let me know!](about:contact)
 ```

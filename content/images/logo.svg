@@ -1,11 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="-10 -10 110 110">
-<g xmlns="http://www.w3.org/2000/svg" transform="matrix(12,0,0,12,6,6)" fill="#e84855" stroke="#fff" stroke-width="0.1">
-  <rect width="2" y="0" x="2" height="2"/>
-  <rect width="2" height="2" y="2" x="4"/>
-  <rect width="2" height="2" y="4" x="4"/>
-  <rect width="2" height="2" y="4" x="2"/>
-  <rect width="2" height="2" y="4" x="0"/>
-</g>
-<!-- Based on https://upload.wikimedia.org/wikipedia/commons/4/45/Glider.svg -->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="80"
+   height="80"
+   viewBox="-10 -10 110 110"
+   version="1.1"
+   id="svg2711"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/Users/anj/Work/workspace/digipresnet-site/content/images/logo.png"
+   inkscape:export-xdpi="307.20001"
+   inkscape:export-ydpi="307.20001"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2715" />
+  <sodipodi:namedview
+     id="namedview2713"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="9.2"
+     inkscape:cx="40.054348"
+     inkscape:cy="40"
+     inkscape:window-width="1299"
+     inkscape:window-height="916"
+     inkscape:window-x="51"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2711" />
+  <g
+     transform="matrix(12,0,0,12,6,6)"
+     fill="#e84855"
+     stroke="#fff"
+     stroke-width="0.1"
+     id="g2709">
+    <rect
+       width="2"
+       y="0"
+       x="2"
+       height="2"
+       id="rect2699" />
+    <rect
+       width="2"
+       height="2"
+       y="2"
+       x="4"
+       id="rect2701" />
+    <rect
+       width="2"
+       height="2"
+       y="4"
+       x="4"
+       id="rect2703" />
+    <rect
+       width="2"
+       height="2"
+       y="4"
+       x="2"
+       id="rect2705" />
+    <rect
+       width="2"
+       height="2"
+       y="4"
+       x="0"
+       id="rect2707" />
+  </g>
+  <!-- Based on https://upload.wikimedia.org/wikipedia/commons/4/45/Glider.svg -->
 </svg>
-
