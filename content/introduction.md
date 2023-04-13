@@ -17,7 +17,7 @@ This site can help you preserve and maintain access to digital resources, whethe
 
 However, if you are just starting out, here are some recommendations that I think should help:
 
-For a high-level overview, The [Wikipedia page on digital preservation](https://en.wikipedia.org/wiki/Digital_preservation) is okay, and [Ashley Blewer's](https://ashleyblewer.com/) [training slide decks](https://training.ashleyblewer.com/) (especially the [slides on Digital Preservation](https://training.ashleyblewer.com/presentations/digital-preservation.html#2), the [Open Archive Information System (OAIS) standard](https://training.ashleyblewer.com/presentations/oais.html#2) and ['fixity'](https://training.ashleyblewer.com/presentations/fixity.html#2)) provide a good introduction to some of the key terminology.  
+For a high-level overview, the [Wikipedia page on digital preservation](https://en.wikipedia.org/wiki/Digital_preservation) is pretty good, and [Ashley Blewer's](https://ashleyblewer.com/) [training slide decks](https://training.ashleyblewer.com/) (especially the [slides on Digital Preservation](https://training.ashleyblewer.com/presentations/digital-preservation.html#2), the [Open Archive Information System (OAIS) standard](https://training.ashleyblewer.com/presentations/oais.html#2) and ['fixity'](https://training.ashleyblewer.com/presentations/fixity.html#2)) provide a good introduction to some of the key terminology.  
 
 The [Digital Preservation Coalition (DPC)](https://www.dpconline.org/) provide more [detailed resources](https://www.dpconline.org/digipres/what-is-digipres) like the [Digital Preservation Handbook](https://www.dpconline.org/handbook), while maintaining a keen focus on practical issues. 
 
