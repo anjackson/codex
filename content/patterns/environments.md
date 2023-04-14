@@ -8,10 +8,12 @@ What kinds of environments do archives operate in? How does this affect the way 
 
 The [Open Archival Information System (OAIS)][^oais] presents a simple model for the environment an archive operates in:
 
-```{glue:figure} oais_environment_dot
+```{image} _oais_environment.svg
 ```
 
-## Role/Authority?
+Note there is no 'AIP' at this level! As far as your communities are concerned, that's an implementation detail.
+
+## Role/Authority? Responsibilities!
 
 Postel's Wedge. Pipe or Producer. 
 
@@ -65,34 +67,7 @@ This is an audience/community/role pattern not a flow pattern.
 
 
 
-## Space-Time Diagrams
 
-Visualising events and processes over time
-
-I wanted a clear way to visualise events over time when talking about how we do digital preservation.  As my background is in physics, I wondered whether a simple version of a space-time diagram would work.
-
-While these diagrams are mostly used in [relativity](https://en.wikipedia.org/wiki/Minkowski_diagram) and [quantum mechanics](https://en.wikipedia.org/wiki/Feynman_diagram), they can also be used to visualise simple physical systems, as shown below:
-
-![Examples of space-time plots, visualising simple physical systems.](./images/spacetime-plots-intro.png)
-
-As you can see, if an object is not moving, then it traces our a simple line parallel with the time axes.  If the object is moving through space, then the line runs at an angle -- the steeper the line, the faster the object is moving. If you plot two objects colliding, then the lines converge until the two objects start to bounce off each other. The lines then curve away until the two objects are heading in opposite directions.
-
-While the events in the history of a digital archive behave very differently, a space-time diagram still provide a useful way of visualising what's going on.
-
-```{glue:figure} spacetime_oais_fig
-:figwidth: 100%
-:name: "spacetime_oais_fig"
-
-Visualisation of the basic OAIS workflow as a space-time trajectory.
-```
-
-See {doc}`/patterns/contexts/contexts` for more examples.
-
-Idea of generating space-time plots rather than making them by hand:
-
-- Plot e.g. SIP/AIP/DIP trajectories, add annotations and tick marks for names and places.
-- Highlight events [like the dots on these plots](https://matplotlib.org/3.3.0/gallery/text_labels_and_annotations/annotation_demo.html#using-multiple-coordinate-systems-and-axis-types)
-- Highlight time periods [like this](https://datavizpyr.com/highlight-a-time-range-in-time-series-plot-in-python-with-matplotlib/)
 
 
 ## Engagement
