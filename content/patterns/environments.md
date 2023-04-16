@@ -1,8 +1,42 @@
 # Environments & Communities
 
-One of the biggest reasons different organisations need different tactics is that they are actually trying to accomplish very different things. They operate in very different environements, work with very different communities, and consequently have very different goals.
+One of the biggest reasons different organisations need different tactics is that they are actually trying to accomplish very different things. They operate in very different environments, work with very different communities, and consequently have very different goals.
 
 What kinds of environments do archives operate in? How does this affect the way things work, the communities the archive works with, and what we should preserve?
+
+_THIS is feeling a bit too broad/non-digital so need to justify it's inclusion._
+
+## Authorities & Audiences
+
+There are three crucial roles here:
+
+- Producer: Who knows or decides what these digital resource mean?
+- Archive: Who gets to decide which digital resources get preserved, and how?
+- Consumer: Who can access the preserved digital resources?
+
+The types on archival environment differ considerable based on whether or not the people who hold these roles are all members of the archival institution.
+
+This uses Library and Archive in very idealised ways, which might be problematic.
+
+- Archive: Producers and Consumers are members of the same organisation as the Archive.
+- Open Archive: The Producers are in the same organisation as the Archive, but Consumers are not.
+- Private Library: The Producers are not part of the archival organisation, but the Consumers are.
+- Library: Neither the Producers nor the Consumers are part of the archival organisation.
+
+The Archive only gets to independently determine the canonical interpretation if they Producers are part of the same larger organisation. Libraries cannot determine the canonical interpretation. They can request advice at most.
+
+Open Archives and Libraries have a much wider audience, which brings additional challenges.
+
+Libraries are expected to not interpret, but this is in some conflict with selection. Libraries are expected to act as common carriers. Consumers are expected to interpret.
+
+For digital preservation, this means the primary role of the library is to pass on what it's got, i.e. binary preservation is acceptable.  Archives are expected to maintain the meaning of the records, so have the authority to sign off on migrations.
+
+This seems to be linked to the formats.  There are formats that are well-standardised, so we can say we can attempt to migrate or emulate without affecting the meaning because the layer we are operating at is well-known. Libraries still have no sign-off capability.  But for unusual formats, defined by the Producer (only? also chosen by?), we cannot meaningfully determine software interpretation, so cannot migrate/emulate?
+
+Not quite getting to the core point of understanding when binary-only is the right approach.
+
+
+
 
 ## The OAIS Environment
 
