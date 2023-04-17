@@ -1,4 +1,4 @@
-# Assessing Preservation Actions
+# Assessing Actions
 
 When preserving digital content, after keeping the bitstreams safe and making sure people can find them, the next problem is knowing that the content they access is working as it should. Are the items, as presented by the archive, accurate representations of what the archive originally received? And can we prove this to be the case?
 
@@ -6,30 +6,8 @@ Maintaining this fidelity is particularly difficult when steps have been taken t
 
 How can we verify we haven't lost anything important? Where we have intervened, how can we be sure we've done the job right? Well, we can start by checking our own results.
 
+TODO Link to regression testing...
 
-## Manual Inspection
-
-When we convert an objects format, or change the way we present the item to our patrons, the most basic thing we can do to verify if it's working is to check it ourselves first. This isn't as easy as it sounds, as it can be hard to ensure the evaluation process is consistent across individuals and over time, but it's an important part of any preservation strategy.
-
-However, the bigger problem is that it requires a large amount of effort to manually inspect items, and most organizations have far more content than they can possibly expect to inspect.  In short, manual inspection doesn't scale.
-
-Randomized spot-checks remain critical, and collaborative efforts like crowd-sourcing can go a long way. But to be _sure_ we haven't lost anything, we need to automate the process.
-
-### Examples
-
-#### Web Archiving Quality Assurance
-
-It is common practice to manually inspect the content that has been captured by a web archive crawl.  The process of gathering web content in complex, and it's easy to accidentally miss resources that are required for the pages to be complete.  Similarly, the process of making archived content accessible is also complex, and there are many sites that are difficult or even impossible to 'playback' accurately.
-
-This process of inspection is difficult work, and it often requires a very good understanding of web technologies in order to be able to work out what's gone wrong. For example, only a handful of staff members are able to perform this work at the UK Web Archive, so while we check what we can, we have only been able to check tens of thousands of pages from the millions of sites we have gathered over the years. This is why many web archives are starting to explore how automation can be used to augment or replace manual quality assurance processes.
-
-_**TODO:** Merge these into the text? Or have small link sections for every example throughout?_
-
- * [How good is good enough? – Quality Assurance of harvested web resources (2012)](https://blogs.bl.uk/webarchive/2012/10/how-good-is-good-enough-quality-assurance-of-harvested-web-resources.html)
- * [Quality Assurance Paradigms in Web Archiving Pre and Post Legal Deposit (2014)](https://journals.sagepub.com/doi/abs/10.7227/ALX.0020?journalCode=alaa)
- * [Current Quality Assurance Practices in Web Archiving (2014)](https://digital.library.unt.edu/ark:/67531/metadc333026/)
- * [Why and how do we Quality Assure (QA) websites at the BLWA? (2017)](https://blogs.bodleian.ox.ac.uk/archivesandmanuscripts/2017/10/10/why-and-how-do-we-quality-assure-qa-websites-at-the-blwa/)
- * [How to automate web archiving quality assurance without a programmer (2018)](https://blog.nationalarchives.gov.uk/automate-web-archiving-quality-assurance-without-programmer/)
 
 ## Reversibility
 
@@ -51,7 +29,7 @@ There seem to be very few examples of reversible transformations being used in p
 
 #### Patching Buggy Binaries at The National Archives
 
-As part of a digitization project at the UK's National Archives, an unfortunate bug in the JPEG2000 software they were using created some minor errors in their image files while updating the embedded metadata.
+As part of a digitisation project at the UK's National Archives, an unfortunate bug in the JPEG2000 software they were using created some minor errors in their image files while updating the embedded metadata.
 
 A small program was created to fix the files, but on it's own, this broke the chain of authenticity back to the checksum supplied with the original files. To resolve this, they compared the fixed and original JP2 files and stored a patch file that records the difference between the two files. This patch file can be combined with the repaired file to precisely reverse the repair, at which point the checksum chain can be verified.
 
@@ -164,24 +142,51 @@ Like Wile E. Coyote running off a cliff edge, it took a while, but in time these
 
 ## Canary Properties
 
+hashes
+
+## Differences
+
+diff.
+
+SVG GitHub diff.
 
 
-## Comparative Properties
+## Performance Comparison
 
-even  
+When we convert an objects format, or change the way we present the item to our patrons, the most basic thing we can do to verify if it's working is to check it ourselves first. This isn't as easy as it sounds, as it can be hard to ensure the evaluation process is consistent across individuals and over time, but it's an important part of any preservation strategy.
 
-### Examples
+However, the bigger problem is that it requires a large amount of effort to manually inspect items, and most organizations have far more content than they can possibly expect to inspect.  In short, manual inspection doesn't scale.
 
-#### TIFF to JP2 Validation
+Randomized spot-checks remain critical, and collaborative efforts like crowd-sourcing can go a long way. But to be _sure_ we haven't lost anything, we need to automate the process.
+
+### Web Archiving Quality Assurance
+
+It is common practice to manually inspect the content that has been captured by a web archive crawl.  The process of gathering web content in complex, and it's easy to accidentally miss resources that are required for the pages to be complete.  Similarly, the process of making archived content accessible is also complex, and there are many sites that are difficult or even impossible to 'playback' accurately.
+
+This process of inspection is difficult work, and it often requires a very good understanding of web technologies in order to be able to work out what's gone wrong. For example, only a handful of staff members are able to perform this work at the UK Web Archive, so while we check what we can, we have only been able to check tens of thousands of pages from the millions of sites we have gathered over the years. This is why many web archives are starting to explore how automation can be used to augment or replace manual quality assurance processes.
+
+_**TODO:** Merge these into the text? Or have small link sections for every example throughout?_
+_**TODO:** Discuss automation vs manual.
+
+ * [How good is good enough? – Quality Assurance of harvested web resources (2012)](https://blogs.bl.uk/webarchive/2012/10/how-good-is-good-enough-quality-assurance-of-harvested-web-resources.html)
+ * [Quality Assurance Paradigms in Web Archiving Pre and Post Legal Deposit (2014)](https://journals.sagepub.com/doi/abs/10.7227/ALX.0020?journalCode=alaa)
+ * [Current Quality Assurance Practices in Web Archiving (2014)](https://digital.library.unt.edu/ark:/67531/metadc333026/)
+ * [Why and how do we Quality Assure (QA) websites at the BLWA? (2017)](https://blogs.bodleian.ox.ac.uk/archivesandmanuscripts/2017/10/10/why-and-how-do-we-quality-assure-qa-websites-at-the-blwa/)
+ * [How to automate web archiving quality assurance without a programmer (2018)](https://blog.nationalarchives.gov.uk/automate-web-archiving-quality-assurance-without-programmer/)
 
 
-## Comparable Projections
+
+## Indirect Comparison
 
 e.g. generate plain text version of 
 
 That said, as we will discuss below, this kind of validation is often better handled via other means, like validating checksum manifests.
 
 
-### Automated Evaluation of Web Archive Access
+## Difference Properties
 
-Screenshots plan.
+PSNR etc.
+
+#### TIFF to JP2 Validation
+
+PSNR
