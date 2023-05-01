@@ -30,9 +30,9 @@ html:
   use_edit_page_button: true
   home_page_in_navbar: false
   # Support comments (not sure about using this as yet):
-  #comments:
-  #  utterances:
-  #    repo: "digipresnet/digipresnet-site"
+  comments:
+    utterances:
+      repo: "digipresnet/digipresnet-site"
   # Add links and license to footer.
   extra_footer: |
     <p>

@@ -2,7 +2,7 @@
 
 I first came across the idea of design patterns in the context of object-oriented software development. They have been very successful in that field, where [commonly used language and concepts](https://en.wikipedia.org/wiki/Software_design_pattern) can be traced back to the influential 1994 book [Design Patterns: Elements of Reusable Object-Oriented Software](https://en.wikipedia.org/wiki/Design_Patterns).
 
-Crucially, these are not presented as _universal_ best practices, but rather as different ways of solving the same problem, along with a discussion of the pros and cons in various situations.  There are different patterns for how to 'solve' object creation, structure and behaviour, but the choice of which pattern to adopt is left to the reader to decide, based on their context. It's a toolbox, not a prescription.
+Crucially, these are not presented as _universal_ best practices, but rather as different ways of solving the same problem, along with a discussion of the pros and cons in various situations.[^1]  There are different patterns for how to 'solve' object creation, structure and behaviour, but the choice of which pattern to adopt is left to the reader to decide, based on their context. It's a toolbox, not a prescription.
 
 This is the kind of approach I am attempting to apply to digital preservation. However, we must also recognise that we are at a earlier stage of development. The patterns are not yet clear, so I am trying to gather together the different ways we have solved our shared digital preservation problems, and see what patterns emerge.
 
@@ -23,3 +23,6 @@ The hierarchy of patterns proposed so far is:
 
 ```{tableofcontents}
 ```
+
+
+[^1]: The excellent DPC blog post [_When is 'good' better than 'best'? In support of digital preservation good practice_](https://www.dpconline.org/blog/when-is-good-better-than-best-in-support-of-digital-preservation-good-practice) does an excellent job describing the issues around "best practices" in more detail.
