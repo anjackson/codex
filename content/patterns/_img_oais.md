@@ -11,11 +11,8 @@ kernelspec:
   name: python3
 ---
 
-# OAIS Diagrams
 
-Diagrams relating to OAIS and information flows.
-
-+++
+## Temporary Experimentation
 
 ```{warning}
 The code blocks on this page are for **presentation** of code only, they are not executed.
@@ -31,6 +28,36 @@ import matplotlib.pyplot as plt
 
 plt.plot([1, 2, 3], [1, 2, 3], 'go-', label='line 1', linewidth=2)
 ```
+
+::::{tab-set}
+:::{tab-item} Tab 1
+:sync: tab1
+Tab one
+:::
+:::{tab-item} Tab 2
+:sync: tab2
+Tab two
+:::
+::::
+
+::::{tab-set}
+:::{tab-item} Tab 1
+:sync: tab1
+Tab one (two)
+:::
+:::{tab-item} Tab 2
+:sync: tab2
+Tab two (two)
+:::
+::::
+
++++
+
+# OAIS Diagrams
+
+Diagrams relating to OAIS and information flows.
+
+Note that only files included in the TOC are executed on build. This is just here for reference,
 
 ```{code-cell} ipython3
 import graphviz
