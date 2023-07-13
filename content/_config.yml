@@ -9,7 +9,7 @@ only_build_toc_files: true
 # Execution options:
 execute:
   timeout: 90
-  execute_notebooks: cache
+  execute_notebooks: auto
 
 # Link to GitHub:
 repository:
