@@ -1,56 +1,74 @@
+<!-- #region -->
 # Environments & Communities
 
 One of the biggest reasons different organisations need different tactics is that they are actually trying to accomplish very different things. They operate in very different environments, work with very different communities, and consequently have very different goals.
 
-What kinds of environments do archives operate in? How does this affect the way things work, the communities the archive works with, and what we should preserve?
+Here we propose a basic set of environment patterns, each focused of a different community and relationship. This is followed by some examples, showing how the patterns appear and combine in different situations.
 
-_THIS is feeling a bit too broad/non-digital so need to justify it's inclusion._
+We start with the simple, abstract model presented by the [Open Archival Information System (OAIS)][^oais]:
 
-## Authorities & Audiences
+```{image} _oais_environment.svg
+```
 
-There are three crucial roles here:
+OAIS captures the relationships at a high level, and deliberately so, so that it remains generally applicable across contexts. This approach shifts the focus to the definition of the _Designated Community_ the archive serves.
 
-- Producer: Who knows or decides what these digital resource mean?
-- Archive: Who gets to decide which digital resources get preserved, and how?
-- Consumer: Who can access the preserved digital resources?
+Working within this overall framework, it can be helpful to consider the possible relationships between the archive and _Management_, and it's _Producers_ and _Consumers_, and the wider organisation the archive belongs to. In other words, do the _Producers_ and _Consumers_ belong to the same organisation as the archive and it's _Management_? 
 
-The types on archival environment differ considerable based on whether or not the people who hold these roles are all members of the archival institution.
+And of all those people, who gets to decide what these digital resources _mean_?
 
-This uses Library and Archive in very idealised ways, which might be problematic.
+## Environment 1: The Archive
 
-- Archive: Producers and Consumers are members of the same organisation as the Archive.
-- Open Archive: The Producers are in the same organisation as the Archive, but Consumers are not.
-- Private Library: The Producers are not part of the archival organisation, but the Consumers are.
-- Library: Neither the Producers nor the Consumers are part of the archival organisation.
+The first case to consider is where, in essence, our users are us.  Where those producing the digital records are also those consuming them, and where everyone operates under the same management structure. Where archive is the long-term memory of an organisation.
 
-The Archive only gets to independently determine the canonical interpretation if they Producers are part of the same larger organisation. Libraries cannot determine the canonical interpretation. They can request advice at most.
+```{image} images/_oais_environment_a.svg
+```
 
-Open Archives and Libraries have a much wider audience, which brings additional challenges.
+While _The Archive_ is a bit of a overloaded term, I think it's fair to say that this pattern is the closest to a strict interpretation of an _Archive_, in the sense of formal record keeping practices.
+
+The crucial thing here is that _these are your records!_ Their meaning and purpose is defined by the people in your organisation. You are your own _Designated Community_.
+
+In some ways, this makes things simpler. The context you share means the barriers to communication are potentially lower, at least in the medium term. Of course, knowledge management and loss due to things like staff turnover is a significant challenge, but this is true for every organisation, and the archive can be a part of that mitigation.
+
+But if our digital records become inaccessible, perhaps through format obsolescence, or because the definitions in our digital models become confused and disconnected from the context, we have failed. An _Archive_ that cannot find and present it's own records cannot need it's users needs, cannot comply with legal requests, and as such puts itself and the wider organisation at risk.
+
+When you an an _Archive_, you are responsible for judging the value and meaning of your records, and maintaining this over time, for as long as is required. Just keeping the bits and bytes in a big box is unacceptable -- you must know how to interpret them for access, both in terms of software for playback/rendering, and in terms of the meaning of the records.
+
+## Environment 2: The Library
+
+While this is also something of an overloaded term, I think the opposite extreme can be thought of as a _Library_.
+
+
+```{image} images/_oais_environment_l.svg
+```
+
+Here, the OAIS archive is a distinct organisation.  The publishers and consumers are your audience, not your colleagues. 
 
 Libraries are expected to not interpret, but this is in some conflict with selection. Libraries are expected to act as common carriers. Consumers are expected to interpret.
+
 
 For digital preservation, this means the primary role of the library is to pass on what it's got, i.e. binary preservation is acceptable.  Archives are expected to maintain the meaning of the records, so have the authority to sign off on migrations.
 
 This seems to be linked to the formats.  There are formats that are well-standardised, so we can say we can attempt to migrate or emulate without affecting the meaning because the layer we are operating at is well-known. Libraries still have no sign-off capability.  But for unusual formats, defined by the Producer (only? also chosen by?), we cannot meaningfully determine software interpretation, so cannot migrate/emulate?
 
-Not quite getting to the core point of understanding when binary-only is the right approach.
+_Not quite getting to the core point of understanding when binary-only is the right approach._
+
+Role of validation, Postel's Wedge. Pipe or Producer. 
 
 
-
-
-## The OAIS Environment
-
-The [Open Archival Information System (OAIS)][^oais] presents a simple model for the environment an archive operates in:
-
-```{image} _oais_environment.svg
+```{image} images/_oais_environment_sa.svg
 ```
 
-Note there is no 'AIP' at this level! As far as your communities are concerned, that's an implementation detail.
+Open Archives and Libraries have a much wider audience, which brings additional challenges.
 
-## Role/Authority? Responsibilities!
 
-Postel's Wedge. Pipe or Producer. 
+```{image} images/_oais_environment_pl.svg
+```
 
+```{image} images/environments.svg
+```
+
+
+<!-- #endregion -->
 
 
 ## Kinds of Environment

@@ -4,13 +4,12 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.14.5
+    jupytext_version: 1.14.7
 kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
   name: python3
 ---
-
 
 ## Temporary Experimentation
 
@@ -60,6 +59,11 @@ Diagrams relating to OAIS and information flows.
 Note that only files included in the TOC are executed on build. This is just here for reference,
 
 ```{code-cell} ipython3
+---
+editable: true
+slideshow:
+  slide_type: ''
+---
 import graphviz
 from myst_nb import glue
 

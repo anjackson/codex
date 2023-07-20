@@ -2,7 +2,7 @@
 
 ```{admonition} Warning: This is a work of fiction!
 :class: warning
-Any resemblance to actual archival systems, active or decommissioned, is <del>entirely</del> mostly coincidental.
+Any resemblance to actual archival systems, active or decommissioned, is ~~entirely~~ mostly coincidental.
 ```
 
 <br/>

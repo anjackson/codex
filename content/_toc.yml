@@ -20,15 +20,18 @@ parts:
     - file: maps/wardley-maps
     - file: maps/spacetime-maps
   - file: future-work.md
-# - caption: Practices
-#   chapters:
-#   - file: practices/storage/storage
-#     sections:
-#     - file: practices/storage/replication-and-repair
-#   - file: practices/format-id/index
-#   - file: practices/web-archiving/index
-#     sections:
-#     - file: practices/web-archiving/why-warc/index
+- caption: PRACTICES
+  chapters:
+  - file: practices/storage/storage
+    sections:
+    - file: practices/storage/replication-and-repair
+  - file: practices/format-id/index
+  - file: practices/web-archiving/index
+    sections:
+    - file: practices/web-archiving/why-warc/index
+- caption: STORIES
+  chapters:
+  - file: practices/stories/the-analogue-repository/index
 - caption: DIGIPRES.NET
   chapters:
   - file: about
