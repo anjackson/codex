@@ -8,6 +8,8 @@ Here we propose a basic set of environment patterns, each focused of a different
 We start with the simple, abstract model presented by the [Open Archival Information System (OAIS)][^oais]:
 
 ```{image} _oais_environment.svg
+:width: 70%
+:align: center
 ```
 
 OAIS captures the relationships at a high level, and deliberately so, so that it remains generally applicable across contexts. This approach shifts the focus to the definition of the _Designated Community_ the archive serves.
@@ -21,6 +23,8 @@ And of all those people, who gets to decide what these digital resources _mean_?
 The first case to consider is where, in essence, our users are us.  Where those producing the digital records are also those consuming them, and where everyone operates under the same management structure. Where archive is the long-term memory of an organisation.
 
 ```{image} images/_oais_environment_a.svg
+:width: 70%
+:align: center
 ```
 
 While _The Archive_ is a bit of a overloaded term, I think it's fair to say that this pattern is the closest to a strict interpretation of an _Archive_, in the sense of formal record keeping practices.
@@ -39,6 +43,8 @@ While this is also something of an overloaded term, I think the opposite extreme
 
 
 ```{image} images/_oais_environment_l.svg
+:width: 70%
+:align: center
 ```
 
 Here, the OAIS archive is a distinct organisation.  The publishers and consumers are your audience, not your colleagues. 
@@ -56,17 +62,17 @@ Role of validation, Postel's Wedge. Pipe or Producer.
 
 
 ```{image} images/_oais_environment_sa.svg
+:width: 70%
+:align: center
 ```
 
 Open Archives and Libraries have a much wider audience, which brings additional challenges.
 
 
 ```{image} images/_oais_environment_pl.svg
+:width: 70%
+:align: center
 ```
-
-```{image} images/environments.svg
-```
-
 
 <!-- #endregion -->
 
@@ -97,6 +103,13 @@ Use digitised images as example. Look at risks of the sidecar approach.
 ### Failover (via the published record)
 
 ![Space-time plot visualising events in the 'failover' environment pattern.](./images/spacetime-plots-context-failover.png)
+
+test
+
+```{image} images/environments.svg
+:width: 50%
+:align: center
+```
 
 
 
