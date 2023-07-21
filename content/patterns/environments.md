@@ -1,4 +1,3 @@
-<!-- #region -->
 # Environments & Communities
 
 One of the biggest reasons different organisations need different tactics is that they are actually trying to accomplish very different things. They operate in very different environments, work with very different communities, and consequently have very different goals.
@@ -17,6 +16,7 @@ OAIS captures the relationships at a high level, and deliberately so, so that it
 Working within this overall framework, it can be helpful to consider the possible relationships between the archive and _Management_, and it's _Producers_ and _Consumers_, and the wider organisation the archive belongs to. In other words, do the _Producers_ and _Consumers_ belong to the same organisation as the archive and it's _Management_? 
 
 And of all those people, who gets to decide what these digital resources _mean_?
+
 
 ## Environment 1: The Archive
 
@@ -37,19 +37,32 @@ But if our digital records become inaccessible, perhaps through format obsolesce
 
 When you an an _Archive_, you are responsible for judging the value and meaning of your records, and maintaining this over time, for as long as is required. Just keeping the bits and bytes in a big box is unacceptable -- you must know how to interpret them for access, both in terms of software for playback/rendering, and in terms of the meaning of the records.
 
+
+<!-- #region -->
 ## Environment 2: The Library
 
-While this is also something of an overloaded term, I think the opposite extreme can be thought of as a _Library_.
-
+In this idealised and simplified framing, the opposite of an _Archive_ can be described as a _Library_.
 
 ```{image} images/_oais_environment_l.svg
 :width: 70%
 :align: center
 ```
 
-Here, the OAIS archive is a distinct organisation.  The publishers and consumers are your audience, not your colleagues. 
+Here, the OAIS archive is a distinct organisation, holding the records of others.  The publishers and consumers are your audience, not your colleagues. A _Library_ can interpret the works it holds, but cannot be the final arbiter of meaning, any more than it is the responsibility of the Louvre to exactly why the Mona Lisa is smiling like that.[^muselib]
 
-Libraries are expected to not interpret, but this is in some conflict with selection. Libraries are expected to act as common carriers. Consumers are expected to interpret.
+[^muselib]: Yes, a museum like a _Library_ of _Things_ in this model :grimace:. Look, it's just a framing device to separate authorities from communities, alright? Bear with...
+
+Libraries _usually_ are expected to act as [common carriers](https://en.wikipedia.org/wiki/Common_carrier), connecting books and their readers without passing judgement. The _Consumers_ are expected to interpret works, perhaps with some context and analysis from experts, but even here the library is supposed to remain neutral. 
+
+In truth, libraries exert judgement over works all the time, through their selection and retention criteria and how works are curated and present. This can be immensely difficult and political due to things like sensitive or illegal content, all of which is far too complex to be covered here.[^notme] Instead, we focus on how this _Environment_ affects how we approach the _digital preservation_ of these items, honouring the judgement of the content for selection/retention has already taken place, the intent of the _Producer_ and the needs of the _Consumer_.
+
+[^notme]: And there are far better people than me to cover it!
+
+The distinguishing feature of digital resources is the software needed to access them, and the hardware and network dependencies that implies. If we get that wrong, then the thing we show our _Consumers_ may be misleading, reflecting our flaws rather than the _Producers_ intent.
+
+The problem is, because they're not _ours_, it's hard to tell the difference.
+
+----
 
 
 For digital preservation, this means the primary role of the library is to pass on what it's got, i.e. binary preservation is acceptable.  Archives are expected to maintain the meaning of the records, so have the authority to sign off on migrations.
@@ -75,7 +88,6 @@ Open Archives and Libraries have a much wider audience, which brings additional 
 ```
 
 <!-- #endregion -->
-
 
 ## Kinds of Environment
 
