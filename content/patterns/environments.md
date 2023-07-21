@@ -48,19 +48,23 @@ In this idealised and simplified framing, the opposite of an _Archive_ can be de
 :align: center
 ```
 
-Here, the OAIS archive is a distinct organisation, holding the records of others.  The publishers and consumers are your audience, not your colleagues. A _Library_ can interpret the works it holds, but cannot be the final arbiter of meaning, any more than it is the responsibility of the Louvre to exactly why the Mona Lisa is smiling like that.[^muselib]
+Here, the OAIS archive is a distinct organisation, holding the records of others.  The publishers and consumers are your audience, not your colleagues. A _Library_ can interpret the works it holds, but cannot be the final arbiter of meaning, any more than it is the responsibility of the Louvre to exactly why the Mona Lisa is smiling like that.[^muse-lib]
 
-[^muselib]: Yes, a museum like a _Library_ of _Things_ in this model :grimace:. Look, it's just a framing device to separate authorities from communities, alright? Bear with...
+[^muse-lib]: Yes, a museum like a _Library_ of _Things_ in this model :grimace:. Look, it's just a framing device to separate authorities from communities, alright? Bear with...
 
 Libraries _usually_ are expected to act as [common carriers](https://en.wikipedia.org/wiki/Common_carrier), connecting books and their readers without passing judgement. The _Consumers_ are expected to interpret works, perhaps with some context and analysis from experts, but even here the library is supposed to remain neutral. 
 
-In truth, libraries exert judgement over works all the time, through their selection and retention criteria and how works are curated and present. This can be immensely difficult and political due to things like sensitive or illegal content, all of which is far too complex to be covered here.[^notme] Instead, we focus on how this _Environment_ affects how we approach the _digital preservation_ of these items, honouring the judgement of the content for selection/retention has already taken place, the intent of the _Producer_ and the needs of the _Consumer_.
+In truth, libraries exert judgement over works all the time, through their selection and retention criteria and how works are curated and present. This can be immensely difficult and political due to things like sensitive or illegal content, all of which is far too complex to be covered here.[^not-me] Instead, we focus on how this _Environment_ affects how we approach the _digital preservation_ of these items, honouring the judgement of the content for selection/retention has already taken place, the intent of the _Producer_ and the needs of the _Consumer_.
 
-[^notme]: And there are far better people than me to cover it!
+[^not-me]: And there are far better people than me to cover it!
 
 The distinguishing feature of digital resources is the software needed to access them, and the hardware and network dependencies that implies. If we get that wrong, then the thing we show our _Consumers_ may be misleading, reflecting our flaws rather than the _Producers_ intent.
 
 The problem is, because they're not _ours_, it's hard to tell the difference.
+
+Digital resources have two layers of interpretation, which we can refer to as the medium and the content. Books are a medium, but the reader does not need anything extra in order to read it.[^print-context]
+
+[^print-context]: Just light to read by. And a dry place to be. And maybe somewhere to sit. Oh, and a breathable atmosphere and stable physical environment. And either a sealed, pressurised space vessel or a planet with a gravitational constant of around 1G. And a nice cup of tea, if it's no bother? Thanks. Lovely.
 
 ----
 

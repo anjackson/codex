@@ -64,3 +64,4 @@ sphinx:
     html_show_copyright: true
   extra_extensions:
     - sphinxcontrib.mermaid
+    - sphinx_tippy
