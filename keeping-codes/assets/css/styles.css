@@ -1,0 +1,98 @@
+/*
+body { padding-bottom: 70px; }
+*/
+
+.navbar {
+       -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
+}
+
+@media (min-width: 768px) { 
+  /*
+  #toc_panel {
+    position: fixed;
+    width: 350px;
+  }
+  */
+}
+
+@media print {
+  a[href]:after {
+    content: "";
+  }
+}
+
+#toc ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#toc li {
+    padding: 5px 10px;
+}
+
+#toc a {
+    text-decoration: none;
+    display: block;
+}
+
+#toc .toc-h2 {
+    padding-left: 0px;
+}
+
+#toc .toc-h3 {
+    padding-left: 25px;
+}
+
+#toc .toc-h4 {
+    padding-left: 50px;
+}
+
+#toc .toc-active {
+    background: #eee;
+}
+
+#edit_button {
+    float: right;
+}
+
+#main table {
+  margin: 1em auto;
+  border: 1px solid #eee;
+  border-collapse: collapsed;
+}
+
+#main table thead {
+  background-color: #eee;
+}
+
+#main table td, #main table th {
+  padding: 2px 4px;
+  border: 1px solid #aaa;
+}
+
+#main img {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.badge-final {
+  background-color: black;
+}
+
+.badge-complete {
+  background-color: #5cb85c;
+}
+
+.badge-draft {
+  background-color: #f0ad4e;
+}
+
+.badge-outline {
+  background-color: #428bca;
+}
+
+#footer-navbar {
+  margin: 0;
+}

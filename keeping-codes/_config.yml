@@ -1,0 +1,22 @@
+highlighter: pygments
+permalink: /blog/:year/:month/:day/:title
+markdown: kramdown
+baseurl: /keeping-codes
+
+all-category-list: [fundamentals,practice,experiments,war stories]
+active-category-list: [practice,experiments]
+
+safe: true
+lsi: false
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
