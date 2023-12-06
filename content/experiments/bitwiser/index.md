@@ -5,6 +5,7 @@ category: On Tools
 status: complete
 publish: true
 ---
+# Understanding Tools & Formats Via Bitwise Analysis
 
 Earlier this year, a [blog post on bitwise analysis by Jay Gattuso of NZNL][5] reminded me that I had never got around to writing up some similar exploratory work I did while I was working on the [SCAPE project][12]. A month later, I [presented a summary of the work][4] at the [SPRUCEdp Unified Characterisation Hackathon][3], where I attempted to explain how bitwise analysis can be used to help understand digital resources and how software tools operate upon them. This document is an attempt to outline the approach and initial results in more detail, showing how the bit-level sensitivity of various JP2 tools can be effectively mapped and compared.
 
@@ -16,13 +17,20 @@ At heart, the approach is a very simple brute-force analysis: we systematically 
 
 To look at JPEG2000 tools, we first need to create a small test image, such as this 16px square fragment of a photograph:
 
-{% include figure.html src="images/bitwiser/16px-photo.png" alt="The source image." %}
+```{image} ./images/16px-photo.png
+:alt: The source image
+:height: 16px
+:align: center
+```
 
 We then convert it to the format of interest, in this case a 773 byte [JP2][2] file (created via a [PPM][1] derived using ImageMagick, which was then passed through Kakadu).
 
 If we just look at the raw byte values, plotted as a square bitmap containing greyscale values, running from left to right and top to bottom, we can generate an simple visualisation of the data inside the JP2 file:
 
-{% include figure.html src="images/bitwiser/fig-bm-original.png" alt="Bitwise map of the source data file." %}
+```{image} ./images/fig-bm-original.png
+:alt: Bitwise map of the source data file.
+:align: center
+```
 
 This reveals clear 'quiet' and 'noisy' areas in the at the start and end of the bitstream, respectively. For a compressed format such as JP2, we can be fairly certain that the high-entropy 'noisy' region corresponds to the compressed image data, and the 'quiet' areas correspond to file structural information and metadata. 
 
@@ -44,7 +52,10 @@ Characterisation
 
 First, I looked at identification and characterisation tools, as shown below in order of increasing sensitivity:
 
-{% include figure.html src="images/bitwiser/fig-bm-chartools.png" alt="Bitwise map of characterisation tool sensitivity." %}
+```{image} ./images/fig-bm-chartools.png
+:alt: Bitwise map of characterisation tool sensitivity.
+:align: center
+```
 
 For the _file_ tool, which only performs identification, we can clearly see that it is only sensitive to the JPEG 2000 'magic number' at the start of the file, and the remainder of the file is ignored completely. Note that _DROID_ uses the same signature information, so can be expected to give the same result. However, we were not able to test this as at the time of the experiment, _DROID_ did not lend itself well to being run repeatedly from the command line at high speed.
 
@@ -58,7 +69,10 @@ Validation
 
 Here, we focussed only on the validation tools, and instead of using the whole characterisation output as 'ground truth', we just extract the 'is Valid' result and compare that. Therefore, these maps show which parts of the JP2 appear to be validated, not just extracted. For example, if there is a comment in the file, the characterisation process may notice that modifying it changes the text, but probably will not be able to say whether the comment text is valid or not.
 
-{% include figure.html src="images/bitwiser/fig-bm-validtools.png" alt="Bitwise map of validation tool sensitivity." %}
+```{image} ./images/fig-bm-validtools.png
+:alt: Bitwise map of validation tool sensitivity.
+:align: center
+````
 
 We can see minor differences between _JHOVE_ versions, indicating how this approach could be used to complement tool development and regression testing. More interestingly, it is clear that _Jpylyzer_ is much more discerning than _JHOVE_ in this regard. Many of input files that _JHOVE_ would accept as valid are determined to be invalid by _Jpylyzer_, suggesting that it performs a more rigorous validation.
 
@@ -68,7 +82,10 @@ Rendering
 
 As mentioned above, it appears that none of the tools considered so far are able analyse or validate the actual compressed image data. We have seen the analysis of the file structure and the metadata, but to learn more, there is no alternative but to use an actual JP2 decompresser to convert the image to a different format, and check if the resulting image (if there is any) is modified when we flip the bits.
 
-{% include figure.html src="images/bitwiser/fig-bm-rendertools.png" alt="Bitwise map of rendering tool sensitivity." %}
+```{image} ./images/fig-bm-rendertools.png
+:alt: Bitwise map of rendering tool sensitivity.
+:align: center
+````
 
 This shows that _OpenJpeg_, _ImageMagick (JasPer)_, and _Kakadu_ are all highly sensitive to the image data, but ignore changes to significant fractions of the header data that the characterisation tools did cover. This suggest that the best validation strategy may be to combine _Jpylyzer_ with a JP2 decompresser, in order to maximise coverage of the image data and metadata. Similarly, deeper inspection of the characterisation tool results (such as outlined in the conclusions below) could be use to determine precisely what data is being discarded during the decompression.
 

@@ -5,6 +5,7 @@ category: On Systems
 status: complete
 publish: true
 ---
+# BBC Micro Data Recovery
 
 In 2007, we were given a set of fifteen 5¼' floppy disks from a BBC Master, and asked if we could recover the data and make it usable. We were told that the disks were expected to contain a catalogue of local historical material, collected as part of an oral history project involving schools in and around Melbourne (Australia). That project started in 1982, building up to the creation of a larger, combined database compiled in 1985-87, and built using Acornsoft ViewStore (you can find a scan of the manuals for ViewStore [in this list][3])
 
@@ -13,15 +14,30 @@ Eventually, in 2009, we had the time and the opportunity to spend time working h
 Hardware
 --------
 
-{% include figure.html src="images/bbc-master/15092009064-master.jpg" alt="BBC Master, with floppy drive and screen." %}
+```{figure} ./images/15092009064-master.jpg
+---
+name: bbc-master
+---
+BBC Master, with floppy drive and screen.
+```
 
 We already had a special [BBC Master][1] that had been fitted [this with clever CompactFlash drive kit][1], which we had previously purchased for the purposes of just this kind of experimentation. This [device][13] allows a relatively modern media type to be accessed on the BBC as if it were an 1MHz IDE a hard disk. 
 
-{% include figure.html src="images/bbc-master/15092009066-idekit.jpg" alt="The nifty 1MHz IDE kit, mounted inside the BBC Master." %}
+```{figure} ./images/15092009066-idekit.jpg
+---
+name: bbc-master-ide
+---
+The nifty 1MHz IDE kit, mounted inside the BBC Master.
+```
 
 Once data has been written to the flash drive, it can be can be physically transferred to a modern PC and accessed via a standard CompactFlash reader. This provided a complete chain of hardware, making the transfer possible, at least in principle. 
 
-{% include figure.html src="images/bbc-l1.svg" alt="BBC Workflow - Level 1" %}
+```{figure} ./bbc-l1.svg
+---
+name: bbc-workflow-l1
+---
+BBC Workflow - Level 1.
+```
 
 The whole story turned out to be far more complex. 
 
@@ -41,23 +57,49 @@ While working out how basic file system commands worked, it also became clear th
     *LOAD "BACKUP"
     *RUN
 
-{% include figure.html src="images/bbc-master/13102009111.jpg" alt="Screenshot: ADFS BACKUP 1.23" %}
+```{figure} ./images/13102009111.jpg
+---
+name: bbc-screenshot-adfs-backup-123
+---
+Screenshot: ADFS BACKUP 1.23
+```
+
 
 This screenshot is indicative of the terse prompts that many pieces of old software supply, and working out the right answers required [a lot of experimentation][14]. Even then, we could not get this ADFS BACKUP program to work as we expected, and we ended up transferring over the 1.20 version of BACKUP we had found on the web. It's not clear what the problem was, but it seems reasonable to assume 'ADFS BACKUP' cannot read DFS disks, while BACKUP appeared to be able to read both types of disks while running under ADFS.
 
-{% include figure.html src="images/bbc-master/12112009143.jpg" alt="Screenshot: BACKUP PROGRAM 1.20 - Press any key..." %}
+```{figure} ./images/12112009143.jpg
+---
+name: bbc-screenshot-backup-120-1
+---
+Screenshot: BACKUP PROGRAM 1.20 - Press any key...
+```
 
 It wasn't clear if the disk was a 40 or 80 track disk, so we had to guess. Nervously, I typed '80', ran the program, and listened as the the drive chugged away, producing a noise that filled me with nostalgia.
 
-{% include figure.html src="images/bbc-master/12112009138.jpg" alt="Screenshot: BACKUP PROGRAM 1.20 - Mid-backup..." %}
+```{figure} ./images/12112009138.jpg
+---
+name: bbc-screenshot-backup-120-2
+---
+Screenshot: BACKUP PROGRAM 1.20 - Mid-backup...
+```
 
-{% include figure.html src="images/bbc-master/12112009142.jpg" alt="Screenshot: BACKUP PROGRAM 1.20 - Mid-backup..." %}
+```{figure} ./images/12112009142.jpg
+---
+name: bbc-screenshot-backup-120-3
+---
+Screenshot: BACKUP PROGRAM 1.20 - Mid-backup...
+```
 
 A few moments later, success! The BACKUP program exited, and we could check how much free space we had, and see the new floppy disk image file we had created.
 
-{% include figure.html src="images/bbc-master/12112009144.jpg" alt="Screenshot: BACKUP PROGRAM 1.20 - Post-backup..." %}
+```{figure} ./images/12112009144.jpg
+---
+name: bbc-screenshot-backup-120-4
+---
+Screenshot: BACKUP PROGRAM 1.20 - Post-backup...
+```
 
-A few of the disks had errors (which [looked like this](images/bbc-master/12112009136.jpg)), but we were able to image almost all of the disks.
+A few of the disks had errors (which [looked like this](images/12112009136.jpg)), but we were able to image almost all of the disks.
 
 Migration
 ---------
@@ -84,7 +126,12 @@ Basic disk operations seemed to work at first, and the file listings looked okay
 
 Fortunately, we had [a few other disks][18] we were willing to use for experimentation, including an official [Elite][19] floppy disk (which, as it's such a well known program, can act as 'ground truth' against which our experiences could be benchmarked). Elite appeared to run perfectly on the BBC itself, but the cloned floppy disk image failed consistently. Our 'ground truth' image had ruled out floppy disk decay, but we had no idea which of the other parts of the long chain to access might have failed.
 
-{% include figure.html src="images/bbc-master/beebem3-elite-fail.png" alt="Screenshot: Elite failure." %}
+```{figure} ./images/beebem3-elite-fail.png
+---
+name: bbc-screenshot-elite-fail
+---
+Screenshot: Elite failure.
+```
 
 We were stuck.
 
@@ -96,7 +143,12 @@ Some months later, after more searching and reading, I found [these][5] [hints][
 
 Guessing that this might be the issue, I wrote [a small Java program that would re-interleave the data (mistakenly calling it 'interlace' rather than 'interleave')][10]. The guess paid off, and Elite booted at last.
 
-{% include figure.html src="images/bbc-master/beebem3-elite-win.png" alt="Screenshot: Elite success!" %}
+```{figure} ./images/beebem3-elite-win.png
+---
+name: bbc-screenshot-elite-win
+---
+Screenshot: Elite success!
+```
 
 Finally, we could open up the disks we had been given in the emulator. They did indeed appear to contain ViewStore data, although as we did not have a copy of ViewStore to hand, we could not verify this ourselves. However, we passed the floppy disk images back to the original owner and they appeared to be happy with our efforts and able to access the data themselves.
 
@@ -106,11 +158,21 @@ Summary
 
 Although successful, our final workflow leaves a lot to be desired:
 
-{% include figure.html src="images/bbc-lX.svg" alt="BBC Workflow - Level X" %}
+```{figure} ./bbc-lX.svg
+---
+name: bbc-workflow-lX
+---
+BBC Workflow - Level X
+```
 
 Indeed, since this project was carried out, far superior approaches have become well known. PC-based disk imaging solutions (e.g. [Kryoflux][11], [among others][12]) provide much safer and simpler ways of imaging floppy disks.
 
-{% include figure.html src="images/kryoflux.svg" alt="Kryoflux Workflow" %}
+```{figure} ./kryoflux.svg
+---
+name: kryoflux-workflow
+---
+Kryoflux Workflow
+```
 
 Of course, having the original hardware around can be very helpful, especially when it's not clear that and emulation is behaving correctly, but PC-based disk imaging means that it's no longer an absolutely necessity. We've not experimented with Kryoflux, but presumably the accompanying software also knowns to interleave the disk image data. If not, let's hope Google leads people here.
 
@@ -123,7 +185,7 @@ Of course, having the original hardware around can be very helpful, especially w
 [7]: http://www.g7jjf.com/adfs_explorer.htm
 [8]: http://www.mkw.me.uk/beebem/
 [9]: http://b-em.bbcmicro.com/
-[10]: BBCUtils/src/uk/bl/dpt/bbc/DiskImageInterlacer.java.html
+[10]: ./BBCUtils/src/uk/bl/dpt/bbc/DiskImageInterlacer.java
 [11]: http://www.kryoflux.com/
 [12]: http://www.archiveteam.org/index.php?title=Rescuing_Floppy_Disks
 [13]: images/bbc-master/
