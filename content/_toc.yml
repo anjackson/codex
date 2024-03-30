@@ -42,6 +42,3 @@ parts:
 - caption: ABOUT
   chapters:
   - file: about
-  - file: stories/index
-    sections:
-    - file: stories/the-analogue-repository/index
