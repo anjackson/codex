@@ -1,4 +1,4 @@
-# Practices
+# Migrations
 
 ```{tableofcontents}
 ```

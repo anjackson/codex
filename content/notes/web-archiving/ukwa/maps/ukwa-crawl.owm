@@ -1,0 +1,52 @@
+title Ingest Services
+
+anchor Curator [0.95,0.375]
+anchor Archivist [0.95,0.67]
+
+component Curate Crawled Sites [0.9,0.4] label [3, -20]
+component Harvest Crawled Documents [0.9,0.3] label [-68, -24]
+component Crawl Sites [0.9,0.67] label [9, 6]
+
+Curator->Harvest Crawled Documents
+Curator->Curate Crawled Sites
+Archivist->Crawl Sites
+
+component W3ACT [0.7,0.2] label [-52, 5]
+component QA Wayback [0.65, 0.34] label [-68, 17]
+component PostgreSQL [0.65,0.7]
+component pdftohtmlEX [0.65,0.54]
+
+component OutbackCDX [0.55, 0.45]
+component Crawl Launcher [0.5, 0.2] label [-43, 25]
+
+Harvest Crawled Documents->W3ACT
+Curate Crawled Sites->W3ACT
+Crawl Sites->W3ACT
+
+W3ACT->Crawl Launcher
+W3ACT->PostgreSQL
+W3ACT->pdftohtmlEX
+QA Wayback->W3ACT
+QA Wayback->OutbackCDX
+
+component Kafka [0.23, 0.78]
+component Frequent Crawler [0.3,0.35]
+component webrender-api [0.24, 0.19]
+component ClamAV [0.24, 0.54]
+component Domain Crawler [0.15, 0.35]
+
+Crawl Launcher->Kafka
+Kafka->Frequent Crawler
+Frequent Crawler->webrender-api
+Frequent Crawler->ClamAV
+
+component WARCs & Logs [0.1,0.7]
+
+Frequent Crawler->WARCs & Logs
+Domain Crawler->WARCs & Logs
+WARCs & Logs->OutbackCDX
+WARCs & Logs->QA Wayback
+
+component HDFS [0.05,0.9]
+
+WARCs & Logs->HDFS

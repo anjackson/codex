@@ -18,14 +18,14 @@ Any resemblance to actual archival systems, active or decommissioned, is ~~entir
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"Oh, excellent! Lead on!"_
 
-&nbsp;&nbsp;&nbsp;&nbsp;_"Of course, I can't call it Trusted *just* yet. Not officially. The auditors where only here last month."_
+&nbsp;&nbsp;&nbsp;&nbsp;_"Of course, I can't call it Trusted *just* yet. Not officially. The auditors were only here last month."_
 
 
 My host walked ahead, stopping at a small control panel embedded in the wall next to a featureless metallic door. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"Just a minute, it takes a while to log into the door security system."_
 
-The whole wall gleamed. The backlit buttons shone. The contrast with the rather shabby state of the surrounding buildings was stark, but then everyone is investing in analogue repositories these days. The 
+The whole wall gleamed. The backlit buttons shone. The contrast with the rather shabby state of the surrounding buildings was stark, but then everyone is investing in analogue repositories these days.
 
 At last, the door slides aside, slowly and smoothly, making a faint 'aaah' sound. As we walk in, automated lights start to flick on around us. Slowly at first, then rushing outward until the whole space is lit.
 
@@ -43,7 +43,7 @@ It is vast. Shining shelve after shining shelf, stretching upwards and ahead, al
 &nbsp;&nbsp;&nbsp;&nbsp;_"Oh, we're currently in the process of shelving them. Come and see."_
 
 
-As we walk towards to nearest corner of the room, the few filled shelves come into view.
+As we walk towards to nearest corner of the room, the handful of filled shelves come into view.
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"Here's what we've shelved so far."_
 
@@ -65,7 +65,7 @@ I take down the box, and place it on table that, like the shelves themselves, ap
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"The clasp is on the base. We don't want them opening accidentally!"_
 
-Awkwardly, I reach under the box and find a recessed button. I press it, retrieve my hand, and then somehow the box opens itself outwards, like a flower. In the middle, raised up, sits the book. It looks like a novel, but I don't recognise the author.
+Awkwardly, I reach under the box and find a recessed button. I press it, retrieve my hand, and then somehow the box opens itself outwards, like a flower. In the middle, raised up, sits the book. It looks like a novel, but I don't recognise it.
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"What are all these pockets for?"_ I ask, pointing to the deep flaps and slots lining the 'petals' of the open box.
 
@@ -103,9 +103,9 @@ My host seems a little put out by this comparison.
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"And these?"_, I ask, pointing at the larger spaces that make up the body of the raised plinth the novel is lying on.
 
-&nbsp;&nbsp;&nbsp;&nbsp;_"Ah, that's the Representation Information stack. Like I said, some of these books are in other languages. Some of them make a lot of references to other books. So we put those books together. Each package as to be self-describing, you see, so we sit each book on top of the information you need to understand the book. Nice and simple."_
+&nbsp;&nbsp;&nbsp;&nbsp;_"Ah, that's the Representation Information stack. Like I said, some of these books are in other languages. Some of them make a lot of references to other books. So we put those books together. Each package has to be self-describing, you see, so we sit each book on top of the information you need to understand the book. Nice and simple."_
 
-A set of shelves under each book, layered information stacked like geological strata. As with the room itself, I can't help but be impressed by sheer ambition and the technology involved. My host clearly takes some pleasure from that.
+A set of shelves is built into each _package_, under each book. Layered information stacked like geological strata. As with the room itself, I can't help but be impressed by sheer ambition and the technology involved. My host clearly takes some pleasure from that.
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"That sounds like a lot of work."_
 
@@ -137,7 +137,7 @@ From what I've seen, I don't understand how anyone gets to read the books. But I
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"You're welcome.", spoken gladly, but with the thinnest of smiles. "Let's get you back to the public area."_
 
-We walk over to a door not far from the slowly-filling shelves. This time there is a pair of keypads, one one each side of the door.
+We walk over to a door not far from the part-filled shelves. This time there is a pair of keypads, one one each side of the door.
 
 &nbsp;&nbsp;&nbsp;&nbsp;_"When I say so, press the red one."_
 

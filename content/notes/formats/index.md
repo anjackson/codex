@@ -1,4 +1,4 @@
-# Experiments
+# Formats
 
 ```{tableofcontents}
 ```

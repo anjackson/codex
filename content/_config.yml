@@ -1,7 +1,7 @@
 # General settings:
-title: digipres.net
+title: Design Patterns for Digital Preservation
 author: Andrew N. Jackson
-logo: "images/logo.png"
+#logo: "images/logo.png"
 copyright: "2022"
 exclude_patterns: ['_build', '**.ipynb_checkpoints']
 only_build_toc_files: true
@@ -31,9 +31,9 @@ execute:
 
 # Link to GitHub:
 repository:
-  url: https://github.com/digipresnet/digipresnet-site
+  url: https://github.com/anjackson/patterns
   path_to_book: content  # An optional path to your book, defaults to repo root
-  branch: jbook  # An optional branch, defaults to `master`
+  branch: main  # An optional branch, defaults to `master`
 
 # Launch button settings:
 launch_buttons:
@@ -50,11 +50,11 @@ html:
   # Support comments (not sure about using this as yet):
   comments:
     utterances:
-      repo: "digipresnet/digipresnet-site"
+      repo: "anjackson/patterns"
   # Add links and license to footer.
   extra_footer: |
     <p>
-    This site is <a href="https://github.com/digipresnet/digipresnet-site/">open source</a> and open access:<br/>
+    This site is <a href="https://github.com/anjackson/patterns/">open source</a> and open access:<br/>
     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
     </p>
 
@@ -64,4 +64,4 @@ sphinx:
     html_show_copyright: true
   extra_extensions:
     - sphinxcontrib.mermaid
-    - sphinx_tippy
+#    - sphinx_tippy # Show previews when hovering links
