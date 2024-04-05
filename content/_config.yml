@@ -1,7 +1,7 @@
 # General settings:
 title: Design Patterns for Digital Preservation
 author: Andrew N. Jackson
-#logo: "images/logo.png"
+logo: "images/logo.png"
 copyright: "2022"
 exclude_patterns: ['_build', '**.ipynb_checkpoints']
 only_build_toc_files: true

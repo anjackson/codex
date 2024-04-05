@@ -6,8 +6,8 @@ status: draft
 publish: false
 ---
 
-Introduction
-------------
+Talking About Formats
+=====================
 
 In digital preservation, at the most basic level, we need to be able to associate digital resources with the software that is required to make the content accessible. Most commonly, this is achieve by identifying the format of a bitstream. Therefore, we need to be able to clearly and unambiguously talk about formats, and we must endeavour to ensure that this clarity persists over time.
 
