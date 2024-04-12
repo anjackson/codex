@@ -17,7 +17,7 @@ docutils==0.20.1
 executing==2.0.1
 fastjsonschema==2.19.1
 fonttools==4.50.0
-idna==3.6
+idna==3.7
 imagesize==1.4.1
 importlib_metadata==7.1.0
 ipykernel==6.29.4
