@@ -1,5 +1,5 @@
 # General settings:
-title: Design Patterns for Digital Preservation
+title: Codex
 author: Andrew N. Jackson
 logo: "images/logo.png"
 copyright: "2022"
@@ -61,7 +61,15 @@ html:
 # Additional Sphinx config:
 sphinx:
   config:
+    html_last_updated_fmt: '%B %d, %Y'
     html_show_copyright: true
+    templates_path: _templates
+    html_theme_options: 
+      # See https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/layout.html
+      article_header_end: ["metablob.html"]
+      # See https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/layout.html#secondary-sidebar-right
+      secondary_sidebar_items: ["page-toc", "page-side-meta", "edit-this-page", "sourcelink"]
+  
   extra_extensions:
     - sphinxcontrib.mermaid
 #    - sphinx_tippy # Show previews when hovering links

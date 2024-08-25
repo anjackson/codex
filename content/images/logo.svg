@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="80"
-   height="80"
-   viewBox="-10 -10 110 110"
+   width="61.549412"
+   height="60.885376"
+   viewBox="-10 -10 84.630441 83.717392"
    version="1.1"
    id="svg2711"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="/Users/anj/Work/workspace/digipresnet-site/content/images/logo.png"
-   inkscape:export-xdpi="307.20001"
-   inkscape:export-ydpi="307.20001"
-   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   inkscape:export-filename="glider-logo-lrg.png"
+   inkscape:export-xdpi="807.28998"
+   inkscape:export-ydpi="807.28998"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,18 +26,33 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="9.2"
-     inkscape:cx="40.054348"
-     inkscape:cy="40"
-     inkscape:window-width="1299"
+     inkscape:cx="30.271739"
+     inkscape:cy="31.902174"
+     inkscape:window-width="1256"
      inkscape:window-height="916"
-     inkscape:window-x="51"
+     inkscape:window-x="46"
      inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2711" />
+     inkscape:current-layer="svg2711"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:export-bgcolor="#ffffff00" />
+  <rect
+     style="fill:none;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:0.65"
+     id="rect6"
+     width="84.63044"
+     height="83.717392"
+     x="-10"
+     y="-10"
+     rx="0"
+     ry="0"
+     inkscape:export-filename="glider-logo.png"
+     inkscape:export-xdpi="307.20001"
+     inkscape:export-ydpi="307.20001" />
   <g
-     transform="matrix(12,0,0,12,6,6)"
+     transform="matrix(12,0,0,12,-97.15054,-73.190217)"
      fill="#e84855"
-     stroke="#fff"
+     stroke="#ffffff"
      stroke-width="0.1"
      id="g2709">
     <rect
@@ -72,4 +87,43 @@
        id="rect2707" />
   </g>
   <!-- Based on https://upload.wikimedia.org/wikipedia/commons/4/45/Glider.svg -->
+  <g
+     id="g5"
+     transform="translate(-10.814127,-9.244565)">
+    <rect
+       width="21.6"
+       y="6.3032608"
+       x="32.329346"
+       height="21.6"
+       id="rect1"
+       style="fill:#e84855;stroke:none;stroke-width:0;stroke-dasharray:none" />
+    <rect
+       width="21.6"
+       height="21.6"
+       y="30.303261"
+       x="56.32935"
+       id="rect2"
+       style="fill:#e84855;stroke:none;stroke-width:0;stroke-dasharray:none" />
+    <rect
+       width="21.6"
+       height="21.6"
+       y="54.303261"
+       x="56.32935"
+       id="rect3"
+       style="fill:#e84855;stroke:none;stroke-width:0;stroke-dasharray:none" />
+    <rect
+       width="21.6"
+       height="21.6"
+       y="54.303261"
+       x="32.329346"
+       id="rect4"
+       style="fill:#e84855;stroke:none;stroke-width:0;stroke-dasharray:none" />
+    <rect
+       width="21.6"
+       height="21.6"
+       y="54.303261"
+       x="8.3293476"
+       id="rect5"
+       style="fill:#e84855;stroke:none;stroke-width:0;stroke-dasharray:none" />
+  </g>
 </svg>
