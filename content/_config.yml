@@ -37,7 +37,7 @@ repository:
 
 # Launch button settings:
 launch_buttons:
-  notebook_interface: "classic"  # or "jupyterlab"
+  notebook_interface: "jupyterlab"  # or "classic"
   binderhub_url: "https://mybinder.org"
   colab_url: "https://colab.research.google.com"
 
@@ -64,11 +64,11 @@ sphinx:
     html_last_updated_fmt: '%B %d, %Y'
     html_show_copyright: true
     templates_path: _templates
-    html_theme_options: 
+    #html_theme_options: 
       # See https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/layout.html
-      article_header_end: ["metablob.html"]
+      #article_header_end: ["metablob.html"]
       # See https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/layout.html#secondary-sidebar-right
-      secondary_sidebar_items: ["page-toc", "page-side-meta", "edit-this-page", "sourcelink"]
+      #secondary_sidebar_items: ["page-toc", "page-side-meta", "edit-this-page", "sourcelink"]
   
   extra_extensions:
     - sphinxcontrib.mermaid
