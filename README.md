@@ -1,6 +1,12 @@
-digipres.net
-============
+Codex
+=====
 
-This is the source repository for https://www.digipres.net/
+A [Jupyter Book](https://jupyterbook.org/), for notes on digital preservation.
 
-All content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+Install `jupyter-book`, and then:
+
+```
+jb build content
+```
+
+Then the HTML will be found in `./content/_build`.

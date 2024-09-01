@@ -1,35 +1,43 @@
----
-title: Communicating with the Future
-layout: default
-category: Communicating with the Future
-status: outline
----
+# Communicating with the Future
 
-A number of authors have noted that digital preservation involves ensuring we can communicate with the future [TBA], and have explored preservation issues from that perspective. 
+```{warning}
+This is a very rough outline of some ideas about framing digital preservation as communicating with the future.
+```
+
+----
+
+> "Digital Preservation is access... in the future."
+>
+> <small>David Brunton (via [Ed Summers](https://twitter.com/edsu)' [The Web as a Preservation Medium](http://inkdroid.org/journal/2013/11/26/the-web-as-a-preservation-medium/))</small>
+
+
+> "Digital preservation combines policies, strategies and actions that ensure access to digital content over time."
+> <small>[ALCTS - Definitions of Digital Preservation](http://www.ala.org/alcts/resources/preserv/defdigpres0408)</small>
+
+
+> "...the series of managed activities necessary to ensure continued access to digital materials for as long as necessary."
+> <small>[Digital Preservation Handbook > Introduction > Definitions and Concepts](http://www.dpconline.org/advice/preservationhandbook/introduction/definitions-and-concepts)</small>
+
 
 > "Digital traces as intentional and unintentional communication"
 > "Digital curation as communication mediation"
 >
 > <small> Cal Lee, [Digital Curation as Communication Mediation](http://www.ils.unc.edu/callee/p507-lee.pdf)</small>
 
-----
 
 > "A layered communication model"
 >
 > <small>[Digital preservation as communication with the future](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5201104)</small>
 
-----
 
 > "The proof that the preservation environment preserves authenticity and integrity while performing the communication constitutes a theory of digital preservation."
 > "The definition of standard rules, standard micro-services, standard operations, and standard persistent state information provided by iRODS can lead to a theory of digital preservation."
 > <small>[Towards a Theory of Digital Preservation](http://www.ijdc.net/index.php/ijdc/article/viewFile/63/42)</small>
 
-----
 
 > "...the preservation problem becomes in many respects similar to a communication problem between two agents and its recursive character is eliminated..."
 > <small>[Some Preliminary Ideas Towards a Theory of Digital Preservation](http://www.ics.forth.gr/isl/publications/paperlink/DLF107.pdf) - seems to aim to 'solve the problem', rather than model the world.</small>
 
-----
 
 > "Here I want to go a step further and suggest that the preservation of digital objects is logically inseparable from the act of their creation — the lag between creation and preservation collapses completely, since a digital object may only ever be said to be preserved if it is accessible, and each individual access creates the object anew. One can, in a very literal sense, never access the "same" electronic file twice, since each and every access constitutes a distinct instance of the file that will be addressed and stored in a unique location in computer memory."
 > <small>[Matthew Kirschenbaum](https://twitter.com/mkirschenbaum), [The .txtual Condition](http://www.digitalhumanities.org/dhq/vol/7/1/000151/000151.html)</small>
@@ -51,8 +59,8 @@ The relationship between digital preservation and the well-established field of 
 To begin this journey, we must start by defining [the Zeroth Law of Digital Preservation](The Zeroth Law of Digital Preservation.html).
 
 
-The Zeroth Law
---------------
+## The Zeroth Law
+
 
 In the field of [thermodynamics][1], there was a law so obvious, so taken for granted, that no-one even realised it could be considered a law. The notion of thermal equilibrium - roughly speaking, the notion that a 'temperature' could be defined at all - was so fundamental that it simply assumed without question. Later, if became clear that the first, second and third laws of thermodynamics were not strictly consistent unless this axiom was added. The primacy of this assumption was recognised formally by calling it the [zeroth law of thermodynamics][2].
 
@@ -76,8 +84,7 @@ But this applies to everything - even the 'discrete' form applies as much to tex
 
 
 
-What's So Special About Digital Preservation?
----------------------------------------------
+## What's So Special About Digital Preservation?
 
 It's not the digital that's the problem
 Directly.
@@ -101,8 +108,8 @@ Expression, manifestation, inflation, reification, actualisation, act.
 No word in any glossary for this, the run-time representation of the digital object.
 
 
-Von Neumann Machines
---------------------
+## Von Neumann Machines
+
 
 The important of the von Neumann architecture. The separate of data and code underpinning the entire concept of data that can be separated and made portable etc.
 
@@ -111,8 +118,8 @@ Also, this is archetypical of the engineering decisions that underly the technol
 But separable code and data is only the beginning. The buildings of our software machines have already discovered that raw machine code and binary data and not necessarily the best way of maintaining access, even to their own systems. To understand that, we need to dip into another part of information theory - formal languages.
 
 
-Code as Communication
----------------------
+## Code as Communication
+
 
 Describe the interpretation v. representation problem again. It is possible to do absolutely anything with a computer using only machine code, but it has not proved a easily interpretable construct. Cray and his toggle switches. The engineers sought a middle ground, a language precise enough to be turned into machine code, but approachable enough that the meaning of the program might be understood. i.e. there is a communication story here, with the source code communicating a slightly different set of things, with some room for error. 
 
@@ -122,8 +129,7 @@ Also, what about persisting the state of the programs, which is where we get int
 
 Also sufficiently isolated from technical details, vector of cross-platform comms. It is in this context that the first digital 'formats' start to appear [citation needed what about physical digital formats?]
 
-The Digital Object Dichotomy
-----------------------------
+## The Digital Object Dichotomy
 
 Outline the fundemental confusions that arise from two distinct conceptions - bitstream and performance. The truth is inbetween, as both are projections of the true object, the bytes in flight.
 
@@ -144,8 +150,8 @@ That the difficulties in preserving access to digital media arise primarily beca
 
 
 
-Save As...
-----------
+## Save As...
+
 
 The early computers had little or no permanence. 
 Tape, pushing memory to disk.
@@ -166,7 +172,7 @@ LINK TO [Codes](codes.html) ??? (Chomsky)
 No, not yet.
 
 
-### Edit notes
+## Edit notes
 
 So, this section lays basic theoretical groundwork, and touch upon all the main existing areas that will be referenced elsewhere. It starts with introducing Shannon, and ends by describing basic bitstream-based persistence in those terms.
 
