@@ -1,10 +1,26 @@
 format: jb-book
 root: welcome
+defaults:
+  maxdepth: 1
 parts:
+- caption: NOTES ON...
+  chapters:
+  - file: overviews/index
+    sections:
+    - glob: overviews/*/index
+  - file: workflows/index
+    sections:
+    - glob: workflows/*/index
+  - file: formats/index
+    sections:
+    - glob: formats/*/index
+  - file: experiments/index
+    sections:
+    - glob: experiments/*/index
 - caption: PATTERNS & MAPS
   chapters:
-  - file: introduction
   - file: patterns/introduction
+  - file: patterns/patterns
     sections:
     - file: patterns/environments
     - file: patterns/info_flow
@@ -12,33 +28,17 @@ parts:
     - file: patterns/assessing_actions
 #    - file: patterns/systems/index
 #    - file: patterns/access/access
-#    - file: patterns/formats/index
+    - file: patterns/formats/index
+      sections:
+      - file: patterns/formats/talking-about-formats
+      - file: patterns/formats/format-id/index
 #    - file: patterns/systems/procurement
 #    - file: asides/systems-of-care/index
   - file: maps/introduction
     sections:
     - file: maps/wardley-maps
     - file: maps/spacetime-maps
-  - file: future-work.md
-- caption: NOTES ON...
-  chapters:
-  - file: notes/formats/index
-    sections:
-    - file: notes/formats/bitwiser/index
-    - file: notes/formats/unsafe-device-removal/index
-    - file: notes/formats/format-id/index
-    - file: notes/formats/talking-about-formats
-  - file: notes/migrations/index
-    sections:
-    - file: notes/migrations/bbc-micro-recovery/index
-  - file: notes/storage/storage
-    sections:
-    - file: notes/storage/replication-and-repair
-  - file: notes/web-archiving/index
-    sections:
-    - file: notes/web-archiving/ukwa/index
-    - file: notes/web-archiving/why-warc/index
-    - file: notes/web-archiving/warc-yourself/index
+  - file: patterns/future-work.md
 - caption: ABOUT
   chapters:
   - file: about

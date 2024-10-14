@@ -105,8 +105,8 @@ The main limitation of this approach is the high volume of computation time requ
 
 There were a number of technical complications involved during the implementation of this approach which have not been documented here. If you are interested in those details, the [source code and example data used in this experiment are available on GitHub][11]. 
 
-[1]: images/bitwiser/16px-photo-png-im.ppm
-[2]: images/bitwiser/16px-photo-png-im-ppm-kdu.jp2
+[1]: ./images/16px-photo-png-im.ppm
+[2]: ./images/16px-photo-png-im-ppm-kdu.jp2
 [3]: http://wiki.opf-labs.org/display/SPR/SPRUCE+Hackathon+Leeds,+Unified+Characterisation
 [4]: http://www.slideshare.net/andrewnjackson/unified-characterisation-please
 [5]: http://www.openplanetsfoundation.org/blogs/2013-02-14-exploring-impact-flipped-bits

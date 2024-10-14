@@ -76,7 +76,7 @@ I'd be fascinated to know what happens on other platforms and with other softwar
 
 ## Your Results ##
 
-Following my [proposed experiment in data destruction](/2017/04/10/unsafe-device-removal/), a few kind readers tried it out and let me know what happened[^4]. I've summarised the results below, to try and see if there's any common pattern.
+Following my [proposed experiment in data destruction](https://anjackson.net/2017/04/10/unsafe-device-removal/), a few kind readers tried it out and let me know what happened[^4]. I've summarised the results below, to try and see if there's any common pattern.
 
 <!--break-->
 
@@ -96,7 +96,7 @@ To find out what's going on, we'll need to look more closely at what happens whe
 
 ## Conclusion ##
 
-So what was going on in [our little experiment in data destruction?](/2017/04/14/unsafe-removal-results/) Well, to understand what happens when we open up digital files, I want to take you back to my childhood, back when 'Loading...' really *meant* something...
+So what was going on in [our little experiment in data destruction?](https://anjackson.net/2017/04/14/unsafe-removal-results/) Well, to understand what happens when we open up digital files, I want to take you back to my childhood, back when 'Loading...' really *meant* something...
 <!--break-->
 
 I'd like you to watch the following video. Please enjoy the sweet 'music' of the bytes of the bitstream as they stream off the tape and into the memory of the machine. 

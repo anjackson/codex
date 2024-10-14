@@ -1,4 +1,4 @@
-# Design Patterns for Digital Preservation
+# Codex
 
 ```{figure} images/spruce_dp_digibox.svg
 ---
@@ -9,18 +9,14 @@ target: ./about.html#about-credits
 ---
 ```
 
-In digital preservation, it seems like every question has the same answer: 
+This section of [my website](https://anjackson.net/) is a place to collect my notes on various issues relating to digital preservation.
 
-_...it depends..._
+Some pages are just rough outlines or stubs, and others are fairly complete articles. Banners should appear at the top of each page to make the status of that page clear.
 
-But what does it depend on? What are the contextual factors that affect our decisions?
+If you have any questions, [please let me know!](about:contact)
 
-This site aims to draw out distinct design patterns, based on real-world examples of digital preservation in practice. These patterns, and the contextual factors they depend on, build a map of the landscapes we work in, and help us find our path.
-
-```{note}
-This is an experiment, and right now there's only a handful of articles, mostly drawing on my own experiences.
-
-If you'd like to see more of this kind of thing, or less, or if you can share practical examples that either align or break these patterns, [please let me know!](about:contact)
+```{tableofcontents}
+:depth: 1
 ```
 
 

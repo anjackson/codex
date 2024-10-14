@@ -1,4 +1,5 @@
 venv
+.venv
 _build
 .ipynb_checkpoints
 _site
