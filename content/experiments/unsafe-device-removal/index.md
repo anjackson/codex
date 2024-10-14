@@ -128,10 +128,10 @@ These results only make sense because the thing you are interacting with via the
 
 [^1]: Go on, admit it, you've always wanted to try this and see what happens. Well, now you get to do it. For Science.
 [^2]: And entropy will win. And we don't want *that*.
-[^3]: The two images were highly similar, with a [PSNR](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio) of just over 56dB and with a distribution of differences that looks like [this](/digipres-lessons-learned/images/save-as/difference.png). It is not clear if the variation is due to small differences in JPEG compression parameters, or if all the parameters are the same but the implementations have small difference in execution (e.g. rounding errors).
+[^3]: The two images were highly similar, with a [PSNR](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio) of just over 56dB and with a distribution of differences that looks like [this](./images/save-as-difference.png). It is not clear if the variation is due to small differences in JPEG compression parameters, or if all the parameters are the same but the implementations have small difference in execution (e.g. rounding errors).
 [^4]: Thanks also to [Nick Krabbenhöft][2i] for [pointing out][3i] that I could have been a bit more careful about my original experiment, and that would have helped work out where the JPEG differences came from in the case of re-saving the image from GIMP.  That said, I expect such minor differences are down to small variations in the implementation of the JPEG decompression scheme, [as permitted by the standard][1i]. i.e. my final image is likely the no *more* different that the *same original image* might be when rendered by a *different software application*.
-[^5]: See [the original post](/2017/04/10/unsafe-device-removal/)
-[^6]: Result from [@atomotic](http://anjackson.net/2017/04/10/unsafe-device-removal/#comment-3249487142)
+[^5]: See [the original post](https://anjackson.net/2017/04/10/unsafe-device-removal/)
+[^6]: Result from [@atomotic](https://anjackson.net/2017/04/10/unsafe-device-removal/#comment-3249487142)
 [^7]: Result from [@archivalistic](https://twitter.com/archivalistic/status/851907815673286656)
 [^8]: From [@andrewjbtw](https://twitter.com/andrewjbtw/status/851530416590790656)
 [^9]: Also from [@andrewjbtw](https://twitter.com/andrewjbtw/status/851531680632365056)
@@ -139,7 +139,7 @@ These results only make sense because the thing you are interacting with via the
 
 [1i]: https://photo.stackexchange.com/a/83892/62442
 [2i]: https://twitter.com/nkrabben
-[3i]: /2017/04/10/unsafe-device-removal/#comment-3249002689
+[3i]: https://anjackson.net/2017/04/10/unsafe-device-removal/#comment-3249002689
 
 [^31]: What's that? You skipped to the end!? Shame on you.
 [^32]: As we've seen, this is true even for a very common and well standardised bitstream format like JPEG.

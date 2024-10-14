@@ -23,17 +23,17 @@ parts:
   - file: patterns/patterns
     sections:
     - file: patterns/environments
+    - file: asides/systems-of-care/index
+    - file: patterns/access/access
     - file: patterns/info_flow
-    - file: patterns/digital-objects/index
+    - file: patterns/systems/index
+    - file: patterns/systems/procurement
     - file: patterns/assessing_actions
-#    - file: patterns/systems/index
-#    - file: patterns/access/access
+    - file: patterns/digital-objects/index
     - file: patterns/formats/index
       sections:
       - file: patterns/formats/talking-about-formats
       - file: patterns/formats/format-id/index
-#    - file: patterns/systems/procurement
-#    - file: asides/systems-of-care/index
   - file: maps/introduction
     sections:
     - file: maps/wardley-maps

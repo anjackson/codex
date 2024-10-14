@@ -4,7 +4,7 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.14.7
+    jupytext_version: 1.16.4
 kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
@@ -498,9 +498,5 @@ digraph upstream_fork {
     {rank=same; dip adip}
 }
 """
-glue("flow_sidecar_dot", graphviz.Source(source, format='svg'))
-```
-
-```{code-cell} ipython3
-
+glue("flow_sidecar_dot", graphviz.Source(source, format='png'))
 ```

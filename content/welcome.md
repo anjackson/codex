@@ -16,7 +16,6 @@ Some pages are just rough outlines or stubs, and others are fairly complete arti
 If you have any questions, [please let me know!](about:contact)
 
 ```{tableofcontents}
-:depth: 1
 ```
 
 

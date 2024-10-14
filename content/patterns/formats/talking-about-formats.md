@@ -1,21 +1,10 @@
----
-title: Talking About Formats
-layout: default
-category: "Format"
-status: draft
-publish: false
----
+# Talking About Formats
 
-Talking About Formats
-=====================
-
-Introduction
-------------
+## Introduction
 
 In digital preservation, at the most basic level, we need to be able to associate digital resources with the software that is required to make the content accessible. Most commonly, this is achieve by identifying the format of a bitstream. Therefore, we need to be able to clearly and unambiguously talk about formats, and we must endeavour to ensure that this clarity persists over time.
 
-Talking In PRONOM
------------------
+## Talking In PRONOM
 
 There are a few different formal frameworks for talking about formats, but the most well-known and well-respected one intended for digital preservation is [PRONOM](http://apps.nationalarchives.gov.uk/PRONOM/). But the interesting thing about PRONOM is that it is, in a sense, only half the language we need. It gives us an explicit enumeration of 'nouns' (i.e. format definitions), but the 'grammar' that controls how those nouns should be applied is less clear.
 
@@ -104,8 +93,7 @@ The second and more serious scaling issue for PUIDs is how we handle combination
 The case of text encodings is similar -- creating distinct identifiers for each possible encoding for every plain text format would require many thousands of PUIDs. Given that PRONOM has a separate identifier sequence for character sets (e.g. [UTF-8 is chr/1](http://apps.nationalarchives.gov.uk/pronom/chr/1)) it would seem that the PRONOM designers recognised this issue, but the `chr/XXX` identifier namespace is not well known and the grammar by which these were intended to be combined with the format identifiers is not clear.
 
 
-A Extensible Format Identification Scheme
------------------------------------------
+## A Extensible Format Identification Scheme
 
 Most, if not all of the issues outlined above have been raised previously, and a there have been a number of proposals for possible solutions. However, these solutions have generally taken the form of entirely new format registry designs and/or implementations, built by independent groups and then presented to the wider digital preservation community.  None, so far, have succeeded.
 
@@ -138,7 +126,7 @@ If we do want to be able to identify the contents of A/V container formats, this
 
 Another convention is to use the `version` parameter to distinguish between different versions of the same format. For example, the Firefox browser uses this parameter to describe which Java versions the plugin can execute:
 
-![How Firefox manages version-aware support for the Java plugin](images/firefox-java-plugin-versions.png)
+![How Firefox manages version-aware support for the Java plugin](./firefox-java-plugin-versions.png)
 
 In fact, formalising the `version` parameter is all we need to link up with PRONOM.
 
@@ -247,8 +235,7 @@ Finally, as indicated early, as many tools support MIME types, mapping experimen
 
 Even in the absence of 'ground truth' data, running multiple identification tools over the same corpus and combining the results has proven to be a powerful way to compare tools and reveal their relative strengths, limitations, and provides a drive to resolve any inconsistencies.  In particular, the [Formats Over Time](http://www.webarchive.org.uk/ukwa/visualisation/ukwa.ds.2/fmt) work, based on the multi-tool format profile of 1996-2010 UK historical web archive, has proven very useful and will form the basis of future work.
 
-Current Implementation
-----------------------
+## Current Implementation
 
 As the previous section implies, this extended MIME type scheme is not an abstract plan, but has already been implemented and is currently in use at the UK Web Archive. Apache Tika forms the basis of the approach, as it has [an easy mechanism for adding new signatures](http://tika.apache.org/1.5/parser_guide.html#Add_your_MIME-Type), can can cope with a mixture of [fine-grained](https://github.com/ukwa/webarchive-discovery/blob/warc-discovery-2.0.0/warc-indexer/src/main/resources/org/apache/tika/mime/custom-mimetypes.xml#L100) and [coarse-grained](https://github.com/ukwa/webarchive-discovery/blob/warc-discovery-2.0.0/warc-indexer/src/main/resources/org/apache/tika/mime/custom-mimetypes.xml#L135) format definitions.
 
@@ -259,8 +246,7 @@ As Tika already defines a [suitable interface for format identification tools](h
 Building on the *Formats Over Time* work mentioned earlier, this approach of combining multiple identification results has been built into the (UK Web Archive full-text indexing system](https://github.com/ukwa/webarchive-discovery). We have successfully run this process over billions of distinct resources, and are investigating ways of exposing this information to digital format researchers via our search interface.
 
 
-Limitations
------------
+## Limitations
 
 The extended MIME types provide a convenient, extensible and scalable way of defining formats, and the addition of a format hierarchy helps to reduce the complexity of the grammar we need to describe the format of bitstreams.  Furthermore, by shifting from`.hasFormat.` assertions to `.conformsTo.`, we can accurately describe a wider range of formats in a coherent grammar, even including polyglots[^7].
 
@@ -275,8 +261,6 @@ These issues reflect an underlying problem with this whole discussion -- we do n
     TODO: Add link to Interject once posted.
 -->
 
-Footnotes
----------
 
 [^1]: If you think Polyglots are weird, take a look at [Quines](http://en.wikipedia.org/wiki/Quine_%28computing%29), like this [Perl script](http://blogs.perl.org/users/peter_martini/2014/08/the-chimera-quine-or-the-iso-pdf.html) that [prints itself into a PDF which is also an ISO that contains that PDF](https://twitter.com/petercmartini/status/496510002933559296)!
 [^2]: Note that I mean actual, named humans you can talk to. You can't get feedback from an conceptual user class.

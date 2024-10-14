@@ -1,0 +1,17 @@
+graph oais {
+    rankdir=BT;
+    
+    node [color=Black,fontname=Arial,shape="box",style="rounded,filled",fillcolor="lightgrey:white", gradientangle=90,width="1.5",height="0.5"];
+    
+    man [label="Management"];
+    
+    nodesep=1;
+    sip [label="Producer"];
+    aip [label="OAIS\n(archive)", height="1.0"];
+    dip [label="Consumer"];
+    
+    sip -- aip -- dip;
+    man -- aip;
+    
+    {rank=same; aip, dip, sip}
+}

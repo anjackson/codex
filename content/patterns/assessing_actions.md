@@ -187,6 +187,6 @@ That said, as we will discuss below, this kind of validation is often better han
 
 PSNR etc.
 
-#### TIFF to JP2 Validation
+### TIFF to JP2 Validation
 
 PSNR

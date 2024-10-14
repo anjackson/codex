@@ -109,7 +109,7 @@ Audiences, internal archive, enchanced care of the same to the same audence. e.g
 
 ### Direct 
 
-![Space-time plot visualising events in the OAIS environment pattern.](./images/spacetime-context-direct.png)
+![Space-time plot visualising events in the OAIS environment pattern.](../maps/images/spacetime-context-direct.png)
 
 Crucially, this means the DIP is generated from the AIP...
 
@@ -123,11 +123,11 @@ Use digitised images as example. Look at risks of the sidecar approach.
 
 ### Backup (via the publisher)
 
-![Space-time plot visualising events in the 'backup' environment pattern.](./images/spacetime-plots-context-backup.png)
+![Space-time plot visualising events in the 'backup' environment pattern.](../maps/images/spacetime-plots-context-backup.png)
 
 ### Failover (via the published record)
 
-![Space-time plot visualising events in the 'failover' environment pattern.](./images/spacetime-plots-context-failover.png)
+![Space-time plot visualising events in the 'failover' environment pattern.](../maps/images/spacetime-plots-context-failover.png)
 
 test
 
@@ -143,10 +143,9 @@ test
 
 ### NOT Flow 4: The Split [???]
 
-```{glue:figure} flow_sidecar_dot
-:figwidth: 100%
-:name: "flow_sidecar_dot"
 
+```{glue} flow_sidecar_dot
+:doc: ./info_flow.md
 ```
 
 This is an audience/community/role pattern not a flow pattern.
