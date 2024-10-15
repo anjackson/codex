@@ -87,9 +87,9 @@ Digital preservation publications often included phrases like "software makes di
 
 ## Unsafe Device Removal
 
-See the experiment in [Unsafe Device Removal](/experiments/unsafe-device-removal").
+See the experiment in {doc}`/experiments/unsafe-device-removal/index`.
 
-So what was going on in [our little experiment in data destruction?](/2017/04/14/unsafe-removal-results/) Well, to understand what happens when we open up digital files, I want to take you back to my childhood, back when 'Loading...' really *meant* something...
+So what was going on in our little experiment in data destruction? Well, to understand what happens when we open up digital files, I want to take you back to my childhood, back when 'Loading...' really *meant* something...
 <!--break-->
 
 ## Loading...

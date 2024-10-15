@@ -5,6 +5,7 @@ category: "Format"
 status: stub
 publish: false
 ---
+# Defining Format
 
 > __GOAL__
 >

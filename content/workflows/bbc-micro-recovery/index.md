@@ -11,7 +11,7 @@ In 2007, we were given a set of fifteen 5¼' floppy disks from a BBC Master, and
 
 Eventually, in 2009, we had the time and the opportunity to spend time working how to access this data, and this document covers what we learned as we did so.
 
-Hardware
+The Hardware
 --------
 
 ```{figure} ./images/15092009064-master.jpg
@@ -21,7 +21,7 @@ name: bbc-master
 BBC Master, with floppy drive and screen.
 ```
 
-We already had a special [BBC Master][1] that had been fitted [this with clever CompactFlash drive kit][1], which we had previously purchased for the purposes of just this kind of experimentation. This [device][13] allows a relatively modern media type to be accessed on the BBC as if it were an 1MHz IDE a hard disk. 
+We already had a special [BBC Master][1] that had been fitted [this with clever CompactFlash drive kit][1], which we had previously purchased for the purposes of just this kind of experimentation. This [device](#hardware) allows a relatively modern media type to be accessed on the BBC as if it were an 1MHz IDE a hard disk. 
 
 ```{figure} ./images/15092009066-idekit.jpg
 ---
@@ -65,7 +65,7 @@ Screenshot: ADFS BACKUP 1.23
 ```
 
 
-This screenshot is indicative of the terse prompts that many pieces of old software supply, and working out the right answers required [a lot of experimentation][14]. Even then, we could not get this ADFS BACKUP program to work as we expected, and we ended up transferring over the 1.20 version of BACKUP we had found on the web. It's not clear what the problem was, but it seems reasonable to assume 'ADFS BACKUP' cannot read DFS disks, while BACKUP appeared to be able to read both types of disks while running under ADFS.
+This screenshot is indicative of the terse prompts that many pieces of old software supply, and working out the right answers required [a lot of experimentation](#screenshots). Even then, we could not get this ADFS BACKUP program to work as we expected, and we ended up transferring over the 1.20 version of BACKUP we had found on the web. It's not clear what the problem was, but it seems reasonable to assume 'ADFS BACKUP' cannot read DFS disks, while BACKUP appeared to be able to read both types of disks while running under ADFS.
 
 ```{figure} ./images/12112009143.jpg
 ---
@@ -210,6 +210,131 @@ The discs came with this accompanying message:
 >
 > The headings were author, title, publisher, place of publication, source, date of publication, illustrator, photographer, subject, time period, format, location, identity number, available for loan?,number of copies.
 
+### Image Gallery
+
+(hardware)=
+#### Hardware
+
+```{image} ./images/12112009139-disks.jpg
+:width: 200px
+```
+
+```{image} ./images/15092009064-master.jpg
+:width: 200px
+```
+
+```{image} ./images/15092009065-open.jpg
+:width: 200px
+```
+
+```{image} ./images/15092009067-kbd.jpg
+:width: 200px
+```
+
+```{image} ./images/15092009069-kitdisk.jpg
+:width: 200px
+```
+
+```{image} ./images/15092009070-kitdisk.jpg
+:width: 200px
+```
+
+```{image} ./images/15092009066-idekit.jpg
+:width: 200px
+```
+
+(screenshots)=
+#### Screenshots
+
+
+
+```{image} ./images/07102009091.jpg
+:width: 200px
+```
+
+```{image} ./images/07102009092.jpg
+:width: 200px
+```
+
+```{image} ./images/07102009093.jpg
+:width: 200px
+```
+
+```{image} ./images/07102009095.jpg
+:width: 200px
+```
+
+```{image} ./images/07102009096.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009136.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009137.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009138.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009142.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009143.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009144.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009145.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009146.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009147.jpg
+:width: 200px
+```
+
+```{image} ./images/12112009148.jpg
+:width: 200px
+```
+
+```{image} ./images/13102009106.jpg
+:width: 200px
+```
+
+```{image} ./images/13102009107.jpg
+:width: 200px
+```
+
+```{image} ./images/13102009108.jpg
+:width: 200px
+```
+
+```{image} ./images/13102009109.jpg
+:width: 200px
+```
+
+```{image} ./images/13102009110.jpg
+:width: 200px
+```
+
+```{image} ./images/13102009111.jpg
+:width: 200px
+```
+
+```{image} ./images/15092009068.jpg
+:width: 200px
+```
 
 [1]: http://acorn.chriswhy.co.uk/Computers/Master128.html
 [2]: http://www.retroclinic.com/acorn/kitide1mhz/kitide1mhz.htm
@@ -223,11 +348,9 @@ The discs came with this accompanying message:
 [10]: ./BBCUtils/src/uk/bl/dpt/bbc/DiskImageInterlacer.java
 [11]: http://www.kryoflux.com/
 [12]: http://www.archiveteam.org/index.php?title=Rescuing_Floppy_Disks
-[13]: images/bbc-master/
-[14]: images/bbc-master/#toc1
 [15]: http://acorn.chriswhy.co.uk/docs/Acorn/Manuals/Acorn_DiscSystemUGI2.pdf
 [16]: http://acorn.chriswhy.co.uk/docs/Acorn/Manuals/Acorn_ADFSUG.pdf
 [17]: https://www.youtube.com/watch?feature=player_detailpage&v=TYetKjaVl6k#t=322
-[18]: images/bbc-master/12112009139-disks.jpg
+[18]: ./images/12112009139-disks.jpg
 [19]: http://en.wikipedia.org/wiki/Elite_(video_game)
 

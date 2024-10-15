@@ -33,6 +33,7 @@ parts:
     - file: patterns/formats/index
       sections:
       - file: patterns/formats/talking-about-formats
+      - file: patterns/formats/defining-format
       - file: patterns/formats/format-id/index
   - file: maps/introduction
     sections:

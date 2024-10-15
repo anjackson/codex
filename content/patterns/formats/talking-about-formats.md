@@ -254,8 +254,9 @@ As stated earlier, extended MIME types do not come with guarantee of permanence,
 
 Even where that is not the case, it is hoped that by using a practical and useful *lingua franca* for formats over the medium term, we would be able to efficiently explore the issues around developing a more permanent solution. This process could be driving by the data and our evolving needs, rather than abstracted reasoning about formats, and any future registry would be all the richer for it.
 
-These issues reflect an underlying problem with this whole discussion -- we do not yet share a clear and concrete definition of what we mean by format. Combining different tools provides one way to explore those issues, as it brings disagreements about format definitions to the surface. However, to build interoperable systems, we are going to have to push for a shared model of [what we mean by format](defining-format.html).
+These issues reflect an underlying problem with this whole discussion -- we do not yet share a clear and concrete definition of what we mean by format. Combining different tools provides one way to explore those issues, as it brings disagreements about format definitions to the surface. However, to build interoperable systems, we are going to have to push for a shared model of [what we mean by format](./defining-format).
 
+{doc}`/patterns/formats/defining-format`
 
 <!--
     TODO: Add link to Interject once posted.
