@@ -1,5 +1,5 @@
 ---
-title: Wikidata for Digital Preservationists
+title: Wikidata for Digital Preservationists (HTML)
 description: 
 published: true
 date: 2024-06-13T09:58:07.496Z
@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2024-06-13T09:37:14.244Z
 ---
 
-# Wikidata for Digital Preservationists
+# Wikidata for Digital Preservationists (HTML)
 
 ```{note}
 This page is an experiment in turning a DPC publication into a HTML form instead of relying on PDF. The conversions were done by taking DOCX source files and generating HTML versions using [pandoc](https://pandoc.org/).
