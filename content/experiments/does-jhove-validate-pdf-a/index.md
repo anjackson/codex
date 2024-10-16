@@ -1,4 +1,4 @@
-```{index} Formats ; JPEG2000
+```{index} Formats ; PDF/A
 ```
 ```{index} Tools ; JHOVE
 ```
