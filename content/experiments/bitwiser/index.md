@@ -5,6 +5,20 @@ category: On Tools
 status: complete
 publish: true
 ---
+
+```{index} Formats ; JPEG2000
+```
+```{index} Tools ; JHOVE
+```
+```{index} Tools ; ImageMagick
+```
+```{index} Tools ; Kakadu
+```
+```{index} Tools ; Jyplyzer
+```
+```{index} Tools ; jp2StructCheck
+```
+
 # Understanding Tools & Formats Via Bitwise Analysis
 
 Earlier this year, a [blog post on bitwise analysis by Jay Gattuso of NZNL][5] reminded me that I had never got around to writing up some similar exploratory work I did while I was working on the [SCAPE project][12]. A month later, I [presented a summary of the work][4] at the [SPRUCEdp Unified Characterisation Hackathon][3], where I attempted to explain how bitwise analysis can be used to help understand digital resources and how software tools operate upon them. This document is an attempt to outline the approach and initial results in more detail, showing how the bit-level sensitivity of various JP2 tools can be effectively mapped and compared.
@@ -15,7 +29,7 @@ Bitwise Analysis
 
 At heart, the approach is a very simple brute-force analysis: we systematically flip each and every bit in a source bitstream and observe whether a given software process notices the change. This allows us to build up a map of how the data the the tool interact.
 
-To look at JPEG2000 tools, we first need to create a small test image, such as this 16px square fragment of a photograph:
+To look at {index}`JPEG2000 <Formats ; JPEG2000>` tools, we first need to create a small test image, such as this 16px square fragment of a photograph:
 
 ```{image} ./images/16px-photo.png
 :alt: The source image

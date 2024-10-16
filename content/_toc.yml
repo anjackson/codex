@@ -40,6 +40,7 @@ parts:
     - file: maps/wardley-maps
     - file: maps/spacetime-maps
   - file: patterns/future-work.md
-- caption: ABOUT
+- caption: CODEX
   chapters:
   - file: about
+  - file: genindex
