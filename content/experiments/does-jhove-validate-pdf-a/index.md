@@ -1,14 +1,10 @@
----
-title: Does JHOVE Validate PDF/A Files?
-layout: default
-category: On Tools
-status: draft
-permalink: "experiments/does-jhove-validate-pdfa-files.html"
-publish: true
----
+```{index} Formats ; JPEG2000
+```
+```{index} Tools ; JHOVE
+```
+# Does JHOVE Validate PDF/A Files?
 
-Introduction
-------------
+## Introduction
 
 JHOVE's [PDF-hul page](http://jhove.sourceforge.net/pdf-hul.html#coverage) claims it is capable of validating PDF/A files (*emphasis mine*):
 
@@ -46,7 +42,7 @@ This seems like a significant limitation. The [primary author of JHOVE](https://
 Those of us who have spent a significant amount time using or hacking on JHOVE have similar opinions about it's shortcomings ([e.g.](http://fileformats.wordpress.com/2013/02/01/future-jhove/#comment-3292)). However, it's not clear that the wider community understands this, and it still [gets](https://twitter.com/putt1ck/status/494799471604404224) [occasional](http://stackoverflow.com/a/11391783) [recommendations](http://tex.stackexchange.com/q/79947) as a PDF/A validation tool.
 
 
-### The Value Of Test Suites ###
+### The Value Of Test Suites
 
 Ideally, to resolve this issue, we would be able to test how well JHOVE validates PDF/A documents by running it over a suitable test suite. While we do not [yet](http://www.preforma-project.eu/call-description.html) have a compliance-testing corpus that covers the entire PDF/A standard, there is one for *non*-compliance with the PDF/A*-1b* part of the specification: [the Isartor Test Suite](http://www.pdfa.org/2011/08/download-isartor-test-suite/).
 
@@ -56,8 +52,7 @@ Note that [PDF/A-1b](http://www.digitalpreservation.gov/formats/fdd/fdd000252.sh
 
 So, if JHOVE can validate PDF/A files, it must be able to validate PDF/A-1b files, and therefore every PDF file in the test suite should be found to be invalid.
 
-Method
-------
+## Method
 
 I used JHOVE 1.11[^1], installed on my Mac via Homebrew. I made scripts to [run JHOVE and store the output](./pdfa/run-jhove.sh), and to [do the same for all the files](./pdfa/jhove-all-files.sh). Once I had the JHOVE output, I tabulated and graphed the results.
 
@@ -65,8 +60,7 @@ I used JHOVE 1.11[^1], installed on my Mac via Homebrew. I made scripts to [run 
      grep --text " Status:" pdfa/isartor-flat-testsuite/*.jhove-1.11.txt | sort > pdfa/results.1-11.txt
 -->
 
-Results
--------
+## Results
 
 Here is a summary of the results[^2], showing how many of the PDF/A-1b test files JHOVE correctly determined to be invalid:
 
@@ -74,13 +68,11 @@ Here is a summary of the results[^2], showing how many of the PDF/A-1b test file
 
 JHOVE only managed to detect one invalid PDF/A-1b file from this set of 204 invalid files. This seemed odd, as even the [presence of encrypted data](./pdfa/isartor-flat-testsuite/isartor-6-1-3-t02-fail-a.pdf.jhove-1.11.txt) was not being picked up. Closer inspection revealed I'd made the classic JHOVE user error of not double-checking what format and profile JHOVE was validating against. I had specified that JHOVE should validate as PDF, but the interface does not allow me to assert that I intend JHOVE to validate against the PDF/A-1b profile[^3]. To understand what was going on, I had to take the `Profile` field into account.
 
-|--------------------------------------+-------------------------------+-------------------------|
 | Profile                              | "Well-Formed and valid" count | "Not well-formed" count |
-|--------------------------------------+:-----------------------------:+:-----------------------:|
+|--------------------------------------|:-----------------------------:|:-----------------------:|
 | *none* (i.e. PDF 1.4 only)           | 50                            | 1                       |
 | Linearized PDF, ISO PDF/A-1, Level B | 2                             | 0                       |
 | ISO PDF/A-1, Level B                 | 151                           | 0                       |
-|======================================+===============================+=========================|
 
 For some reason, despite the presence of the PDF/A-1b declaration in the embedded metadata, JHOVE is failing to identify 51 of the test PDFs as being PDF/A-1b and so *only* performs the basic PDF-1.4 validation. The remaining 153 test PDFs were correctly identified as being PDF/A-1b, but were falsely determined to be valid.
 
@@ -88,21 +80,20 @@ For some reason, despite the presence of the PDF/A-1b declaration in the embedde
 
 The full, raw JHOVE results are available [below](#appendix).
 
-Conclusion
-----------
+## Conclusion
 
 Don't use JHOVE to validate PDF/A.
 
 Maybe try [Apache Preflight](https://pdfbox.apache.org/cookbook/pdfavalidation.html) instead.
 
-Appendix
---------
+
+(appendix)=
+## Appendix
 
 Here, each filename is linked to the JHOVE output, and is shown alongside the overall validation result from JHOVE. If you want to get an idea of what aspect of PDF/A-1b each file is exercising, you can go and look at the text in the JHOVE output, or [examine the original folder structure of the test suite](./pdfa/isartor-flat-testsuite/original-names.txt) as this reflects the structure of the specification.
 
-|----+----|
 | Link to full results | JHOVE Status |
-|----+----|
+|----|----|
 | [isartor-6-1-2-t01-fail-a.pdf](./pdfa/isartor-flat-testsuite/isartor-6-1-2-t01-fail-a.pdf.jhove-1.11.txt) | Status: Not well-formed |
 | [isartor-6-1-2-t02-fail-a.pdf](./pdfa/isartor-flat-testsuite/isartor-6-1-2-t02-fail-a.pdf.jhove-1.11.txt) | Status: Well-Formed and valid |
 | [isartor-6-1-3-t01-fail-a.pdf](./pdfa/isartor-flat-testsuite/isartor-6-1-3-t01-fail-a.pdf.jhove-1.11.txt) | Status: Well-Formed and valid |
@@ -307,14 +298,9 @@ Here, each filename is linked to the JHOVE output, and is shown alongside the ov
 | [isartor-6-9-t01-fail-a.pdf](./pdfa/isartor-flat-testsuite/isartor-6-9-t01-fail-a.pdf.jhove-1.11.txt) | Status: Well-Formed and valid |
 | [isartor-6-9-t02-fail-a.pdf](./pdfa/isartor-flat-testsuite/isartor-6-9-t02-fail-a.pdf.jhove-1.11.txt) | Status: Well-Formed and valid |
 | [isartor-6-9-t02-fail-b.pdf](./pdfa/isartor-flat-testsuite/isartor-6-9-t02-fail-b.pdf.jhove-1.11.txt) | Status: Well-Formed and valid |
-|----+----|
 
 
-Footnotes
----------
 
 [^1]: I initially ran the analysis using 1.10, for which the results are the same.
 [^2]: I realise this is a rather sarcastic pie chart, but I need a way to drive the magnitude of this discrepancy home to the broader community of users, and to try to ensure they remember it. No offence is intended.
 [^3]: Similarly, if you don't specify a format to validate against, and just look at the `Status`, you can miss the fact that the only reason your bitstream appears to be valid is because JHOVE could not identify the format at all, and is just reporting that you have a valid *bytestream*. Always check the `Format` and the `Profile` as well as the `Status`.
-
-
