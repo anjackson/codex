@@ -1,11 +1,3 @@
----
-title: Understanding Tools & Formats Via Bitwise Analysis
-layout: default
-category: On Tools
-status: complete
-publish: true
----
-
 ```{index} Formats ; JPEG2000
 ```
 ```{index} Tools ; JHOVE
@@ -18,7 +10,12 @@ publish: true
 ```
 ```{index} Tools ; jp2StructCheck
 ```
-
+```{index} Tools ; file
+```
+```{index} Tools ; exiftool
+```
+```{index} Tools ; OpenJpeg
+```
 # Understanding Tools & Formats Via Bitwise Analysis
 
 Earlier this year, a [blog post on bitwise analysis by Jay Gattuso of NZNL][5] reminded me that I had never got around to writing up some similar exploratory work I did while I was working on the [SCAPE project][12]. A month later, I [presented a summary of the work][4] at the [SPRUCEdp Unified Characterisation Hackathon][3], where I attempted to explain how bitwise analysis can be used to help understand digital resources and how software tools operate upon them. This document is an attempt to outline the approach and initial results in more detail, showing how the bit-level sensitivity of various JP2 tools can be effectively mapped and compared.
