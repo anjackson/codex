@@ -18,4 +18,20 @@ If you have any questions, [please let me know!](about:contact)
 ```{tableofcontents}
 ```
 
-
+<script type="application/ld+json">
+{
+  "@context" : "https://schema.org",
+  "@type" : "WebSite",
+  "name" : "Codex",
+  "alternateName" : "Andy Jackson's Digital Preservation Notebook",
+  "url" : "https://anjackson.net/codex/",
+  "potentialAction": {
+  "@type": "SearchAction",
+  "target": {
+    "@type": "EntryPoint",
+    "urlTemplate": "https://anjackson.net/codex/search.html?q={search_term_string}"
+  },
+  "query-input": "required name=search_term_string"
+  }
+}
+</script>
