@@ -2,6 +2,7 @@ venv
 .venv
 _build
 .ipynb_checkpoints
+__pycache__
 _site
 public
 resources
