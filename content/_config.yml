@@ -1,8 +1,8 @@
 # General settings:
 title: Codex
 author: Andrew N. Jackson
-logo: "images/logo.png"
-copyright: "2022"
+logo: "images/glider.png"
+copyright: "2024"
 exclude_patterns: ['_build', '**.ipynb_checkpoints']
 only_build_toc_files: true
 
@@ -43,6 +43,7 @@ launch_buttons:
 
 # HTML settings:
 html:
+  favicon: images/logo.png
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
@@ -50,7 +51,7 @@ html:
   # Support comments (not sure about using this as yet):
   comments:
     utterances:
-      repo: "anjackson/patterns"
+      repo: "anjackson/codex"
   # Add links and license to footer.
   extra_footer: |
     <p>
