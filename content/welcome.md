@@ -1,11 +1,11 @@
 # Codex
 
-```{figure} images/spruce_dp_digibox.svg
+```{figure} images/glider.png
 ---
-scale: 100%
+scale: 20%
 align: right
-alt: A box of digital things, from the SPRUCE DP Illustrations collection.
-target: ./about.html#about-credits
+alt: A Glider from the Game of Life
+target: ./about.html
 ---
 ```
 
